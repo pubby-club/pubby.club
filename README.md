@@ -30,4 +30,4 @@ The purpose of this repository is:
 
 [Patreon](https://patreon.com/pubby_club)
 
-[Apoia.se](https://apoia.se/pubby_club)
+[Apoia.se](https://apoia.se/pubby-club)
