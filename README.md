@@ -29,4 +29,5 @@ The purpose of this repository is:
 ## Support pubby.club
 
 [Patreon](https://patreon.com/pubby_club)
+
 [Apoia.se](https://apoia.se/pubby_club)
