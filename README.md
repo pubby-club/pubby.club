@@ -24,3 +24,9 @@ The purpose of this repository is:
 - [x] Receive feature requests.
 - [x] Receive feedback about the project.
 - [x] Have a history of all contributions.
+
+
+## Support pubby.club
+
+![Patreon](https://patreon.com/pubby_club)
+![Apoia.se](https://apoia.se/pubby_club)
