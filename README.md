@@ -9,8 +9,9 @@ O objetivo deste repositório é:
 
 - [x] Acompanhar o desenvolvimento do projeto.
 - [x] Reportar bugs.
-- [x] Receber sugestões de recursos.
+- [x] Receber contribuições de tradução.
 - [x] Receber feedbacks sobre o projeto.
+- [x] Receber sugestões de recursos.
 - [x] Ter um histórico de todas as contribuições.
 
 **[EN]**
@@ -22,6 +23,7 @@ The purpose of this repository is:
 - [x] Monitor project development.
 - [x] Report bugs.
 - [x] Receive feature requests.
+- [x] Receive translation contributions.
 - [x] Receive feedback about the project.
 - [x] Have a history of all contributions.
 
