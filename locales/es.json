@@ -1,0 +1,630 @@
+{
+  "locale": {
+    "code": "es",
+    "ui_code": "en-US",
+    "validation_code": "es",
+    "dayjs_code": "es",
+    "name": "Español",
+    "translated_by": "Traducido por {users}",
+    "reviewed_by": "Revisado por {users}"
+  },
+  "$contributors": {
+    "authors": [{ "name": "jashu" }],
+    "reviewers": []
+  },
+  "$list": {
+    "and": {
+      "join": ", ",
+      "conjunction": " and "
+    },
+    "or": {
+      "join": ", ",
+      "conjunction": " or "
+    }
+  },
+  "name": {
+    "short": "Pubby",
+    "long": "Pubby.club"
+  },
+  "$validation": {
+    "slug": "El campo {_field_} solo deve contener letras, números, _ o -",
+    "url": "El campo {_field_} deve ser un URL valido"
+  },
+  "errors": {
+    "username_already_exists": "El nombre elegido ya existe.",
+    "internal": "Something went wrong, please try again later.",
+    "invalid_login": "Invalid username or password.",
+    "invalid_recovery": "No accounts found",
+    "banned": "You are banned from Pubby.club"
+  },
+  "comming_soon": "Proximamente...",
+  "home": {
+    "welcome_to": "Bienvenido a",
+    "alpha_step": "FASE ALFA",
+    "congratulations": "¡Felicitaciones {0}!",
+    "discoverer": "DESCUBRIDOR",
+    "you_found_us": "Nos encontraste al comienzo de nuestra jornada, registrate y recibe la insignia exclusiva.",
+    "after_a_week": "Despues de una semana activa, recibe la insignia {0} ."
+  },
+  "buttons": {
+    "submit": "Submit",
+    "accept": "Acceptar",
+    "deny": "Negar",
+    "save": "Guardar",
+    "signin": "Regístrate",
+    "signup": "Inscribete",
+    "more": "Cargar más",
+    "next": "Siguiente",
+    "prev": "Previo",
+    "delete": "Borrar",
+    "cancel": "Cancelar",
+    "rename": "Renombrar",
+    "send": "Mandar",
+    "back": "Atrás",
+    "create": "Crear",
+    "yes": "Si",
+    "no": "No",
+    "close": "Cerrar",
+    "skip": "Saltar",
+    "sync": "Sincronizar",
+    "add": "Agregar",
+    "add_to_playlist": "Agregar a playlist",
+    "move_start": "Mover al inicio",
+    "move_end": "Mover al final",
+    "like": "Me Gusta",
+    "dislike": "No Me Gusta",
+    "enter_fullscreen": "Abrir pantalla completa",
+    "exit_fullscreen": "Cerrar pantalla completa",
+    "ban": "Prohibir",
+    "unban": "Desbancar",
+    "kick": "Sacar",
+    "player_size": "Tamaño de jugador",
+    "cut": "Cortar",
+    "edit": "Edit"
+  },
+  "fields": {
+    "name": "Nombre",
+    "username": "Nombre de usuario",
+    "email": "E-mail",
+    "password": "Contraseña",
+    "birthday": "Birthday",
+    "password_confirm": "Confirmar contraseña",
+    "avatar": "Foto de perfil (URL)",
+    "image_url": "URL de imagen",
+    "room_name": "Nombre de sala",
+    "room_slug": "Link de sala",
+    "description": "Descripción",
+    "thumbnail": "Thumbnail",
+    "welcome": "Mensaje de bienvenida",
+    "search": "Buscar...",
+    "title": "Titulo",
+    "visibility": "Acceso",
+    "parental_rating": "Calificación indicativa",
+    "country": "País",
+    "start": "Inicio",
+    "end": "Fin"
+  },
+  "signin": {
+    "title": "Registrarse",
+    "tip": "Stay active for one week and earn the {0} badge.",
+    "description": "¡Accede e invita amigos para empezar una fiesta!",
+    "recovery": "Olvidé mi contraseña"
+  },
+  "signup": {
+    "title": "¿NO ESTA REGISTRADO?",
+    "tip": "Si te registras ahora, recibiras la insignia {0}, exclusivamente para quienes se registren en la fase alfa.",
+    "description": "Registrate para descubrir nueva musica y generos participando en salas diferentes.",
+    "signin": "Ya tengo una cuenta"
+  },
+  "media-cut": {
+    "title": "Cortar media",
+    "notifications": {
+      "save": {
+        "title": "Media ha sido actualizada",
+        "body": "\"{title}\" actualizado con éxito."
+      }
+    }
+  },
+  "recovery": {
+    "title": "Recuperación de cuenta",
+    "description": "¿Olvidaste tu contraseña? Descuida, usa tu email y tu nombre de usuario para recuperar tu cuenta.",
+    "dialogs": {
+      "success": {
+        "title": "E-mail ha side enviado",
+        "body": "Enviamos un enlace de recuperación a su correo electrónico, la validez del enlace es de 2 horas."
+      }
+    }
+  },
+  "change_password": {
+    "title": "Cambiar contraseña",
+    "confirmation": "¡Contraseña cambiada con éxito! \nUsa tu nueva contraseña para acceder."
+  },
+  "splash": {
+    "title": "Espera",
+    "room": "Cargando sala..."
+  },
+  "browser": {
+    "title": "Navegador",
+    "all_rooms": "Todos los salas",
+    "your_rooms": "Tus salas",
+    "search_results": "Resultados de la búsqueda"
+  },
+  "room": {
+    "users": "Usuarios",
+    "created_by": "Creada por {username}",
+    "played_by": "Por {username}",
+    "playing_now": "Estas escuchando:",
+    "next_play": "Vas a tocar:",
+    "skip": "Saltar",
+    "queue_join": "Unirse a la fila",
+    "queue_leave": "Salir de la fila",
+    "queue_lock": "Bloquear la fila",
+    "queue_locked": "FILA BLOQUEADA",
+    "play_now": "TOCAR AHORA",
+    "stop": "PARAR DE TOCAR",
+    "queue_count": "No hay nadie en la fila | Hay 1 persona en la fila | Hay {count} personas en la fila",
+    "queue_position": "Eres el siguiente | Hay 1 person delante de ti | Hay {count} personas delante de ti",
+    "no_playlists": "Crea un playlist para tocar:",
+    "no_active_playlist": "Ningun playlist activo",
+    "no_media": "Ningun medio disponible",
+    "is_playing": "{username} está tocando",
+    "user_count": "Nobody | 1 user | {count} users",
+    "room_protected": "¡Esta sala esta protegida!",
+    "type_password": "Entre la contraseña...",
+    "visibility": {
+      "public": "Publico",
+      "private": "Solo con Link",
+      "password": "Protegida con contraseña"
+    },
+    "parental_rating": {
+      "free": "Libre"
+    },
+    "dialogs": {
+      "new": {
+        "title": "Nueva sala"
+      },
+      "stop_playing": {
+        "title": "Parar de tocar",
+        "body": "¿Estás segura de que quieres dejar de tocar?"
+      },
+      "leave_queue": {
+        "title": "Salir de la fila",
+        "body": "¿Estás segura de que quieres salir de la fila?"
+      },
+      "unauthorized": {
+        "title": "No autorizado",
+        "body": "Su función actual en esta sala no le permite realizar esta acción."
+      },
+      "disconnected": {
+        "title": "Desconectado",
+        "body": "Has iniciado una sesión desde otra ventana. Actualiza la página para seguir usando aquí."
+      },
+      "queue_lock": {
+        "title": "Bloquear la fila | Desbloquear la fila",
+        "body": "¿Estás segura de que quieres bloquear la fila? | ¿Estás segura de que quieres desbloquear la fila?"
+      },
+      "no_room": {
+        "title": "Incapaz de seguir",
+        "body": "Tu amigo no está en ninguna sala."
+      },
+      "room_private": {
+        "title": "Incapaz de seguir",
+        "body": "Tu amigo está en una sala privada."
+      },
+      "invalid_password": {
+        "title": "Incapaz de unirse a la sala.",
+        "body": "La contraseña ingresada no es válida."
+      },
+      "missing_birthday": {
+        "title": "Registro incompleto",
+        "body": "Su registro no tiene fecha de nacimiento. Usamos esta información para filtrar habitaciones según su edad y no compartimos esta información con nadie. Para evitar problemas, informe su edad real como una vez definida, no será posible cambiarla."
+      }
+    },
+    "notifications": {
+      "playing": "{username} está tocando \"{media}\""
+    }
+  },
+  "room_options": {
+    "title": "Configuración de la sala",
+    "details": {
+      "title": "Detalles",
+      "welcome_hint": "{user} será reemplazado por el nombre de usuario"
+    }
+  },
+  "queue": {
+    "title": "Fila de reproducción",
+    "user_locked": "Fila bloqueada",
+    "user_unlocked": "Fila desbloqueada",
+    "dialogs": {
+      "clear": {
+        "title": "Eliminar la fila",
+        "body": "¿Está seguro de que desea eliminar a todos los usuarios de la fila? "
+      }
+    },
+    "events": {
+      "clear": "@{username} eliminó la fila."
+    }
+  },
+  "friends": {
+    "title": "Amigos"
+  },
+  "player": {
+    "next_play": "{username} va a tocar",
+    "live": "EN VIVO",
+    "skip": "Omitir el medio actual",
+    "skip_remove": "Omitir y quitar",
+    "cant_skip": "No tiene permiso de omitir los medios actuales",
+    "hide_video": "Esconder video",
+    "show_video": "Mostrar video",
+    "started_in": "Comenzó en {date}",
+    "no_dj": {
+      "title": "No hay nadie tocando",
+      "body": "¡Haz clic en {play_now} para empezar a tocar!"
+    },
+    "dialogs": {
+      "skip": {
+        "title": "Omitir",
+        "body": "¿Está seguro de que desea omitir le medio actual?"
+      },
+      "skip_remove": {
+        "title": "Omitir y quitar",
+        "body": "¿Estás seguro de que deseas omitir el medio actual y eliminar al DJ de la fila"
+      }
+    }
+  },
+  "import": {
+    "title": "Importar playlists"
+  },
+  "history": {
+    "title": "Historial de medios"
+  },
+  "playlists": {
+    "title": "Playlists",
+    "import": "Importar",
+    "shuffle": "Reorganizar",
+    "exportAll": "Exportar todas las playlists",
+    "count": "No hay artículos | 1 artículo | {count} artículos",
+    "new": "Nueva playlist",
+    "add": "Agregar medios",
+    "activate": "ACTIVAR",
+    "active": "ACTIVO",
+    "media_title": "Titulo",
+    "media_duration": "Duración",
+    "media_source": "Fuente",
+    "media_actions": "Acciones",
+    "no_media": "No hay medios en la playlist",
+    "add_to_play": "Agregar medios para tocar",
+    "no_playlists": "No tienes playlists",
+    "create_new": "Cree una nueva playlist y acceda a la biblioteca para agregar medios ",
+    "select": "Seleccione una playlist",
+    "none_selected": "No hay ninguna playlist seleccionada",
+    "selection_popup": {
+      "title": "Seleccione una playlist:"
+    },
+    "dialogs": {
+      "delete_media": {
+        "title": "Eliminar medio",
+        "body": "¿Estás seguro de que deseas eliminar {media} de tu playlist?"
+      },
+      "delete_playlist": {
+        "title": "Eliminar playlist",
+        "body": "¿Está seguro de que desea eliminar la playlist {playlist}? "
+      }
+    },
+    "notifications": {
+      "added": {
+        "title": "Agregada al playlist",
+        "body": "{title} ha sido agregada a tu playlist."
+      }
+    }
+  },
+  "add_media": {
+    "title": "Agregar medios",
+    "add": "Agregar",
+    "import": "Importar",
+    "search": "Buscar",
+    "search_title": "Buscar medio por titulo...",
+    "previous": "Previo",
+    "next": "Siguiente",
+    "see_more": "Ver más",
+    "added": "Agregada a tu playlist",
+    "pubby": {
+      "title": "Agregar a través Pubby",
+      "not_found": "Nada fue encontrado",
+      "try_others": "Intentar agregar a través de otra fuente"
+    },
+    "youtube": {
+      "title": "Agregar a través de Youtube",
+      "link": "LINK DEL VIDEO O PLAYLIST",
+      "placeholder": "Inserte aquí el link del video o la playist de youtube.",
+      "video_duration": "Duración: {duration}",
+      "video_count": "No hay video | 1 video | {count} videos",
+      "video_channel": "Canal",
+      "new_playlist": "Crear playlist",
+      "imported": "Playlist ha sido importada"
+    },
+    "soundcloud": {
+      "title": "Agregar a través de SoundCloud"
+    }
+  },
+  "roles": {
+    "title": "Cargos y permisos",
+    "description": "Agregar cargos personalizados para esta sala",
+    "new": "Nuevo cargo",
+    "color": "Color del chat:",
+    "users": "Usuarios",
+    "permissions": "Permisos",
+    "add_user": "Agregar usuario",
+    "remove_user": "Remover usuario",
+    "all_permissions": "Todos los permisos",
+    "no_role": "Esta sala no tiene cargos",
+    "no_user": "No hay usuarios en este cargo",
+    "select": "Seleccione un cargo",
+    "no_selection": "No hay ningún cargo seleccionado",
+    "dialogs": {
+      "delete": {
+        "title": "Remover cargo",
+        "body": "¿Está seguro de que desea eliminar el cargo {role} de la sala actual?"
+      },
+      "remove_user": {
+        "title": "Remover usuarios",
+        "body": "¿Está seguro de que desea eliminar a los usuarios seleccionados de este cargo {role}? "
+      }
+    },
+    "scopes": {
+      "ALL": {
+        "title": "Todos los permisos ",
+        "description": "Agregar todos los permisos al usuario"
+      },
+      "PLAYBACK_SKIP": {
+        "title": "Omitir medio",
+        "description": "Omitir medio actual"
+      },
+      "CHAT_DELETE": {
+        "title": "Eliminar los mensajes del chat",
+        "description": "Eliminar los mensajes del chat"
+      },
+      "ROOM_RENAME": {
+        "title": "Renombrar la sala",
+        "description": "Alterar el nombre de la sala"
+      },
+      "ROOM_DESCRIPTION": {
+        "title": "Cambiar descripcion de la sala",
+        "description": "Alterar la descripción de la sala"
+      },
+      "ROOM_WELCOME": {
+        "title": "Cambiar el mensage de bienvenida",
+        "description": "Alterar el mensage de bienvenida"
+      },
+      "QUEUE_ADD_REMOVE": {
+        "title": "Agregar/Remover usuarios de la fila",
+        "description": "Agregar/Remover"
+      },
+      "QUEUE_MOVE": {
+        "title": "Control de la fila",
+        "description": "Permitir mover la posición de los usuarios en la fila"
+      },
+      "QUEUE_JOIN_LOCKED": {
+        "title": "Entrar en la fila bloqueada",
+        "description": "Le permite ingresar a la fila de reproducción incluso si está bloqueada"
+      },
+      "USER_BAN": {
+        "title": "Banir usuarios",
+        "description": "Permiso para banir a usuarios de la sala"
+      },
+      "USER_UNBAN": {
+        "title": "Desbanir usuarios",
+        "description": "Permiso para desbanir a usuarios de la sala"
+      },
+      "USER_KICK": {
+        "title": "Sacar usuarios",
+        "description": "Permiso para sacar a usuarios de la sala"
+      },
+      "MANAGE_ROLES": {
+        "title": "Administrar cargos",
+        "description": "Permitir administrar los cargos y permisos de la sala"
+      }
+    }
+  },
+  "global_roles": {
+    "title": "Cargos Globales",
+    "roles": {
+      "root": "Raíz",
+      "developer": "Desarrollador",
+      "discoverer": "Descubridor",
+      "moderator": "Moderador",
+      "translator": "Traductor",
+      "promoter": "Promotor",
+      "event_promoter": "Promotor de eventos",
+      "alpha": "Alfa",
+      "beta": "Beta",
+      "contributor": "Contribuidor",
+      "supporter": "Apoyador",
+      "premium_supporter": "Apoyador premium",
+      "lifetime_premium_supporter": "Apoyador premium de por vida",
+      "investor_supporter": "Apoyador invesor",
+      "founder_supporter": "Apoyador de fundador"
+    },
+    "scopes": {
+      "BAN_USER": {
+        "title": "Banir usuario",
+        "description": "Banir al usuario del sitio indefinidamente."
+      },
+      "MUTE_USER": {
+        "title": "Slienciar usuario",
+        "description": "Silencia al usuario del sitio indefinidamente."
+      },
+      "BLOCK_DJ": {
+        "title": "Bloquear DJ",
+        "description": "Impide que un usuario a tocar en todas las salas."
+      },
+      "CLOSE_ROOM": {
+        "title": "Cerrar sala",
+        "description": "Cierra una sala en el sitio indefinidamente."
+      }
+    }
+  },
+  "profile_popup": {
+    "user_since": "Usuario desde {date}",
+    "score": "{points} points",
+    "friend_is": "Ya son amigos",
+    "friend_add": "Agregar amigo",
+    "friend_pending": "Solicitud de amistad enviada",
+    "friend_accept": "Aceptar solicitud de amistad",
+    "user_kick": "Sacar usuario de la sala",
+    "user_ban": "Banir usuario de la sala",
+    "user_site_ban": "Banir usuario de Pubby.club",
+    "dialogs": {
+      "user_ban": {
+        "title": "Banir usuario",
+        "body": "¿Estás seguro de que quieres banir al usuario {username} de la sala?"
+      },
+      "user_kick": {
+        "title": "Sacar usuario",
+        "body": "¿Estás seguro de que quieres sacar al usuario {username} de la sala?"
+      },
+      "user_site_ban": {
+        "title": "Banir usuario de Pubby.club",
+        "body": "¿Estás seguro de que quieres banir al usuario {username} de PUBBY.CLUB?"
+      }
+    },
+    "notifications": {
+      "user_banned": {
+        "title": "Usuario baneado",
+        "body": {
+          "expires": "Usuario {username} baneado de la de la sala durante {duration} ",
+          "permanent": "Usuario {username} ha sido baneado de la sala permanentemente"
+        }
+      },
+      "user_kicked": {
+        "title": "Usuario sacado",
+        "body": "Has sacado al usuario {username} de la sala"
+      },
+      "user_site_banned": {
+        "title": {
+          "account": "Usuario baneado de Pubby.club",
+          "ip": "Usuario baneado por IP de Pubby.club"
+        },
+        "body": {
+          "expires": "Usuario {username} baneado de Pubby.club durante {duration}",
+          "permanent": "Usuario {username} baneado permanentemente de Pubby.club"
+        }
+      }
+    }
+  },
+  "user_popup": {
+    "settings": "Ajustes",
+    "new_room": "Nueva sala",
+    "logout": "Cerrar sesión",
+    "friendship_requests": "Solicitudes de amistad | Solicitudes de amistad ({count}) | Solicitudes de amistad ({count}) "
+  },
+  "friendship": {
+    "notifications": {
+      "accepted": {
+        "title": "Solicitud de amistad aceptada",
+        "body": "{username} aceptó tu solicitud de amistad"
+      },
+      "requested": {
+        "title": "Solicitud de amistad",
+        "body": "{username} envió una solicitud de amistad"
+      }
+    }
+  },
+  "friendship_request": {
+    "title": "Solicitudes de amistad",
+    "no_requests": "No hay solicitud de amistad",
+    "no_requests_description": "Has respondido a todas las solicitudes de amistad."
+  },
+  "settings": {
+    "title": "Ajustes",
+    "profile": {
+      "title": "Perfil"
+    },
+    "general": {
+      "title": "General"
+    },
+    "interface": {
+      "title": "Interfaz",
+      "enable_transparency": "Habilitar transparencia",
+      "enable_blur": "Habilitar emborronamiento"
+    },
+    "notifications": {
+      "title": "Notificaciones",
+      "mentions_sound": "Sonido de mencionamiento",
+      "desktop_notifications": "Notificaciones de escritorio",
+      "chat": "Mensajes de chat",
+      "media": "Actualización de medios",
+      "mention": "Mencionamientos"
+    }
+  },
+  "chat": {
+    "title": "Mensajes",
+    "clear": "Vaciar",
+    "placeholder": "Escriba aqui...",
+    "user_said": "{user} dijo: {text}",
+    "messages": {
+      "reply": "Responder",
+      "delete": "Borrar"
+    },
+    "events": {
+      "user_joined": "{username} se unió a la sala.",
+      "user_leave": "{username} salió de la sala.",
+      "playback_skip": "{username} omitió el medio.",
+      "playback_unavailable": "@{username} medios no disponibles",
+      "queue_add": "@{user} agregó @{addedUser} a la fila.",
+      "queue_remove": "@{mod} removió @{user} de la fila.",
+      "queue_move": "@{mod} movió @{user} de {from} a {to}.",
+      "role_add": "@{mod} agregó {users} al cargo **{role}**.",
+      "role_remove": "@{mod} removed {users} from role **{role}**.",
+      "user_ban": "{username} ha sido baneado de la sala.",
+      "user_kick": "{username} ha sido sacado de la sala.",
+      "user_site_ban": "{username} ha sido baneado de Pubby.club"
+    },
+    "dialogs": {
+      "remove": {
+        "title": "Borrar Mensaje",
+        "body": "¿Estás seguro de que quieres borrar este mensaje?"
+      },
+      "clear": {
+        "title": "Vaciar mensajes",
+        "body": "¿Estás seguro de que quieres borrar todos los mensajes?"
+      }
+    }
+  },
+  "bans": {
+    "title": "Usuarios Baneados",
+    "user": "Usuario",
+    "reason": "Razón",
+    "mod": "Baneado por",
+    "date": "Baneado en",
+    "expires": "Termina en",
+    "never": "Nunca",
+    "permanent": "Permanente",
+    "duration": "Duración",
+    "ban": "Banir",
+    "unban": "Desbanir",
+    "ban_ip": "Banir IP",
+    "not_specified": "No es especificado",
+    "dialogs": {
+      "user_unban": {
+        "title": "Desbanir usuario",
+        "body": "¿Estás seguro de que quieres desbanir al usuario {username} de la sala?"
+      },
+      "user_banned": {
+        "body": "Has sido baneado de {room}"
+      },
+      "user_kicked": {
+        "body": "Has sido sacado de {room}"
+      }
+    },
+    "notifications": {
+      "user_unbanned": {
+        "title": "Usuarios desbaneados",
+        "body": "Usuario {username} desbaneado exitosamente"
+      }
+    }
+  },
+  "table": {
+    "actions": "Acciones"
+  }
+}

@@ -1,0 +1,632 @@
+{
+  "locale": {
+    "code": "ko-KR",
+    "ui_code": "en-US",
+    "validation_code": "ko",
+    "dayjs_code": "ko",
+    "name": "한국어",
+    "translated_by": "Translated by {users}",
+    "reviewed_by": "Reviewed by {users}"
+  },
+  "$contributors": {
+    "authors": [
+      {
+        "name": "9_9"
+      }
+    ],
+    "reviewers": []
+  },
+  "$list": {
+    "and": {
+      "join": ", ",
+      "conjunction": " and "
+    },
+    "or": {
+      "join": ", ",
+      "conjunction": " or "
+    }
+  },
+  "name": {
+    "short": "Pubby",
+    "long": "Pubby.club"
+  },
+  "$validation": {
+    "slug": "{_field_} 필드는 문자, 숫자, _ 또는-만 포함해야합니다.",
+    "url": "{_field_} 필드는 유효한 URL이어야합니다."
+  },
+  "errors": {
+    "username_already_exists": "선택한 사용자 이름이 존재합니다.",
+    "internal": "Something went wrong, please try again later.",
+    "invalid_login": "Invalid username or password.",
+    "invalid_recovery": "No accounts found",
+    "banned": "You are banned from Pubby.club"
+  },
+  "comming_soon": "준비 중...",
+  "home": {
+    "welcome_to": "환영합니다",
+    "alpha_step": "알파 단계",
+    "congratulations": "축하합니다 {0}!",
+    "discoverer": "Discoverer",
+    "you_found_us": "당신은 여행의 시작에 있습니다. 등록하여 독점 배지를 받으십시오.",
+    "after_a_week": "Pubby에서 일주일을 보낸 후 {0} 배지를 받으십시오."
+  },
+  "buttons": {
+    "submit": "Submit",
+    "accept": "수락",
+    "deny": "거절",
+    "save": "저장",
+    "signin": "로그인",
+    "signup": "회원 가입",
+    "more": "더 보기",
+    "next": "다음",
+    "prev": "이전",
+    "delete": "삭제",
+    "cancel": "취소",
+    "rename": "새 이름",
+    "send": "보내기",
+    "back": "뒤로 가기",
+    "create": "만들기",
+    "yes": "네",
+    "no": "아니요",
+    "close": "닫기",
+    "skip": "건너 뛰기",
+    "sync": "동기화",
+    "add": "추가",
+    "add_to_playlist": "재생 목록에 추가",
+    "move_start": "시작으로 이동",
+    "move_end": "끝으로 이동",
+    "like": "좋아요",
+    "dislike": "싫어요",
+    "enter_fullscreen": "전체 화면 열기",
+    "exit_fullscreen": "전체 화면 종료",
+    "ban": "차단",
+    "unban": "차단 해제",
+    "kick": "추방",
+    "player_size": "플레이어 크기",
+    "cut": "Cut",
+    "edit": "Edit"
+  },
+  "fields": {
+    "name": "이름",
+    "username": "사용자 이름",
+    "email": "E-mail",
+    "password": "비밀번호",
+    "password_confirm": "비밀번호 확인",
+    "avatar": "프로필 사진 (URL)",
+    "image_url": "이미지 URL",
+    "birthday": "Birthday",
+    "room_name": "방 이름",
+    "room_slug": "방 주소",
+    "description": "설명",
+    "thumbnail": "썸네일",
+    "welcome": "인사말",
+    "search": "검색",
+    "title": "제목",
+    "parental_rating": "Parental Rating",
+    "country": "Country",
+    "start": "Start",
+    "end": "End"
+  },
+  "signin": {
+    "title": "로그인",
+    "tip": "Stay active for one week and earn the {0} badge.",
+    "description": "로그인 후 친구를 초대하여 파티를 시작하세요!",
+    "recovery": "비밀번호 분실"
+  },
+  "signup": {
+    "title": "아직 등록하지 않았습니까?",
+    "tip": "지금 등록하면 알파 단계에 등록한 사용자에게만 제공되는 {0} 배지를 받게 됩니다.",
+    "description": "여러 방에 참여하여 새로운 음악과 장르를 발견하려면 등록하십시오.",
+    "signin": "이미 계정이 존재합니다."
+  },
+  "media-cut": {
+    "title": "Cut media",
+    "notifications": {
+      "save": {
+        "title": "Media updated",
+        "body": "\"{title}\" updated successfully."
+      }
+    }
+  },
+  "recovery": {
+    "title": "비밀번호 찾기",
+    "description": "비밀번호를 잊으셨나요? 걱정하지 마세요. 이메일 주소와 사용자 이름을 사용하여 계정을 복구하세요.",
+    "dialogs": {
+      "success": {
+        "title": "E-mail sent",
+        "body": "We send a recovery link to your email, link validity is 2 hours."
+      }
+    }
+  },
+  "change_password": {
+    "title": "비밀번호 변경",
+    "confirmation": "비밀번호가 성공적으로 변경되었습니다!\n새 비밀번호를 사용하여 로그인하십시오."
+  },
+  "splash": {
+    "title": "대기",
+    "room": "로딩 중..."
+  },
+  "browser": {
+    "title": "브라우저",
+    "all_rooms": "All Pubbies",
+    "your_rooms": "Your rooms",
+    "search_results": "Search Results"
+  },
+  "room": {
+    "users": "Users",
+    "created_by": "created by {username}",
+    "played_by": "by {username}",
+    "playing_now": "재생 중:",
+    "next_play": "다음 곡:",
+    "skip": "건너 뛰기",
+    "queue_join": "대기열 참가",
+    "queue_leave": "대기열에서 나가기",
+    "queue_lock": "Lock queue",
+    "queue_locked": "LOCKED QUEUE",
+    "play_now": "지금 재생",
+    "stop": "재생 중지",
+    "queue_count": "대기열에 아무도 없습니다. | 1 명이 있습니다. | {count} 명이 있습니다.",
+    "queue_position": "다음 차례 | 앞에 1 명이 있습니다. | 앞에 {count} 명이 있습니다.",
+    "no_playlists": "재생할 재생 목록 만들기:",
+    "no_active_playlist": "재생 목록이 없습니다.",
+    "no_media": "사용 가능한 미디어가 없습니다.",
+    "is_playing": "{username} 이 재생 중입니다.",
+    "user_count": "Nobody | 1 user | {count} users",
+    "room_protected": "The room is protected!",
+    "type_password": "Enter the password...",
+    "visibility": {
+      "public": "Public",
+      "private": "Link only",
+      "password": "Password protected"
+    },
+    "parental_rating": {
+      "free": "Free"
+    },
+    "dialogs": {
+      "new": {
+        "title": "새 방"
+      },
+      "stop_playing": {
+        "title": "재생 중지",
+        "body": "정말 재생을 중지하시겠습니까?"
+      },
+      "leave_queue": {
+        "title": "대기열 나가기",
+        "body": "정말 대기열에서 나가시겠습니까?"
+      },
+      "unauthorized": {
+        "title": "승인 되지않음",
+        "body": "이 방에서의 현재 역할로는 이 작업을 수행할 수 없습니다."
+      },
+      "disconnected": {
+        "title": "연결 끊김",
+        "body": "다른 창에서 로그인했습니다. 여기에서 계속 사용하려면 페이지를 새로 고침하세요."
+      },
+      "queue_lock": {
+        "title": "Lock queue | Unlock queue",
+        "body": "Are you sure you want to lock the queue? | Are you sure you want to unlock the queue?"
+      },
+      "no_room": {
+        "title": "Unable to follow",
+        "body": "Your friend is not in any room."
+      },
+      "room_private": {
+        "title": "Unable to follow",
+        "body": "Your friend is in a private room."
+      },
+      "invalid_password": {
+        "title": "Unable to join the room",
+        "body": "The password entered is invalid."
+      },
+      "missing_birthday": {
+        "title": "Incomplete registration",
+        "body": "Your registration does not have a birth date. We use this information to filter rooms based on their age and do not share this data with anyone. To avoid problems, inform your real age as once defined, it will not be possible to change it."
+      },
+      "notifications": {
+        "playing": "{username} is playing \"{media}\""
+      }
+    }
+  },
+  "queue": {
+    "title": "Play queue",
+    "user_locked": "queue locked.",
+    "user_unlocked": "queue unlocked.",
+    "dialogs": {
+      "clear": {
+        "title": "Clear Queue",
+        "body": "Are you sure you want to remove all users from the queue?"
+      }
+    },
+    "events": {
+      "clear": "@{username} cleared the queue."
+    }
+  },
+  "friends": {
+    "title": "Friends"
+  },
+  "room_options": {
+    "title": "방 설정",
+    "details": {
+      "title": "세부 정보",
+      "welcome_hint": "{user}가 사용자 이름으로 대체됩니다."
+    }
+  },
+  "player": {
+    "next_play": "{username} 재생 예정",
+    "live": "라이브",
+    "skip": "현재 미디어 건너 뛰기",
+    "skip_remove": "건너 뛰기 및 제거",
+    "cant_skip": "현재 미디어를 건너 뛸 수 없습니다.",
+    "hide_video": "동영상 숨기기",
+    "show_video": "동영상 보기",
+    "started_in": "가입일 {date}",
+    "no_dj": {
+      "title": "재생 중이지 않습니다.",
+      "body": "재생을 시작하려면 {play_now}을 클릭하세요!"
+    },
+    "dialogs": {
+      "skip": {
+        "title": "건너 뛰기",
+        "body": "현재 미디어를 건너 뛰시겠습니까?"
+      },
+      "skip_remove": {
+        "title": "건너 뛰기 및 제거",
+        "body": "현재 미디어를 건너 뛰고 대기열에서 DJ를 제거하시겠습니까?"
+      }
+    }
+  },
+  "import": {
+    "title": "재생 목록 불러오기"
+  },
+  "history": {
+    "title": "미디어 기록"
+  },
+  "playlists": {
+    "title": "재생 목록",
+    "import": "불러오기",
+    "shuffle": "Shuffle",
+    "count": "항목 없음 | 1 개 항목 | {count} 개 항목",
+    "new": "새 재생 목록",
+    "add": "미디어 추가",
+    "activate": "활성화시키기",
+    "active": "활동",
+    "media_title": "제목",
+    "media_duration": "기간",
+    "media_source": "소스",
+    "media_actions": "작업",
+    "no_media": "재생 목록에 미디어가 없습니다.",
+    "add_to_play": "재생할 미디어 추가",
+    "no_playlists": "재생 목록이 없습니다.",
+    "create_new": "새 재생 목록을 만들고 라이브러리에 접속하여 미디어를 추가하십시오.",
+    "select": "재생 목록 선택",
+    "none_selected": "선택된 재생 목록이 없습니다.",
+    "selection_popup": {
+      "title": "재생 목록 선택:"
+    },
+    "dialogs": {
+      "delete_media": {
+        "title": "미디어 삭제",
+        "body": "당신의 재생 목록에서 {media}를 삭제하시겠습니까?"
+      },
+      "delete_playlist": {
+        "title": "재생 목록 삭제",
+        "body": "{playlist} 재생 목록을 삭제하시겠습니까?"
+      }
+    },
+    "notifications": {
+      "added": {
+        "title": "재생 목록에 추가됨",
+        "body": "{title}이 재생 목록에 추가되었습니다."
+      }
+    }
+  },
+  "add_media": {
+    "title": "미디어 추가",
+    "add": "추가",
+    "import": "불러오기",
+    "search": "검색",
+    "search_title": "미디어 제목으로 검색...",
+    "previous": "이전",
+    "next": "다음",
+    "see_more": "더 보기",
+    "added": "재생 목록에 추가됨",
+    "pubby": {
+      "title": "Pubby에서 추가",
+      "not_found": "아무것도 찾을 수 없습니다.",
+      "try_others": "다른 소스를 통해 추가해보십시오."
+    },
+    "youtube": {
+      "title": "YouTube에서 추가",
+      "link": "동영상 또는 재생 목록의 주소",
+      "placeholder": "여기에 YouTube의 동영상 또는 재생 목록 주소를 삽입하세요.",
+      "video_duration": "길이: {duration}",
+      "video_count": "동영상 없음 | 동영상 1 개 | 동영상 {count} 개",
+      "video_channel": "채널",
+      "new_playlist": "재생 목록 만들기",
+      "imported": "재생 목록을 불러왔습니다."
+    },
+    "soundcloud": {
+      "title": "SoundCloud에서 추가"
+    }
+  },
+  "roles": {
+    "title": "역할 및 권한",
+    "description": "사용자 지정 역할 추가",
+    "new": "새 역할",
+    "color": "채팅 색상:",
+    "users": "사용자",
+    "permissions": "권한",
+    "add_user": "사용자 추가",
+    "remove_user": "사용자 제거",
+    "all_permissions": "모든 권한",
+    "no_role": "역할이 없습니다.",
+    "no_user": "이 역할에 사용자가 없습니다.",
+    "select": "역할 선택",
+    "no_selection": "선택된 역할이 없습니다.",
+    "dialogs": {
+      "delete": {
+        "title": "역할 제거",
+        "body": "현재 방에서 {role} 역할을 제거하시겠습니까?"
+      },
+      "remove_user": {
+        "title": "사용자 제거",
+        "body": "{role} 역할에서 선택한 사용자를 제거하시겠습니까?"
+      }
+    },
+    "scopes": {
+      "ALL": {
+        "title": "모든 권한",
+        "description": "사용자에게 모든 권한을 추가합니다."
+      },
+      "PLAYBACK_SKIP": {
+        "title": "미디어 건너 뛰기",
+        "description": "현재 미디어를 건너 뜁니다."
+      },
+      "CHAT_DELETE": {
+        "title": "채팅 메시지 삭제",
+        "description": "채팅 메시지를 삭제합니다."
+      },
+      "ROOM_RENAME": {
+        "title": "방 이름 변경",
+        "description": "방의 이름을 변경합니다."
+      },
+      "ROOM_DESCRIPTION": {
+        "title": "방 설명 변경",
+        "description": "방에 대한 설명을 변경합니다."
+      },
+      "ROOM_WELCOME": {
+        "title": "인사 메시지 변경",
+        "description": "인사 메시지를 변경합니다."
+      },
+      "QUEUE_ADD_REMOVE": {
+        "title": "대기열에서 사용자 추가/제거",
+        "description": "추가합니다./제거합니다. "
+      },
+      "QUEUE_MOVE": {
+        "title": "대기열 제어",
+        "description": "대기열에서 사용자의 위치 이동을 허용합니다."
+      },
+      "QUEUE_JOIN_LOCKED": {
+        "title": "Enter the locked queue",
+        "description": "Allows you to enter the play queue even if it is locked"
+      },
+      "USER_BAN": {
+        "title": "사용자 차단",
+        "description": "사용자를 방에서 차단시킬 수 있는 권한입니다."
+      },
+      "USER_UNBAN": {
+        "title": "사용자 차단 해제",
+        "description": "사용자를 방에서 차단 해제시킬 수 있는 권한입니다."
+      },
+      "USER_KICK": {
+        "title": "사용자 추방",
+        "description": "사용자를 방에서 추방 시킬 수 있는 권한입니다."
+      },
+      "MANAGE_ROLES": {
+        "title": "역할 관리",
+        "description": "방의 역할과 권한을 관리할 수 있도록 허용합니다."
+      }
+    }
+  },
+  "global_roles": {
+    "title": "Global roles",
+    "roles": {
+      "root": "Root",
+      "developer": "Developer",
+      "discoverer": "Discoverer",
+      "moderator": "Moderator",
+      "translator": "Translator",
+      "promoter": "Promoter",
+      "event_promoter": "Event Promoter",
+      "alpha": "Alpha",
+      "beta": "Beta",
+      "contributor": "Contributor",
+      "supporter": "Supporter",
+      "premium_supporter": "Premium Supporter",
+      "lifetime_premium_supporter": "Lifetime Premium Supporter",
+      "investor_supporter": "Investor Supporter",
+      "founder_supporter": "Founder Supporter"
+    },
+    "scopes": {
+      "BAN_USER": {
+        "title": "사용자 차단",
+        "description": "사이트에서 사용자를 무기한 차단합니다."
+      },
+      "MUTE_USER": {
+        "title": "사용자 음소거",
+        "description": "사용자를 무기한 침묵시킵니다."
+      },
+      "BLOCK_DJ": {
+        "title": "DJ 차단",
+        "description": "사용자가 모든 방에서 플레이하지 못하도록 합니다."
+      },
+      "CLOSE_ROOM": {
+        "title": "방 닫기",
+        "description": "사이트에서 방을 무기한 닫습니다."
+      }
+    }
+  },
+  "profile_popup": {
+    "user_since": "{date} since 사용자",
+    "score": "{points} points",
+    "friend_is": "친구 상태입니다.",
+    "friend_add": "친구 추가",
+    "friend_pending": "친구 요청을 보냈습니다.",
+    "friend_accept": "친구 요청 수락",
+    "user_kick": "방에서 사용자 추방",
+    "user_ban": "방에서 사용자 차단",
+    "user_site_ban": "Ban user from Pubby.club",
+    "dialogs": {
+      "user_ban": {
+        "title": "사용자 차단",
+        "body": "방에서 {username}을 (를) 차단하시겠습니까?"
+      },
+      "user_kick": {
+        "title": "사용자 추방",
+        "body": "방에서 {username}을 (를) 추방하시겠습니까?"
+      },
+      "user_site_ban": {
+        "title": "Ban user from Pubby.club",
+        "body": "Are you sure you want to ban user {username} from PUBBY.CLUB?"
+      }
+    },
+    "notifications": {
+      "user_banned": {
+        "title": "사용자가 차단됨",
+        "body": {
+          "expires": "{duration} 동안 {username}이 (가) 방에서 차단되었습니다.",
+          "permanent": "{username}이 (가) 방에서 영구적으로 차단되었습니다."
+        }
+      },
+      "user_kicked": {
+        "title": "사용자가 추방됨",
+        "body": "방에서 {username}을 (를) 추방했습니다."
+      },
+      "user_site_banned": {
+        "title": {
+          "account": "User banned from Pubby.club",
+          "ip": "User banned by IP from Pubby.club"
+        },
+        "body": {
+          "expires": "User {username} banned from Pubby.club for {duration}",
+          "permanent": "User {username} banned permanently from Pubby.club"
+        }
+      }
+    }
+  },
+  "user_popup": {
+    "settings": "설정",
+    "new_room": "방 만들기",
+    "logout": "로그아웃",
+    "friendship_requests": "친구 요청 | 친구 요청 ({1}) | 친구요청 ({count})"
+  },
+  "friendship": {
+    "notifications": {
+      "accepted": {
+        "title": "친구 요청 수락됨",
+        "body": "{username}님이 친구 요청을 수락했습니다."
+      },
+      "requested": {
+        "title": "친구 요청",
+        "body": "{username}님이 친구 요청을 보냈습니다."
+      }
+    }
+  },
+  "friendship_request": {
+    "title": "친구 요청",
+    "no_requests": "요청 없음",
+    "no_requests_description": "모든 친구 요청에 응답했습니다."
+  },
+  "settings": {
+    "title": "설정",
+    "profile": {
+      "title": "프로필"
+    },
+    "general": {
+      "title": "일반"
+    },
+    "interface": {
+      "title": "인터페이스",
+      "enable_transparency": "투명도 사용",
+      "enable_blur": "흐리게 사용"
+    },
+    "notifications": {
+      "title": "Notifications",
+      "mentions_sound": "Mention sound",
+      "desktop_notifications": "Desktop Notifications",
+      "chat": "Chat Messages",
+      "media": "Media Update",
+      "mention": "Mentions"
+    }
+  },
+  "chat": {
+    "title": "Messages",
+    "clear": "Clear",
+    "placeholder": "여기에 쓰기...",
+    "user_said": "{user} said: {text}",
+    "messages": {
+      "reply": "답장",
+      "delete": "삭제"
+    },
+    "events": {
+      "user_joined": "{username}님이 방에 참여했습니다.",
+      "user_leave": "{username}님이 방에서 나갔습니다.",
+      "playback_skip": "{username}님이 미디어를 건너 뛰었습니다.",
+      "playback_unavailable": "@{username} media unavailable",
+      "queue_add": "@{user}님이 대기열에 @{addedUser}을 (를) 추가했습니다.",
+      "queue_remove": "@{mod}님이 대기열에서 @{user}을 (를) 제거했습니다.",
+      "queue_move": "@{mod}님이 @{user}을 (를) {from}에서 {to} (으)로 이동시켰습니다.",
+      "role_add": "@{mod}님이 {users}역할에 **{role}**을 (를) 추가했습니다.",
+      "role_remove": "@{mod}님이 {users}역할에서 **{role}**을 (를) 제거했습니다.",
+      "user_ban": "{username}님이 방에서 차단되었습니다.",
+      "user_kick": "{username}님이 방에서 추방되었습니다.",
+      "user_site_ban": "{username} has been banned from Pubby.club"
+    },
+    "dialogs": {
+      "remove": {
+        "title": "메시지 삭제",
+        "body": "이 메시지를 삭제하시겠습니까?"
+      },
+      "clear": {
+        "title": "Clear messages",
+        "body": "Are you sure you want to delete all messages?"
+      }
+    }
+  },
+  "bans": {
+    "title": "차단된 사용자",
+    "user": "사용자",
+    "reason": "why",
+    "mod": "by",
+    "date": "on",
+    "expires": "in",
+    "never": "절대로",
+    "permanent": "영구적인",
+    "duration": "기간",
+    "ban": "차단",
+    "unban": "차단 해제",
+    "ban_ip": "Ban IP",
+    "not_specified": "명시되지 않음",
+    "dialogs": {
+      "user_unban": {
+        "title": "사용자 차단 해제",
+        "body": "방에서 {username}을 (를) 차단 해제하시겠습니까?"
+      },
+      "user_banned": {
+        "body": "{room}에서 차단되었습니다."
+      },
+      "user_kicked": {
+        "body": "{room}에서 추방되었습니다."
+      }
+    },
+    "notifications": {
+      "user_unbanned": {
+        "title": "차단 해제된 사용자",
+        "body": "{username}님이 성공적으로 차단 해제되었습니다."
+      }
+    }
+  },
+  "table": {
+    "actions": "북마크"
+  }
+}

@@ -1,0 +1,620 @@
+{
+  "locale": {
+    "code": "vi-VN",
+    "ui_code": "en-US",
+    "validation_code": "vi",
+    "dayjs_code": "vi",
+    "name": "Tiếng Việt",
+    "translated_by": "Dịch bởi {users}",
+    "reviewed_by": "Duyệt bởi {users}"
+  },
+  "$contributors": {
+    "authors": [{ "name": "Mynameskoj" }, { "name": "Eddd" }],
+    "reviewers": [{ "name": "Pyrael" }]
+  },
+  "$list": {
+    "and": {
+      "join": ", ",
+      "conjunction": " and "
+    },
+    "or": {
+      "join": ", ",
+      "conjunction": " or "
+    }
+  },
+  "name": {
+    "short": "Pubby",
+    "long": "Pubby.club"
+  },
+  "$validation": {
+    "slug": "Khoảng trống {_field_} chỉ được chứa từ, số và _ hoặc -",
+    "url": "Khoảng trống {_field_} phải là một URL hợp lệ"
+  },
+  "errors": {
+    "username_already_exists": "Tên bị trùng.",
+    "internal": "Something went wrong, please try again later.",
+    "invalid_login": "Invalid username or password.",
+    "invalid_recovery": "No accounts found",
+    "banned": "You are banned from Pubby.club"
+  },
+  "comming_soon": "Sắp tới...",
+  "home": {
+    "welcome_to": "Chào mừng đến với",
+    "alpha_step": "ALPHA STEP",
+    "congratulations": "CHÚC MỪNG {0}!",
+    "discoverer": "NGƯỜI KHÁM PHÁ",
+    "you_found_us": "Bạn đã tìm thấy chúng tôi tại bước đầu của hành trình này, đăng ký và nhận ngay huy hiệu độc quyền.",
+    "after_a_week": "Sau một tuần hoạt động, bạn sẽ nhận huy hiệu {0}."
+  },
+  "buttons": {
+    "submit": "Gửi",
+    "accept": "Đồng ý",
+    "deny": "Từ chối",
+    "save": "Lưu lại",
+    "signin": "Đăng nhập",
+    "signup": "Đăng ký",
+    "more": "Tải thêm",
+    "next": "Sau",
+    "prev": "Trước",
+    "delete": "Xóa",
+    "cancel": "Hủy bỏ",
+    "rename": "Đổi tên",
+    "send": "Gửi",
+    "back": "Quay lại",
+    "create": "Tạo mới",
+    "yes": "Có",
+    "no": "Không",
+    "close": "Đóng",
+    "skip": "Bỏ qua",
+    "sync": "Đồng bộ",
+    "add": "Thêm",
+    "add_to_playlist": "Thêm vào danh sách phát",
+    "move_start": "Chuyển lên đầu",
+    "move_end": "Chuyển xuống cuối",
+    "like": "Thích",
+    "dislike": "Không thích",
+    "enter_fullscreen": "Mở chế độ toàn màn hình",
+    "exit_fullscreen": "Thoát chế độ toàn màn hình",
+    "ban": "Chặn",
+    "unban": "Gỡ chặn",
+    "kick": "Đuổi",
+    "player_size": "Kích thước màn hình",
+    "cut": "Cut",
+    "edit": "Edit"
+  },
+  "fields": {
+    "name": "Tên",
+    "username": "Tên người dùng",
+    "email": "E-mail",
+    "password": "Mật khẩu",
+    "birthday": "Ngày sinh",
+    "password_confirm": "Xác nhận mật khẩu",
+    "avatar": "Ảnh đại diện (URL)",
+    "image_url": "URL hình ảnh",
+    "room_name": "Tên phòng",
+    "room_slug": "Liên kết phòng",
+    "description": "Mô tả",
+    "thumbnail": "Ảnh đại diện",
+    "welcome": "Lời chào",
+    "search": "Tìm kiếm...",
+    "title": "Tiêu đề",
+    "visibility": "Quyền truy cập",
+    "parental_rating": "Giới hạn độ tuổi",
+    "country": "Country",
+    "start": "Start",
+    "end": "End"
+  },
+  "signin": {
+    "title": "Đăng nhập",
+    "tip": "Stay active for one week and earn the {0} badge.",
+    "description": "Tham gia và mời bạn bè cùng nghe nhạc nào!",
+    "recovery": "Quên mật khẩu"
+  },
+  "signup": {
+    "title": "BẠN CHƯA CÓ TÀI KHOẢN?",
+    "tip": "Tham gia ngay bây giờ và nhận huy hiệu {0} độc quyền dành cho ai đăng kí bản Alpha của pubby.club!",
+    "description": "Khám phá thế giới âm nhạc bằng cách đăng nhập và tham gia các phòng nhạc!",
+    "signin": "TÔI ĐÃ CÓ TÀI KHOẢN"
+  },
+  "media-cut": {
+    "title": "Cut media",
+    "notifications": {
+      "save": {
+        "title": "Media updated",
+        "body": "\"{title}\" updated successfully."
+      }
+    }
+  },
+  "recovery": {
+    "title": "Khôi phục mật khẩu",
+    "description": "Quên mật khẩu? Đừng lo, email đi vô, mật khẩu đi ra.",
+    "dialogs": {
+      "success": {
+        "title": "E-mail sent",
+        "body": "We send a recovery link to your email, link validity is 2 hours."
+      }
+    }
+  },
+  "change_password": {
+    "title": "Đổi mật khẩu",
+    "confirmation": "Đổi mật khẩu thành công! Đừng quên mật khẩu nữa nhé!"
+  },
+  "splash": {
+    "title": "Đợi tí nha",
+    "room": "Đang tải phòng..."
+  },
+  "browser": {
+    "title": "Trình duyệt",
+    "all_rooms": "Tất cả phòng",
+    "your_rooms": "Phòng của bạn",
+    "search_results": "Kết quả tìm kiếm..."
+  },
+  "room": {
+    "users": "Danh sách thành viên",
+    "created_by": "Được tạo bởi {username}",
+    "played_by": "phát bởi {username}",
+    "playing_now": "Bạn đang nghe:",
+    "next_play": "Bạn sẽ phát:",
+    "skip": "BỎ QUA",
+    "queue_join": "THAM GIA HÀNG CHỜ",
+    "queue_leave": "RỜI HÀNG CHỜ",
+    "queue_lock": "KHOÁ HÀNG CHỜ",
+    "queue_locked": "HÀNG CHỜ ĐÃ KHÓA",
+    "play_now": "ĐANG PHÁT",
+    "stop": "DỪNG PHÁT",
+    "queue_count": "Không có ai trong hàng chờ | Còn 1 người trong hàng chờ trước bạn | Còn {count} người trong hàng chờ trước bạn",
+    "queue_position": "Bạn sẽ phát tiếp theo | Có 1 người phía trước bạn | Có {count} người phía trước bạn",
+    "no_playlists": "Tạo một danh sách phát:",
+    "no_active_playlist": "Không có danh sách phát được kích hoạt",
+    "no_media": "Bài hát không khả dụng",
+    "is_playing": "{username} đang phát nhạc",
+    "user_count": "Không có thành viên nào online | 1 thành viên| {count} thành viên ",
+    "room_protected": "Phòng đã được mã khoá!",
+    "type_password": "Nhập mật khẩu...",
+    "visibility": {
+      "public": "Công khai",
+      "private": "Chỉ liên kết",
+      "password": "Mã khoá"
+    },
+    "parental_rating": {
+      "free": "Dành cho mọi độ tuổi"
+    },
+    "dialogs": {
+      "new": {
+        "title": "Phòng mới"
+      },
+      "stop_playing": {
+        "title": "Ngừng phát",
+        "body": "Xác nhận ngừng phát?"
+      },
+      "leave_queue": {
+        "title": "Thoát hàng chờ",
+        "body": "Xác nhận thoát hàng chờ?"
+      },
+      "unauthorized": {
+        "title": "Không đủ quyền hạn",
+        "body": "Bạn không đủ quyền để thực hiện hành động này."
+      },
+      "multiple_sessions": {
+        "title": "Mất kết nối",
+        "body": "Bạn đã đăng nhập từ một nơi khác, tải lại trang này để tiếp tục sử dụng."
+      },
+      "disconnected": {
+        "title": "Mất kết nối",
+        "body": "Không thể kết nối tới máy chủ, hãy kiểm tra đường truyền."
+      },
+      "queue_lock": {
+        "title": "Khóa hàng chờ | Mở khóa hàng chờ",
+        "body": "Xác nhận khóa hàng chờ? | Xác nhận mở khóa hàng chờ?"
+      },
+      "no_room": {
+        "title": "Không thể tham gia",
+        "body": "Người này hiện không tham gia phòng nhạc nào."
+      },
+      "room_private": {
+        "title": "Không thể tham gia",
+        "body": "Người này hiện đang trong phòng kín."
+      },
+      "invalid_password": {
+        "title": "Không thể tham gia phòng",
+        "body": "Mật khẩu không hợp lệ."
+      },
+      "missing_birthday": {
+        "title": "Thông tin cá nhận chưa hợp lệ",
+        "body": "Vui lòng bổ sung thông tin cá nhân (ngày sinh, v.v)"
+      }
+    }
+  },
+  "room_options": {
+    "title": "Cài đặt phòng",
+    "details": {
+      "title": "Chi tiết",
+      "welcome_hint": "{user} sẽ được thay thế bằng tên người dùng"
+    }
+  },
+  "queue": {
+    "title": "Hàng chờ",
+    "user_locked": "Hàng chờ đã khóa.",
+    "user_unlocked": "Hàng chờ đã mở khóa.",
+    "dialogs": {
+      "clear": {
+        "title": "Xoá hàng chờ",
+        "body": "Xác nhận xoá?"
+      }
+    },
+    "events": {
+      "clear": "@{username} đã xoá hàng chờ."
+    }
+  },
+  "friends": {
+    "title": "Bạn bè"
+  },
+  "player": {
+    "next_play": "{username} sẽ phát",
+    "live": "TRỰC TIẾP",
+    "skip": "Bỏ qua bài hát hiện tại",
+    "skip_remove": "Bỏ qua và xóa ",
+    "cant_skip": "Bạn không thể bỏ qua bài hát hiện tại",
+    "hide_video": "Ẩn video",
+    "show_video": "Hiện video",
+    "started_in": "Bắt đầu từ {date}",
+    "no_dj": {
+      "title": "Không có ai đang phát",
+      "body": "Nhấn {play_now} để bắt đầu phát!"
+    },
+    "dialogs": {
+      "skip": {
+        "title": "Bỏ qua",
+        "body": "Xác nhận bỏ qua bài hát hiện tại?"
+      },
+      "skip_remove": {
+        "title": "Bỏ qua và xóa",
+        "body": "Xác nhận bỏ qua bài hát hiện tại và xóa DJ khỏi hàng chờ?"
+      }
+    }
+  },
+  "import": {
+    "title": "Nhập danh sách phát"
+  },
+  "history": {
+    "title": "Lịch sử hàng phát"
+  },
+  "playlists": {
+    "title": "Các danh sách phát",
+    "import": "Thêm nhạc",
+    "shuffle": "Phát ngẫu nhiên",
+    "exportAll": "Tải xuống tất cả",
+    "count": "Trống | 1 bài hát | {count} bài hát",
+    "new": "Danh sách phát mới",
+    "add": "Thêm bài hát",
+    "activate": "KÍCH HOẠT",
+    "active": "ĐÃ KÍCH HOẠT",
+    "media_title": "Tiêu đề",
+    "media_duration": "Thời lượng",
+    "media_source": "Nguồn",
+    "media_actions": "Hành động",
+    "no_media": "Trống",
+    "add_to_play": "Thêm bài hát để phát",
+    "no_playlists": "Không có danh sách phát",
+    "create_new": "Tạo danh sách phát mới",
+    "select": "Chọn",
+    "none_selected": "Không có danh sách phát được chọn",
+    "selection_popup": {
+      "title": "Chọn một danh sách phát:"
+    },
+    "dialogs": {
+      "delete_media": {
+        "title": "Xóa bài hát",
+        "body": "Xác nhận xóa {media} khỏi danh sách phát?"
+      },
+      "delete_playlist": {
+        "title": "Xóa danh sách phát",
+        "body": "Xác nhận xóa danh sách phát {playlist}?"
+      }
+    },
+    "notifications": {
+      "added": {
+        "title": "Đã thêm vào danh sách phát",
+        "body": "{title} đã được thêm vào danh sách phát."
+      }
+    }
+  },
+  "add_media": {
+    "title": "Thêm bài hát",
+    "add": "Thêm",
+    "import": "Nhập",
+    "search": "Tìm kiếm",
+    "search_title": "Tìm kiếm bằng tên bài hát...",
+    "previous": "Trước",
+    "next": "Sau",
+    "see_more": "Xem thêm",
+    "added": "Đã thêm vào danh sách phát",
+    "pubby": {
+      "title": "Thêm từ Pubby",
+      "not_found": "Không tìm thấy",
+      "try_others": "Vui lòng thử bằng nguồn khác"
+    },
+    "youtube": {
+      "title": "Thêm từ YouTube",
+      "link": "LIÊN KẾT CỦA VIDEO HOẶC DANH SÁCH PHÁT",
+      "placeholder": "Dán liên kết của video hoặc danh sách phát từ YouTube.",
+      "video_duration": "Thời lượng: {duration}",
+      "video_count": "Trống | 1 video | {count} video",
+      "video_channel": "Kênh",
+      "new_playlist": "Tạo danh sách mới",
+      "imported": "Danh sách phát đã được thêm"
+    },
+    "soundcloud": {
+      "title": "Thêm từ SoundCloud"
+    }
+  },
+  "roles": {
+    "title": "Vai trò và Quyền",
+    "description": "Thêm vai trò tại phòng này",
+    "new": "Vai trò mới",
+    "color": "Màu:",
+    "users": "Thành viên",
+    "permissions": "Quyền",
+    "add_user": "Thêm thành viên",
+    "remove_user": "Xóa thành viên",
+    "all_permissions": "Tất cả quyền",
+    "no_role": "Trống",
+    "no_user": "Không có thành viên",
+    "select": "Chọn vai trò",
+    "no_selection": "Không vai trò nào được chọn",
+    "dialogs": {
+      "delete": {
+        "title": "Xóa vai trò",
+        "body": "Xác nhận xóa {role} khỏi phòng?"
+      },
+      "remove_user": {
+        "title": "Xóa thành viên",
+        "body": "Xác nhận xóa người dùng đã chọn?"
+      }
+    },
+    "scopes": {
+      "ALL": {
+        "title": "Quyền năng tối thượng",
+        "description": "Bạn là nhất! Bạn có tất cả các quyền!"
+      },
+      "PLAYBACK_SKIP": {
+        "title": "Bỏ qua bài hát",
+        "description": "Cho phép bỏ qua bài hát đang phát"
+      },
+      "CHAT_DELETE": {
+        "title": "Xóa tin nhắn",
+        "description": "Bạn có thể xóa tin nhắn của người dùng khác tại Tám chuyện"
+      },
+      "ROOM_DETAILS": {
+        "title": "Thay đổi thông tin phòng",
+        "description": "Cho phép thay đổi tên, mô tả, đường dẫn và lời chào của phòng"
+      },
+      "QUEUE_ADD_REMOVE": {
+        "title": "Thêm/Xóa người dùng ở hàng chờ",
+        "description": "Cho phép thêm hoặc xóa người dùng ở hàng chờ phát nhạc"
+      },
+      "QUEUE_MOVE": {
+        "title": "Chỉnh sửa hàng chờ",
+        "description": "Cho phép thay đổi vị trí người dùng trong hàng chờ"
+      },
+      "QUEUE_JOIN_LOCKED": {
+        "title": "Tham gia hàng chờ khóa",
+        "description": "Cho phép tham gia hàng chờ và chơi nhạc kể cả khi nó đang bị khóa"
+      },
+      "USER_BAN": {
+        "title": "Chặn người dùng",
+        "description": "Cho phép chặn người dùng khác khỏi phòng"
+      },
+      "USER_UNBAN": {
+        "title": "Bỏ chặn người dùng",
+        "description": "Cho phép gỡ chặn thành viên đã bị chặn"
+      },
+      "USER_KICK": {
+        "title": " Đuổi người dùng",
+        "description": "Cho phép đuổi thành viên dùng khỏi phòng"
+      },
+      "MANAGE_ROLES": {
+        "title": "Quản lý vai trò",
+        "description": "Cho phép bạn quản lý các vai trò và quyền hiện có trong phòng"
+      }
+    }
+  },
+  "global_roles": {
+    "title": "Vai trò chung",
+    "roles": {
+      "root": "Nguồn gốc",
+      "developer": "Nhà phát triển",
+      "discoverer": "Người khám phá",
+      "moderator": "Quản trị viên",
+      "translator": "Biên dịch viên",
+      "promoter": "Người quảng bá",
+      "event_promoter": "Người quảng bá sự kiện",
+      "alpha": "Alpha",
+      "beta": "Beta",
+      "contributor": "Mạnh thường quân",
+      "supporter": "Hỗ trợ",
+      "premium_supporter": "Người hỗ trợ Cao cấp",
+      "lifetime_premium_supporter": "Người hỗ trợ Cao cấp Trọn đời",
+      "investor_supporter": "Người hỗ trợ Đầu tư",
+      "founder_supporter": "Người hỗ trợ sáng lập"
+    },
+    "scopes": {
+      "BAN_USER": {
+        "title": "Chặn",
+        "description": "Chặn người dùng khỏi trang ngay lập tức."
+      },
+      "MUTE_USER": {
+        "title": "Chặn chat",
+        "description": "Chặn thành viên chat trong phòng"
+      },
+      "BLOCK_DJ": {
+        "title": "Chặn DJ",
+        "description": "Chặn một người dùng phát nhạc trong phòng."
+      },
+      "CLOSE_ROOM": {
+        "title": "Đóng phòng",
+        "description": "Nụ cười đã tắt, đậm sâu nước mắt vì phòng đã đóng cửa vô thời hạn :(."
+      }
+    }
+  },
+  "profile_popup": {
+    "user_since": "Tham gia từ {date}",
+    "score": "{points} points",
+    "friend_is": "Bạn đã là anh em cây khế rồi",
+    "friend_add": "Thêm bạn",
+    "friend_pending": "Đã gửi lời mời kết bạn",
+    "friend_accept": "Đã nhận lời mời kết bạn",
+    "user_kick": "Đuổi người dùng khỏi phòng",
+    "user_ban": "Chặn người dùng khỏi phòng",
+    "user_site_ban": "Ban user from Pubby.club",
+    "dialogs": {
+      "user_ban": {
+        "title": "Chặn người dùng",
+        "body": "Xác nhận chặn {username} khỏi phòng?"
+      },
+      "user_kick": {
+        "title": "Đuổi người dùng",
+        "body": "Xác nhận đuổi {username} ra khỏi phòng?"
+      },
+      "user_site_ban": {
+        "title": "Ban user from Pubby.club",
+        "body": "Are you sure you want to ban user {username} from PUBBY.CLUB?"
+      }
+    },
+    "notifications": {
+      "user_banned": {
+        "title": "Danh sách đen",
+        "body": {
+          "expires": "{username} đã bị chặn trong khoảng {duration}",
+          "permanent": "{username} đã bị chặn khỏi phòng vĩnh viễn"
+        }
+      },
+      "user_kicked": {
+        "title": "Người dùng bị đuổi",
+        "body": "Bạn đã bị đuổi {username} ra khỏi phòng"
+      },
+      "user_site_banned": {
+        "title": {
+          "account": "User banned from Pubby.club",
+          "ip": "User banned by IP from Pubby.club"
+        },
+        "body": {
+          "expires": "User {username} banned from Pubby.club for {duration}",
+          "permanent": "User {username} banned permanently from Pubby.club"
+        }
+      }
+    }
+  },
+  "user_popup": {
+    "settings": "Cài đặt",
+    "new_room": "Tạo phòng mới",
+    "logout": "Đăng xuất",
+    "friendship_requests": "Lời mời kết bạn | Lời mời kết bạn ({count}) | Lời mời kết bạn ({count})"
+  },
+  "friendship": {
+    "notifications": {
+      "accepted": {
+        "title": "Đã là bằng hữu",
+        "body": "{username} đã là bằng hữu của bạn!"
+      },
+      "requested": {
+        "title": "Lời mời kết bạn",
+        "body": "{username} muốn kết giao bằng hũu với bạn"
+      }
+    }
+  },
+  "friendship_request": {
+    "title": "Lời mời kết bạn",
+    "no_requests": "Không có lời mời mới",
+    "no_requests_description": "Bạn đã trả lời mọi lời mời"
+  },
+  "settings": {
+    "title": "Cài đặt",
+    "profile": {
+      "title": "Profile"
+    },
+    "general": {
+      "title": "Chung"
+    },
+    "interface": {
+      "title": "Giao diện",
+      "enable_transparency": "Chế độ trong suốt",
+      "enable_blur": "Chế độ làm mờ"
+    },
+    "notifications": {
+      "title": "Thông báo",
+      "enable_mentions_sound": "Bật thông báo",
+      "enable_desktop_notifications": "Bật thông báo trên desktop"
+    }
+  },
+  "chat": {
+    "title": "Tám chuyện",
+    "clear": "Xoá",
+    "placeholder": "Nói gì đi...",
+    "user_said": "{user} nói: {text}",
+    "messages": {
+      "reply": "Trả lời",
+      "delete": "Xóa"
+    },
+    "events": {
+      "user_joined": "{username} đã tham gia phòng.",
+      "user_leave": "{username} đã rời phòng.",
+      "playback_skip": "{username} đã bỏ qua bài hát.",
+      "playback_unavailable": "@{username} media unavailable",
+      "queue_add": "@{user} đã thêm @{addedUser} vào hàng chờ.",
+      "queue_remove": "@{mod} đã xóa @{user} khỏi hàng chờ.",
+      "queue_move": "@{mod} chuyển @{user} từ vị trí {from} đến vị trí {to}.",
+      "role_add": "@{mod} thêm {users} vai trò **{role}**.",
+      "role_remove": "@{mod} đã xóa {users} khỏi vai trò **{role}**.",
+      "user_ban": "{username} đã bị chặn khỏi phòng.",
+      "user_kick": "{username} đã bị đuổi khỏi phòng.",
+      "user_site_ban": "{username} has been banned from Pubby.club"
+    },
+    "dialogs": {
+      "remove": {
+        "title": "Xóa tin nhắn",
+        "body": "Xác nhận xóa tin nhắn này?"
+      },
+      "clear": {
+        "title": "Xóa toàn bộ tin nhắn",
+        "body": "Xác nhận xóa toàn bộ tin nhắn?"
+      }
+    }
+  },
+  "bans": {
+    "title": "Người dùng bị chặn",
+    "user": "Người dùng",
+    "reason": "Lý do",
+    "mod": "Bị chặn bởi",
+    "date": "Bị chặn vào ngày",
+    "expires": "Kết thúc vào",
+    "never": "Không bao giờ",
+    "permanent": "Vĩnh viễn",
+    "duration": "Thời gian",
+    "ban": "Chặn",
+    "unban": "Gỡ chặn",
+    "ban_ip": "Ban IP",
+    "not_specified": "Không cụ thể",
+    "dialogs": {
+      "user_unban": {
+        "title": "Bỏ chặn",
+        "body": "Xác nhận gỡ chặn {username} khỏi phòng?"
+      },
+      "user_banned": {
+        "body": "Bạn đã bị chặn khỏi {room}"
+      },
+      "user_kicked": {
+        "body": "Bạn đã bị đuổi khỏi {room}"
+      }
+    },
+    "notifications": {
+      "user_unbanned": {
+        "title": "Bỏ chặn",
+        "body": "Đã bỏ chặn {username} thành công"
+      }
+    }
+  },
+  "table": {
+    "actions": "Hành động"
+  }
+}

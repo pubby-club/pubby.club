@@ -1,0 +1,637 @@
+{
+  "locale": {
+    "code": "pt-BR",
+    "ui_code": "pt-BR",
+    "validation_code": "pt_BR",
+    "dayjs_code": "pt-br",
+    "name": "Português",
+    "translated_by": "Traduzido por {users}",
+    "reviewed_by": "Revisado por {users}"
+  },
+  "$contributors": {
+    "authors": [
+      {
+        "name": "adrian"
+      },
+      {
+        "name": "salomaosnff"
+      }
+    ],
+    "reviewers": []
+  },
+  "$meta": {
+    "description": "Descubra novas músicas, videos ou filmes visitando salas de outras pessoas, crie a sua própria sala e convide amigos para ouvir uma boa música.",
+    "keywords": "descubra, salas, amigos, bar, video, videos, filme, filmes, streaming, streaming de música, social, musicas, musica, video, alternativa ao youtube, alternativa ao spotify, plugdj, plug.dj, beatsense, turntable.fm, turntablefm, letras",
+    "facebook": {
+      "title": "Pubby.club",
+      "description": "Descubra novas músicas visitando salas de outras pessoas, crie a sua própria sala e convide amigos para ouvir uma boa música."
+    }
+  },
+  "$list": {
+    "and": {
+      "join": ", ",
+      "conjunction": " e "
+    },
+    "or": {
+      "join": ", ",
+      "conjunction": " ou "
+    }
+  },
+  "name": {
+    "short": "Pubby",
+    "long": "Pubby.club"
+  },
+  "$validation": {
+    "slug": "O campo {_field_} deve conter apenas letras, números, _ ou -",
+    "url": "O campo {_field_} deve ser uma URL válida"
+  },
+  "errors": {
+    "username_already_exists": "O nome de usuário escolhido já existe.",
+    "internal": "Algo deu errado, por favor tente novamente mais tarde.",
+    "invalid_login": "Nome de usuário ou senha inválidos.",
+    "invalid_recovery": "Nenhuma conta encontrada",
+    "banned": "Você está banido do Pubby.club"
+  },
+  "home": {
+    "welcome_to": "Seja muito bem-vindo à",
+    "alpha_step": "FASE ALPHA",
+    "congratulations": "Parabéns {0}!",
+    "discoverer": "DESCOBRIDOR",
+    "you_found_us": "Você nos encontrou no início de nossa jornada, se cadastre e receba o emblema exclusivo.",
+    "after_a_week": "Após uma semana ativo no site, receba o emblema {0}."
+  },
+  "comming_soon": "Em breve...",
+  "buttons": {
+    "submit": "Enviar",
+    "accept": "Aceitar",
+    "deny": "Recusar",
+    "save": "Salvar",
+    "signin": "Login",
+    "signup": "Cadastre-se",
+    "more": "Ver mais",
+    "next": "Próximo",
+    "prev": "Anterior",
+    "delete": "Excluir",
+    "cancel": "Cancelar",
+    "rename": "Renomear",
+    "send": "Enviar",
+    "back": "Voltar",
+    "create": "Criar",
+    "yes": "Sim",
+    "no": "Não",
+    "close": "Fechar",
+    "skip": "Pular",
+    "sync": "Sincronizar",
+    "add": "Adicionar",
+    "add_to_playlist": "Adicionar à playlist",
+    "move_start": "Mover para o início",
+    "move_end": "Mover para o fim",
+    "like": "Gostei",
+    "dislike": "Não gostei",
+    "enter_fullscreen": "Abrir em tela cheia",
+    "exit_fullscreen": "Sair da tela cheia",
+    "ban": "Banir",
+    "unban": "Desbanir",
+    "kick": "Expulsar",
+    "player_size": "Tamanho do video",
+    "cut": "Cortar",
+    "edit": "Editar"
+  },
+  "fields": {
+    "name": "Nome",
+    "username": "Nome de usuário",
+    "email": "E-mail",
+    "password": "Senha",
+    "birthday": "Data de Nascimento",
+    "password_confirm": "Confirme a senha",
+    "avatar": "Foto de perfil (URL)",
+    "image_url": "URL da imagem",
+    "room_name": "Nome da sala",
+    "room_slug": "Link da sala",
+    "description": "Descrição",
+    "thumbnail": "Thumbnail",
+    "welcome": "Mensagem de boas-vindas",
+    "search": "Pesquisar...",
+    "title": "Título",
+    "visibility": "Acesso",
+    "parental_rating": "Classificação Indicativa",
+    "country": "País",
+    "start": "Início",
+    "end": "Fim"
+  },
+  "signin": {
+    "title": "Entrar",
+    "tip": "Após uma semana ativo, você receberá o emblema {0}.",
+    "description": "Faça login e convide amigos para começar a festa!",
+    "recovery": "Esqueci minha senha"
+  },
+  "signup": {
+    "title": "AINDA NÃO SE CADASTROU?",
+    "tip": "Se cadastrando agora, você ganhará o emblema {0}, exclusivo para quem se cadastrou na fase alpha.",
+    "description": "Cadastre-se para descobrir novas músicas e gêneros participando das diversas salas.",
+    "signin": "Já tenho uma conta"
+  },
+  "media-cut": {
+    "title": "Cortar mídia",
+    "notifications": {
+      "save": {
+        "title": "Mídia atualizada",
+        "body": "\"{title}\" atualizado com sucesso."
+      }
+    }
+  },
+  "recovery": {
+    "title": "Recupere sua conta",
+    "description": "Esqueceu a senha? Não se preocupe, utilize seu endereço de e-mail e nome de usuário para recuperar a sua conta.",
+    "dialogs": {
+      "success": {
+        "title": "E-mail enviado",
+        "body": "Enviamos um link de recuperação para seu e-mail, a validade do link é de 2 horas."
+      }
+    }
+  },
+  "change_password": {
+    "title": "Alterar senha",
+    "confirmation": "Senha alterada com sucesso!\nUtilize a nova senha para fazer login."
+  },
+  "splash": {
+    "title": "Aguarde",
+    "room": "Estamos carregando a sala..."
+  },
+  "browser": {
+    "title": "Navegador",
+    "all_rooms": "Todas as salas",
+    "your_rooms": "Suas salas",
+    "search_results": "Resultados da Busca"
+  },
+  "room": {
+    "users": "Usuários",
+    "created_by": "criado por {username}",
+    "played_by": "por {username}",
+    "playing_now": "Você está ouvindo:",
+    "next_play": "Você irá reproduzir:",
+    "skip": "PULAR",
+    "queue_join": "ENTRAR NA FILA",
+    "queue_leave": "SAIR DA FILA",
+    "queue_lock": "Trancar fila",
+    "queue_locked": "FILA TRANCADA",
+    "play_now": "TOCAR AGORA",
+    "stop": "PARAR DE TOCAR",
+    "queue_count": "Não há ninguém na fila | Há 1 pessoa na fila | Há {count} pessoas na fila",
+    "queue_position": "Você é o próximo | Há 1 pessoa na sua frente | Há {count} pessoas na sua frente",
+    "no_playlists": "Crie uma playlist para reproduzir:",
+    "no_active_playlist": "Nenhuma playlist ativa",
+    "no_media": "Nenhuma mídia disponível",
+    "is_playing": "{username} está reproduzindo",
+    "user_count": "Ninguém | 1 usuário | {count} usuários",
+    "room_protected": "A sala está protegida!",
+    "type_password": "Digite a senha...",
+    "visibility": {
+      "public": "Público",
+      "private": "Apenas por link",
+      "password": "Protegido por senha"
+    },
+    "parental_rating": {
+      "free": "Livre"
+    },
+    "dialogs": {
+      "new": {
+        "title": "Nova sala"
+      },
+      "stop_playing": {
+        "title": "Parar de tocar",
+        "body": "Tem certeza que deseja parar de tocar?"
+      },
+      "leave_queue": {
+        "title": "Sair da fila",
+        "body": "Tem certeza que deseja sair da fila?"
+      },
+      "unauthorized": {
+        "title": "Não autorizado",
+        "body": "Seu cargo atual nesta sala não permite realizar esta ação."
+      },
+      "multiple_sessions": {
+        "title": "Desconectado",
+        "body": "Você se conectou em outra janela. Atualize a página para continuar utilizando aqui."
+      },
+      "disconnected": {
+        "title": "Desconectado",
+        "body": "A conexão com o servidor caiu, atualize a página para tentar novamente."
+      },
+      "queue_lock": {
+        "title": "Trancar fila | Liberar fila",
+        "body": "Tem certeza que deseja trancar a fila? | Tem certeza que deseja liberar a fila?"
+      },
+      "no_room": {
+        "title": "Não é possível seguir",
+        "body": "Seu amigo não está em nenhuma sala."
+      },
+      "room_private": {
+        "title": "Não é possível seguir",
+        "body": "Seu amigo está em uma sala privada."
+      },
+      "invalid_password": {
+        "title": "Não foi possível entrar na sala",
+        "body": "A senha informada está inválida."
+      },
+      "missing_birthday": {
+        "title": "Cadastro incompleto",
+        "body": "Seu cadastro não possui uma data de nascimento. Usamos esta informação para filtrar salas com base na sua idade e não compartilhamos este dado com ninguém. Para evitar problemas, informe a sua idade verdadeira, pois uma vez definida, não será possível altera-la."
+      }
+    },
+    "notifications": {
+      "playing": "{username} está reproduzindo \"{media}\""
+    }
+  },
+  "queue": {
+    "title": "Fila de reprodução",
+    "user_locked": "A fila foi trancada.",
+    "user_unlocked": "A fila foi destrancada.",
+    "dialogs": {
+      "clear": {
+        "title": "Limpar fila",
+        "body": "Você tem certeza de que deseja remover todos os usuários da fila?"
+      }
+    },
+    "events": {
+      "clear": "@{username} limpou a fila."
+    }
+  },
+  "friends": {
+    "title": "Amigos"
+  },
+  "room_options": {
+    "title": "Opções da sala",
+    "details": {
+      "title": "Detalhes da sala",
+      "welcome_hint": "{user} será substituido pelo nome do usuário"
+    }
+  },
+  "player": {
+    "next_play": "{username} irá reproduzir",
+    "live": "LIVE",
+    "skip": "Pular mídia atual",
+    "skip_remove": "Pular e Remover",
+    "cant_skip": "Você não possui permissão para pular a mídia atual",
+    "hide_video": "Esconder vídeo",
+    "show_video": "Mostrar vídeo",
+    "started_in": "Iniciado em {date}",
+    "no_dj": {
+      "title": "Não há ninguém tocando",
+      "body": "Clique em {play_now} para começar a reproduzir!"
+    },
+    "dialogs": {
+      "skip": {
+        "title": "Pular",
+        "body": "Tem certeza de que deseja pular a mídia atual?"
+      },
+      "skip_remove": {
+        "title": "Pular e Remover",
+        "body": "Tem certeza de que deseja pular a mídia atual e remover o DJ da fila?"
+      }
+    }
+  },
+  "import": {
+    "title": "Importar playlists"
+  },
+  "history": {
+    "title": "Histórico de mídias"
+  },
+  "playlists": {
+    "title": "Playlists",
+    "import": "Importar",
+    "shuffle": "Misturar",
+    "exportAll": "Exportar todas as playlists",
+    "count": "Nenhum item | 1 item | {count} itens",
+    "new": "Nova playlist",
+    "add": "Adicionar mídias",
+    "activate": "ATIVAR",
+    "active": "ATIVA",
+    "media_title": "Título",
+    "media_duration": "Duração",
+    "media_source": "Fonte",
+    "media_actions": "Ações",
+    "no_media": "Nenhuma mídia na playlist",
+    "add_to_play": "Adicione mídias à sua playlist para reproduzir",
+    "no_playlists": "Você não possui playlists",
+    "create_new": "Crie uma nova playlist e acesse a biblioteca para adicionar mídias",
+    "select": "Selecione uma playlist",
+    "none_selected": "Não há nenhuma playlist selecionada",
+    "dialogs": {
+      "delete_media": {
+        "title": "Excluir mídia",
+        "body": "Tem certeza que deseja excluir {media} da sua playlist?"
+      },
+      "delete_playlist": {
+        "title": "Excluir playlist",
+        "body": "Tem certeza que deseja excluir a playlist {playlist}?"
+      }
+    },
+    "notifications": {
+      "added": {
+        "title": "Adicionado à playlist",
+        "body": "{title} foi adicionado à sua playlist."
+      }
+    }
+  },
+  "add_media": {
+    "title": "Adicionar mídias",
+    "add": "Adicionar",
+    "import": "Importar",
+    "search": "Pesquisar",
+    "search_title": "Procure pelo título da mídia...",
+    "previous": "Anterior",
+    "next": "Próximo",
+    "see_more": "Ver mais",
+    "added": "Adicionada à sua playlist",
+    "pubby": {
+      "title": "Adicionar do Pubby",
+      "not_found": "Nada encontrado",
+      "try_others": "Tente adicionar através de outra fonte"
+    },
+    "youtube": {
+      "title": "Adicionar do Youtube",
+      "link": "LINK DO VÍDEO OU PLAYLIST",
+      "placeholder": "Insira aqui o link para o vídeo ou playlist do youtube.",
+      "video_duration": "Duração: {duration}",
+      "video_count": "Nenhum vídeo | 1 vídeo | {count} vídeos",
+      "video_channel": "Canal",
+      "new_playlist": "Criar playlist",
+      "imported": "Playlist importada"
+    },
+    "soundcloud": {
+      "title": "Adicionar do SoundCloud"
+    }
+  },
+  "roles": {
+    "title": "Cargos e Permissões",
+    "description": "Adicione cargos personalizados para esta sala",
+    "new": "Novo cargo",
+    "color": "Cor no chat:",
+    "users": "Usuários",
+    "permissions": "Permissões",
+    "add_user": "Adicionar usuários",
+    "remove_user": "Excluir",
+    "no_role": "Esta sala não possui cargos",
+    "no_user": "Nenhum usuário neste cargo",
+    "select": "Selecione um cargo",
+    "no_selection": "Não há nenhum cargo selecionado",
+    "dialogs": {
+      "delete": {
+        "title": "Excluir cargo",
+        "body": "Tem certeza que deseja excluir o cargo {role} da sala atual?"
+      },
+      "remove_user": {
+        "title": "Remover usuários",
+        "body": "Tem certeza que deseja remover os usuários selecionados do cargo {role}?"
+      }
+    },
+    "scopes": {
+      "ALL": {
+        "title": "Todas as permissões",
+        "description": "Adiciona todas as permissões ao usuário"
+      },
+      "PLAYBACK_SKIP": {
+        "title": "Pular mídia",
+        "description": "Pular a mídia atual"
+      },
+      "CHAT_DELETE": {
+        "title": "Excluir mensagens do chat",
+        "description": "Excluir mensagens do chat"
+      },
+      "ROOM_DETAILS": {
+        "title": "Alterar detalhes da sala",
+        "description": "Permite alterar nome, descrição, link e mensagem de boas-vindas."
+      },
+      "QUEUE_ADD_REMOVE": {
+        "title": "Adicionar/Remover usuários da fila",
+        "description": "Adicionar/Remover usuários da fila"
+      },
+      "QUEUE_MOVE": {
+        "title": "Controlar lista de espera",
+        "description": "Permite mover os usuários de uma posição para outra"
+      },
+      "QUEUE_JOIN_LOCKED": {
+        "title": "Entrar na fila trancada",
+        "description": "Permite entrar na fila de reprodução mesmo que ela esteja trancada"
+      },
+      "USER_BAN": {
+        "title": "Banir usuários",
+        "description": "Permite banir usuários da sala"
+      },
+      "USER_UNBAN": {
+        "title": "Desbanir usuários",
+        "description": "Permite desbanir usuários da sala"
+      },
+      "USER_KICK": {
+        "title": "Expulsar usuários",
+        "description": "Permite expulsar usuários da sala"
+      },
+      "MANAGE_ROLES": {
+        "title": "Gerenciar cargos",
+        "description": "Permite gerênciar os cargos e permissões da sala"
+      }
+    }
+  },
+  "global_roles": {
+    "title": "Cargos globais",
+    "roles": {
+      "root": "Raiz",
+      "developer": "Desenvolvedor",
+      "discoverer": "Descobridor",
+      "moderator": "Moderador",
+      "translator": "Tradutor",
+      "promoter": "Promotor",
+      "event_promoter": "Promotor de Eventos",
+      "alpha": "Alpha",
+      "beta": "Beta",
+      "contributor": "Contribuinte",
+      "supporter": "Apoiador",
+      "premium_supporter": "Apoiador Premium",
+      "lifetime_premium_supporter": "Apoiador Premium Vitalício",
+      "investor_supporter": "Apoiador Investidor",
+      "founder_supporter": "Founder Supporter"
+    },
+    "scopes": {
+      "BAN_USER": {
+        "title": "Banir usuário",
+        "description": "Banir um usuário do site por tempo indeterminado."
+      },
+      "MUTE_USER": {
+        "title": "Silenciar usuário",
+        "description": "Silencia um usuário do site por tempo indeterminado."
+      },
+      "BLOCK_DJ": {
+        "title": "Bloquear DJ",
+        "description": "Impede um usuário de reproduzir em todas as salas."
+      },
+      "CLOSE_ROOM": {
+        "title": "Fechar sala",
+        "description": "Fecha uma sala do site por tempo indeterminado."
+      }
+    }
+  },
+  "profile_popup": {
+    "user_since": "Usuário desde {date}",
+    "score": "{points} pontos",
+    "friend_is": "Vocês já são amigos",
+    "friend_add": "Adicionar amigo",
+    "friend_pending": "Solicitação de amizade enviada",
+    "friend_accept": "Aceitar pedido de amizade",
+    "user_kick": "Expulsar usuário da sala",
+    "user_ban": "Banir usuário da sala",
+    "user_site_ban": "Banir usuário do Pubby.club",
+    "dialogs": {
+      "user_ban": {
+        "title": "Banir usuário",
+        "body": "Tem certeza de que deseja banir o usuário {username} da sala?"
+      },
+      "user_kick": {
+        "title": "Expulsar usuário",
+        "body": "Tem certeza de que deseja expulsar o usuário {username} da sala?"
+      },
+      "user_site_ban": {
+        "title": "Banir usuário do Pubby.club",
+        "body": "Tem certeza de que deseja banir o usuário {username} do PUBBY.CLUB?"
+      }
+    },
+    "notifications": {
+      "user_banned": {
+        "title": "Usuário banido",
+        "body": {
+          "expires": "Usuário {username} banido da sala por {duration}",
+          "permanent": "Usuário {username} banido permanentemente da sala"
+        }
+      },
+      "user_kicked": {
+        "title": "Usuário expulso",
+        "body": "Você expulsou o usuário {username} da sala"
+      },
+      "user_site_banned": {
+        "title": {
+          "account": "Usuário banido do Pubby.club",
+          "ip": "Usuário banido por IP do Pubby.club"
+        },
+        "body": {
+          "expires": "Usuário {username} banido do Pubby.club por {duration}",
+          "permanent": "Usuário {username} banido permanentemente do Pubby.club"
+        }
+      }
+    }
+  },
+  "user_popup": {
+    "settings": "Configurações",
+    "new_room": "Nova sala",
+    "friendship_requests": "Pedidos de amizade | Pedidos de amizade ({count}) | Pedidos de amizade ({count})",
+    "logout": "Sair"
+  },
+  "friendship": {
+    "notifications": {
+      "accepted": {
+        "title": "Pedido de amizade aceito",
+        "body": "{username} aceitou sua solicitação de amizade"
+      },
+      "requested": {
+        "title": "Pedido de amizade",
+        "body": "{username} enviou uma solicitação de amizade"
+      }
+    }
+  },
+  "friendship_request": {
+    "title": "Solicitações de amizade",
+    "no_requests": "Não há solicitações",
+    "no_requests_description": "Você respondeu à todas as solicitações de amizade."
+  },
+  "settings": {
+    "title": "Configurações",
+    "profile": {
+      "title": "Perfil"
+    },
+    "general": {
+      "title": "Geral"
+    },
+    "interface": {
+      "title": "Interface",
+      "enable_transparency": "Habilitar transparência",
+      "enable_blur": "Habilitar desfoque"
+    },
+    "notifications": {
+      "title": "Notificações",
+      "mentions_sound": "Som de menção",
+      "desktop_notifications": "Notificações na área de trabalho",
+      "chat": "Mensagens do chat",
+      "media": "Quando a mídia é atualizada",
+      "mention": "Menções"
+    }
+  },
+  "chat": {
+    "title": "Mensagens",
+    "clear": "Limpar",
+    "placeholder": "Escreva aqui...",
+    "user_said": "{user} disse: {text}",
+    "messages": {
+      "reply": "Responder",
+      "delete": "Excluir"
+    },
+    "events": {
+      "user_joined": "{username} entrou na sala.",
+      "user_leave": "{username} saiu da sala.",
+      "playback_skip": "{username} pulou a mídia.",
+      "playback_unavailable": "@{username} mídia não disponível",
+      "queue_add": "{user} adicionou {addedUser} na fila.",
+      "queue_remove": "@{mod} removeu @{user} da fila.",
+      "queue_move": "@{mod} moveu @{user} da posição {from} para a posição {to}.",
+      "role_add": "@{mod} adicionou {users} ao cargo **{role}**.",
+      "role_remove": "@{mod} removeu {users} do cargo **{role}**.",
+      "user_ban": "{username} foi banido da sala.",
+      "user_kick": "{username} foi expulso da sala.",
+      "user_site_ban": "{username} foi banido do Pubby.club"
+    },
+    "dialogs": {
+      "remove": {
+        "title": "Excluir mensagem",
+        "body": "Você tem certeza de que deseja excluir esta mensagem?"
+      },
+      "clear": {
+        "title": "Limpar mensagens",
+        "body": "Você tem certeza de que deseja excluir todas as mensagens do chat?"
+      }
+    }
+  },
+  "bans": {
+    "title": "Usuários banidos",
+    "user": "Usuário",
+    "reason": "Motivo",
+    "mod": "Banido por",
+    "date": "Banido em",
+    "expires": "Termina em",
+    "never": "Nunca",
+    "permanent": "Permanente",
+    "duration": "Duração",
+    "ban": "Banir",
+    "unban": "Desbanir",
+    "ban_ip": "Banir IP",
+    "not_specified": "Não especificado",
+    "dialogs": {
+      "user_unban": {
+        "title": "Desbanir usuário",
+        "body": "Tem certeza de que deseja desbanir o usuário {username} da sala?"
+      },
+      "user_banned": {
+        "body": "Você foi banido da sala {room}"
+      },
+      "user_kicked": {
+        "body": "Você foi expulso da sala {room}"
+      }
+    },
+    "notifications": {
+      "user_unbanned": {
+        "title": "Usuário desbanido",
+        "body": "Usuário {username} desbanido com sucesso"
+      }
+    }
+  },
+  "table": {
+    "actions": "Ações"
+  }
+}

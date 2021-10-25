@@ -1,0 +1,626 @@
+{
+  "locale": {
+    "code": "en-US",
+    "ui_code": "en-US",
+    "validation_code": "en",
+    "dayjs_code": "en",
+    "name": "English",
+    "translated_by": "Translated by {users}",
+    "reviewed_by": "Reviewed by {users}"
+  },
+  "$contributors": {
+    "authors": [{ "name": "adrian" }],
+    "reviewers": [{ "name": "salomaosnff" }, { "name": "Pyrael" }]
+  },
+  "$list": {
+    "and": {
+      "join": ", ",
+      "conjunction": " and "
+    },
+    "or": {
+      "join": ", ",
+      "conjunction": " or "
+    }
+  },
+  "name": {
+    "short": "Pubby",
+    "long": "Pubby.club"
+  },
+  "$validation": {
+    "slug": "The field {_field_} must contain only letters, numbers, _ or -",
+    "url": "The field {_field_} must be a valid URL"
+  },
+  "errors": {
+    "username_already_exists": "The chosen username already exists.",
+    "internal": "Something went wrong, please try again later.",
+    "invalid_login": "Invalid username or password.",
+    "invalid_recovery": "No accounts found",
+    "banned": "You are banned from Pubby.club"
+  },
+  "comming_soon": "Coming soon...",
+  "home": {
+    "welcome_to": "Welcome to",
+    "alpha_step": "ALPHA STEP",
+    "congratulations": "Congratulations {0}!",
+    "discoverer": "DISCOVERER",
+    "you_found_us": "You met us at the beginning of our journey, register and receive the exclusive badge.",
+    "after_a_week": "After an active week on the site, receive the {0} badge."
+  },
+  "buttons": {
+    "submit": "Submit",
+    "accept": "Accept",
+    "deny": "Deny",
+    "save": "Save",
+    "signin": "Sign In",
+    "signup": "Sign Up",
+    "more": "Load more",
+    "next": "Next",
+    "prev": "Previous",
+    "delete": "Delete",
+    "cancel": "Cancel",
+    "rename": "Rename",
+    "send": "Send",
+    "back": "Back",
+    "create": "Create",
+    "yes": "Yes",
+    "no": "No",
+    "close": "Close",
+    "skip": "Skip",
+    "sync": "Sync",
+    "add": "Add",
+    "add_to_playlist": "Add to playlist",
+    "move_start": "Move to the start",
+    "move_end": "Move to the end",
+    "like": "Like",
+    "dislike": "Dislike",
+    "enter_fullscreen": "Open fullscreen",
+    "exit_fullscreen": "Exit fullscreen",
+    "ban": "Ban",
+    "unban": "Unban",
+    "kick": "Kick",
+    "player_size": "Player Size",
+    "cut": "Cut",
+    "edit": "Edit"
+  },
+  "fields": {
+    "name": "Name",
+    "username": "Username",
+    "email": "E-mail",
+    "password": "Password",
+    "birthday": "Birthday",
+    "password_confirm": "Confirm password",
+    "avatar": "Profile picture (URL)",
+    "image_url": "Image URL",
+    "room_name": "Room name",
+    "room_slug": "Room link",
+    "description": "Description",
+    "thumbnail": "Thumbnail",
+    "welcome": "Welcome message",
+    "search": "Search...",
+    "title": "Title",
+    "visibility": "Access",
+    "parental_rating": "Parental Rating",
+    "country": "Country",
+    "start": "Start",
+    "end": "End"
+  },
+  "signin": {
+    "title": "Sign in",
+    "tip": "Stay active for one week and earn the {0} badge.",
+    "description": "Log in and invite friends to start the party!",
+    "recovery": "Forgot password"
+  },
+  "signup": {
+    "title": "HAVE NOT YET REGISTERED?",
+    "tip": "If you register now, you will earn the {0} badge, exclusive for those who registered in the alpha phase.",
+    "description": "Sign up to discover new songs and music genres by participating in the different rooms.",
+    "signin": "I ALREADY HAVE AN ACCOUNT"
+  },
+  "media-cut": {
+    "title": "Cut media",
+    "notifications": {
+      "save": {
+        "title": "Media updated",
+        "body": "\"{title}\" updated successfully."
+      }
+    }
+  },
+  "recovery": {
+    "title": "Account recovery",
+    "description": "Forgot your password? Don't worry, use your email address and username to recover your account.",
+    "dialogs": {
+      "success": {
+        "title": "E-mail sent",
+        "body": "We send a recovery link to your email, link validity is 2 hours."
+      }
+    }
+  },
+  "change_password": {
+    "title": "Change password",
+    "confirmation": "Password changed successfully!\nUse your new password to login."
+  },
+  "splash": {
+    "title": "Please wait",
+    "room": "Loading room..."
+  },
+  "browser": {
+    "title": "Browser",
+    "all_rooms": "All Rooms",
+    "your_rooms": "Your rooms",
+    "search_results": "Search Results"
+  },
+  "room": {
+    "users": "Users",
+    "created_by": "created by {username}",
+    "played_by": "by {username}",
+    "playing_now": "You're listening to:",
+    "next_play": "You're gonna play:",
+    "skip": "SKIP",
+    "queue_join": "JOIN QUEUE",
+    "queue_leave": "LEAVE QUEUE",
+    "queue_lock": "LOCK QUEUE",
+    "queue_locked": "QUEUE LOCKED",
+    "play_now": "PLAY NOW",
+    "stop": "STOP PLAYING",
+    "queue_count": "There is no one in the queue | There's 1 people ahead | There's {count} people ahead",
+    "queue_position": "You're next | There is 1 person in front of you | There are {count} people in front of you",
+    "no_playlists": "Create a playlist to play:",
+    "no_active_playlist": "No active playlist",
+    "no_media": "No media available",
+    "is_playing": "{username} is playing",
+    "user_count": "Nobody | 1 user | {count} users",
+    "room_protected": "The room is protected!",
+    "type_password": "Enter the password...",
+    "visibility": {
+      "public": "Public",
+      "private": "Link only",
+      "password": "Password protected"
+    },
+    "parental_rating": {
+      "free": "Not age restricted"
+    },
+    "dialogs": {
+      "new": {
+        "title": "New room"
+      },
+      "stop_playing": {
+        "title": "Stop playing",
+        "body": "Are you sure you want to stop playing?"
+      },
+      "leave_queue": {
+        "title": "Leave queue",
+        "body": "Are you sure you want to leave the queue?"
+      },
+      "unauthorized": {
+        "title": "Not authorized",
+        "body": "Your current role in this room does not allow you to perform this action."
+      },
+      "multiple_sessions": {
+        "title": "Disconnected",
+        "body": "You have signed in from another window. Refresh the page to continue using here."
+      },
+      "disconnected": {
+        "title": "Disconnected",
+        "body": "Could not connect to the server, please refresh the page to try again."
+      },
+      "queue_lock": {
+        "title": "Lock queue | Unlock queue",
+        "body": "Are you sure you want to lock the queue? | Are you sure you want to unlock the queue?"
+      },
+      "no_room": {
+        "title": "Unable to join any room",
+        "body": "Your friend is not in any room."
+      },
+      "room_private": {
+        "title": "Unable to join the room",
+        "body": "Your friend is in a private room."
+      },
+      "invalid_password": {
+        "title": "Unable to join the room",
+        "body": "The password entered is invalid."
+      },
+      "missing_birthday": {
+        "title": "Incomplete registration",
+        "body": "Your registration does not have a birth date. We use this information to filter rooms based on their age and do not share this data with anyone. To avoid problems, inform your real age as once defined, it will not be possible to change it."
+      }
+    },
+    "notifications": {
+      "playing": "{username} is playing \"{media}\""
+    }
+  },
+  "room_options": {
+    "title": "Room settings",
+    "details": {
+      "title": "Details",
+      "welcome_hint": "{user} will be replaced with the user name"
+    }
+  },
+  "queue": {
+    "title": "Play Queue",
+    "user_locked": "Queue is locked.",
+    "user_unlocked": "Queue is unlocked.",
+    "dialogs": {
+      "clear": {
+        "title": "Clear Queue",
+        "body": "Are you sure you want to remove all users from the queue?"
+      }
+    },
+    "events": {
+      "clear": "@{username} cleared the queue."
+    }
+  },
+  "friends": {
+    "title": "Friends"
+  },
+  "player": {
+    "next_play": "{username} will play",
+    "live": "LIVE",
+    "skip": "Skip current media",
+    "skip_remove": "Skip and Remove",
+    "cant_skip": "You are not allowed to skip the current media",
+    "hide_video": "Hide video",
+    "show_video": "Show video",
+    "started_in": "Started in {date}",
+    "no_dj": {
+      "title": "There's no one playing",
+      "body": "Click {play_now} to start playing!"
+    },
+    "dialogs": {
+      "skip": {
+        "title": "Skip",
+        "body": "Are you sure you want to skip the current media?"
+      },
+      "skip_remove": {
+        "title": "Skip and Remove",
+        "body": "Are you sure you want to skip the current media and remove the DJ from the queue?"
+      }
+    }
+  },
+  "import": {
+    "title": "Import playlists"
+  },
+  "history": {
+    "title": "Media History"
+  },
+  "playlists": {
+    "title": "Playlists",
+    "import": "Import",
+    "shuffle": "Shuffle",
+    "exportAll": "Export all playlists",
+    "count": "No items | 1 item | {count} items",
+    "new": "New playlist",
+    "add": "Add medias",
+    "activate": "ACTIVATE",
+    "active": "ACTIVE",
+    "media_title": "Title",
+    "media_duration": "Duration",
+    "media_source": "Source",
+    "media_actions": "Actions",
+    "no_media": "No media in the playlist",
+    "add_to_play": "Add media to play",
+    "no_playlists": "You have no playlists",
+    "create_new": "Create a new playlist and access the library to add media",
+    "select": "Select a playlist",
+    "none_selected": "No playlist selected",
+    "selection_popup": {
+      "title": "Select a playlist:"
+    },
+    "dialogs": {
+      "delete_media": {
+        "title": "Delete media",
+        "body": "Are you sure you want to delete {media} from your playlist?"
+      },
+      "delete_playlist": {
+        "title": "Delete playlist",
+        "body": "Are you sure you want to delete the playlist {playlist}?"
+      }
+    },
+    "notifications": {
+      "added": {
+        "title": "Added to playlist",
+        "body": "{title} has been added to your playlist."
+      }
+    }
+  },
+  "add_media": {
+    "title": "Add medias",
+    "add": "Add",
+    "import": "Import",
+    "search": "Search",
+    "search_title": "Search by media title...",
+    "previous": "Previous",
+    "next": "Next",
+    "see_more": "See more",
+    "added": "Added to your playlist",
+    "pubby": {
+      "title": "Add from Pubby",
+      "not_found": "Nothing found",
+      "try_others": "Try adding through another source"
+    },
+    "youtube": {
+      "title": "Add from Youtube",
+      "link": "LINK OF THE VIDEO OR PLAYLIST",
+      "placeholder": "Insert here the link for the video or playlist from youtube.",
+      "video_duration": "Duration: {duration}",
+      "video_count": "No video | 1 video | {count} videos",
+      "video_channel": "Channel",
+      "new_playlist": "Create playlist",
+      "imported": "Playlist has been imported"
+    },
+    "soundcloud": {
+      "title": "Add from SoundCloud"
+    }
+  },
+  "roles": {
+    "title": "Roles and Permissions",
+    "description": "Add custom roles for this room",
+    "new": "New role",
+    "color": "Chat color:",
+    "users": "Users",
+    "permissions": "Permissions",
+    "add_user": "Add users",
+    "remove_user": "Remove user",
+    "all_permissions": "All permissions",
+    "no_role": "This room has no roles",
+    "no_user": "No users in this role",
+    "select": "Select a role",
+    "no_selection": "No selected role",
+    "dialogs": {
+      "delete": {
+        "title": "Remove role",
+        "body": "Are you sure you want to remove the role {role} from the current room?"
+      },
+      "remove_user": {
+        "title": "Remove users",
+        "body": "Are you sure you want to remove the selected users from the role {role}?"
+      }
+    },
+    "scopes": {
+      "ALL": {
+        "title": "All permissions",
+        "description": "Adds all permissions to the user"
+      },
+      "PLAYBACK_SKIP": {
+        "title": "Skip media",
+        "description": "Skip current media"
+      },
+      "CHAT_DELETE": {
+        "title": "Delete chat messages",
+        "description": "Delete the chat messages"
+      },
+      "ROOM_DETAILS": {
+        "title": "Change room details",
+        "description": "Allows you to change the name, description, link and welcome message."
+      },
+      "QUEUE_ADD_REMOVE": {
+        "title": "Add/Remove users from queue",
+        "description": "Allows you to add/remove users from the queue "
+      },
+      "QUEUE_MOVE": {
+        "title": "Control queue",
+        "description": "Allows to move users' positions in queue"
+      },
+      "QUEUE_JOIN_LOCKED": {
+        "title": "Enter a locked queue",
+        "description": "Allows you to enter the queue even if it is locked"
+      },
+      "USER_BAN": {
+        "title": "Ban users",
+        "description": "Allows you to ban user from the room"
+      },
+      "USER_UNBAN": {
+        "title": "Unban users",
+        "description": "Allows you to unban user from the room"
+      },
+      "USER_KICK": {
+        "title": "Kick users",
+        "description": "Allows you to kick users from the room"
+      },
+      "MANAGE_ROLES": {
+        "title": "Manage roles",
+        "description": "Allows you to manage the roles and permissions of the room"
+      }
+    }
+  },
+  "global_roles": {
+    "title": "Global roles",
+    "roles": {
+      "root": "Root",
+      "developer": "Developer",
+      "discoverer": "Discoverer",
+      "moderator": "Moderator",
+      "translator": "Translator",
+      "promoter": "Promoter",
+      "event_promoter": "Event Promoter",
+      "alpha": "Alpha",
+      "beta": "Beta",
+      "contributor": "Contributor",
+      "supporter": "Supporter",
+      "premium_supporter": "Premium Supporter",
+      "lifetime_premium_supporter": "Lifetime Premium Supporter",
+      "investor_supporter": "Investor Supporter",
+      "founder_supporter": "Founder Supporter"
+    },
+    "scopes": {
+      "BAN_USER": {
+        "title": "Ban user",
+        "description": "Ban a user from the site indefinitely."
+      },
+      "MUTE_USER": {
+        "title": "Mute user",
+        "description": "Prevent a user from chatting indefinitely."
+      },
+      "BLOCK_DJ": {
+        "title": "Block DJ",
+        "description": "Prevents a user from playing in all rooms."
+      },
+      "CLOSE_ROOM": {
+        "title": "Close room",
+        "description": "Closes a room on the site indefinitely."
+      }
+    }
+  },
+  "profile_popup": {
+    "user_since": "Joined since {date}",
+    "score": "{points} points",
+    "friend_is": "You are already friends",
+    "friend_add": "Add friend",
+    "friend_pending": "Friend request sent",
+    "friend_accept": "Accept friend request",
+    "user_kick": "Kick user from the room",
+    "user_ban": "Ban user from the room",
+    "user_site_ban": "Ban user from Pubby.club",
+    "dialogs": {
+      "user_ban": {
+        "title": "Ban user",
+        "body": "Are you sure you want to ban user {username} from the room?"
+      },
+      "user_kick": {
+        "title": "Kick user",
+        "body": "Are you sure you want to kick user {username} from the room?"
+      },
+      "user_site_ban": {
+        "title": "Ban user from Pubby.club",
+        "body": "Are you sure you want to ban user {username} from PUBBY.CLUB?"
+      }
+    },
+    "notifications": {
+      "user_banned": {
+        "title": "User banned",
+        "body": {
+          "expires": "User {username} banned from the room for {duration}",
+          "permanent": "User {username} banned permanently from the room"
+        }
+      },
+      "user_kicked": {
+        "title": "User kicked",
+        "body": "You have kicked user {username} from the room"
+      },
+      "user_site_banned": {
+        "title": {
+          "account": "User banned from Pubby.club",
+          "ip": "User banned by IP from Pubby.club"
+        },
+        "body": {
+          "expires": "User {username} banned from Pubby.club for {duration}",
+          "permanent": "User {username} banned permanently from Pubby.club"
+        }
+      }
+    }
+  },
+  "user_popup": {
+    "settings": "Settings",
+    "new_room": "New room",
+    "logout": "Logout",
+    "friendship_requests": "Friend requests | Friend requests ({count}) | Friend requests ({count})"
+  },
+  "friendship": {
+    "notifications": {
+      "accepted": {
+        "title": "Friend request accepted",
+        "body": "{username} accepted your friend request"
+      },
+      "requested": {
+        "title": "Friend request",
+        "body": "{username} sent a friend request"
+      }
+    }
+  },
+  "friendship_request": {
+    "title": "Friend requests",
+    "no_requests": "No requests",
+    "no_requests_description": "You have responded to all friend requests."
+  },
+  "settings": {
+    "title": "Settings",
+    "profile": {
+      "title": "Profile"
+    },
+    "general": {
+      "title": "General"
+    },
+    "interface": {
+      "title": "Interface",
+      "enable_transparency": "Enable transparency",
+      "enable_blur": "Enable blur"
+    },
+    "notifications": {
+      "title": "Notifications",
+      "mentions_sound": "Mention sound",
+      "desktop_notifications": "Desktop Notifications",
+      "chat": "Chat Messages",
+      "media": "Media Update",
+      "mention": "Mentions"
+    }
+  },
+  "chat": {
+    "title": "Messages",
+    "clear": "Clear",
+    "placeholder": "Write here...",
+    "user_said": "{user} said: {text}",
+    "messages": {
+      "reply": "Reply",
+      "delete": "Delete"
+    },
+    "events": {
+      "user_joined": "{username} joined the room.",
+      "user_leave": "{username} left the room.",
+      "playback_skip": "{username} skipped the media.",
+      "playback_unavailable": "@{username} media unavailable",
+      "queue_add": "@{user} added @{addedUser} on queue.",
+      "queue_remove": "@{mod} removed @{user} from queue.",
+      "queue_move": "@{mod} moved @{user} from {from} to {to}.",
+      "role_add": "@{mod} added {users} to role **{role}**.",
+      "role_remove": "@{mod} removed {users} from role **{role}**.",
+      "user_ban": "{username} has been banned from the room.",
+      "user_kick": "{username} has been kicked from the room.",
+      "user_site_ban": "{username} has been banned from Pubby.club"
+    },
+    "dialogs": {
+      "remove": {
+        "title": "Delete Message",
+        "body": "Are you sure you want to delete this message?"
+      },
+      "clear": {
+        "title": "Clear messages",
+        "body": "Are you sure you want to delete all messages?"
+      }
+    }
+  },
+  "bans": {
+    "title": "Banned users",
+    "user": "User",
+    "reason": "Reason",
+    "mod": "Banned by",
+    "date": "Banned on",
+    "expires": "Ends in",
+    "never": "Never",
+    "permanent": "Permanent",
+    "duration": "Duration",
+    "ban": "Ban",
+    "unban": "Unban",
+    "ban_ip": "Ban IP",
+    "not_specified": "Not specified",
+    "dialogs": {
+      "user_unban": {
+        "title": "Unban user",
+        "body": "Are you sure you want to unban user {username} from the room?"
+      },
+      "user_banned": {
+        "body": "You have been banned from {room}"
+      },
+      "user_kicked": {
+        "body": "You have been kicked from {room}"
+      }
+    },
+    "notifications": {
+      "user_unbanned": {
+        "title": "Unbanned user",
+        "body": "User {username} successfully unbanned"
+      }
+    }
+  },
+  "table": {
+    "actions": "Actions"
+  }
+}

@@ -1,0 +1,624 @@
+{
+  "locale": {
+    "code": "ja-JP",
+    "ui_code": "en-US",
+    "validation_code": "ja",
+    "dayjs_code": "ja",
+    "name": "日本語",
+    "translated_by": "Translated by {users}",
+    "reviewed_by": "Reviewed by {users}"
+  },
+  "$contributors": {
+    "authors": [
+      {
+        "name": "9_9"
+      }
+    ],
+    "reviewers": []
+  },
+  "$list": {
+    "and": {
+      "join": ", ",
+      "conjunction": " and "
+    },
+    "or": {
+      "join": ", ",
+      "conjunction": " or "
+    }
+  },
+  "name": {
+    "short": "Pubby",
+    "long": "Pubby.club"
+  },
+  "$validation": {
+    "slug": "{_field_}フィールドには文字、数字、_または-のみを含めてください。",
+    "url": "{_field_}フィールドは有効なURLである必要があります。"
+  },
+  "errors": {
+    "username_already_exists": "選択したユーザー名が存在します。",
+    "internal": "Something went wrong, please try again later.",
+    "invalid_login": "Invalid username or password.",
+    "invalid_recovery": "No accounts found",
+    "banned": "You are banned from Pubby.club"
+  },
+  "comming_soon": "準備中。。。",
+  "home": {
+    "welcome_to": "歓迎致します",
+    "alpha_step": "アルファステップ",
+    "congratulations": "おめでとうございます {0}！",
+    "discoverer": "たんけんか",
+    "you_found_us": "旅の始めにお会いし、ご登録いただき、専用バッジを受け取ってください。",
+    "after_a_week": "サイトでアクティブ的な週の後、 {0} バッジを受け取ってください。"
+  },
+  "buttons": {
+    "submit": "Submit",
+    "accept": "受諾",
+    "deny": "拒絶",
+    "save": "セーブ",
+    "signin": "ログイン",
+    "signup": "会員登録",
+    "more": "もっと読み",
+    "next": "次",
+    "prev": "前",
+    "delete": "削除",
+    "cancel": "キャンセル",
+    "rename": "名前を変更",
+    "send": "送信",
+    "back": "戻る",
+    "create": "作成",
+    "yes": "はい",
+    "no": "いいえ",
+    "close": "閉じる",
+    "skip": "スキップ",
+    "sync": "同期",
+    "add": "追加",
+    "add_to_playlist": "プレイリストに追加",
+    "move_start": "開始に移動",
+    "move_end": "最後に移動",
+    "like": "いいよ",
+    "dislike": "嫌よ",
+    "enter_fullscreen": "フルスクリーンを開く",
+    "exit_fullscreen": "フルスクリーンを終了",
+    "ban": "禁止",
+    "unban": "禁止解除",
+    "kick": "追放",
+    "player_size": "プレーヤーサイズ",
+    "cut": "Cut",
+    "edit": "Edit"
+  },
+  "fields": {
+    "name": "氏名",
+    "username": "ユーザ名",
+    "email": "E-メール",
+    "password": "パスワード",
+    "birthday": "Birthday",
+    "password_confirm": "パスワードの確認",
+    "avatar": "プロファイル画像 (URL)",
+    "image_url": "イメージ URL",
+    "room_name": "部屋名",
+    "room_slug": "部屋のリンク",
+    "description": "説明",
+    "thumbnail": "サムネイル",
+    "welcome": "ようこそメッセージ",
+    "search": "検索",
+    "title": "タイトル",
+    "parental_rating": "Parental Rating",
+    "country": "Country",
+    "start": "Start",
+    "end": "End"
+  },
+  "signin": {
+    "title": "ログイン",
+    "tip": "Stay active for one week and earn the {0} badge.",
+    "description": "ログインして友達をパーティに招待しましょう！",
+    "recovery": "パスワードをお忘れの場合"
+  },
+  "signup": {
+    "title": "まだ登録していませんか？",
+    "tip": "今すぐ登録すると、アルファフェーズに登録した方のみ {0} バッジが付与されます。",
+    "description": "登録すると、新しい音楽やジャンルを見つけることができます。",
+    "signin": "アカウントは既に持っています"
+  },
+  "media-cut": {
+    "title": "Cut media",
+    "notifications": {
+      "save": {
+        "title": "Media updated",
+        "body": "\"{title}\" updated successfully."
+      }
+    }
+  },
+  "recovery": {
+    "title": "パスワード復元",
+    "description": "パスワードをお忘れですか？アカウントを回復するには、E-メールアドレスとユーザー名を使用してください。",
+    "dialogs": {
+      "success": {
+        "title": "E-mail sent",
+        "body": "We send a recovery link to your email, link validity is 2 hours."
+      }
+    }
+  },
+  "change_password": {
+    "title": "パスワードの変更",
+    "confirmation": "パスワードが正常に変更されました！\n新しいパスワードを使用してログインします。"
+  },
+  "splash": {
+    "title": "待つ",
+    "room": "ローディング。。。"
+  },
+  "browser": {
+    "title": "ブラウザ",
+    "all_rooms": "すべての部屋",
+    "your_rooms": "Your rooms",
+    "search_results": "Search Results"
+  },
+  "room": {
+    "users": "Users",
+    "created_by": "{username} によって作成",
+    "played_by": "{username} による",
+    "playing_now": "再生中:",
+    "next_play": "あなたの順番:",
+    "skip": "スキップ",
+    "queue_join": "キューに参加",
+    "queue_leave": "キューから出てく",
+    "queue_lock": "Lock queue",
+    "queue_locked": "LOCKED QUEUE",
+    "play_now": "今すぐ再生",
+    "stop": "再生を停止",
+    "queue_count": "キューに誰もいません | 1 人前 | {count} 人前",
+    "queue_position": "次はあなた | あなたの前に 1 人 | あなたの前に {count} 人がいます",
+    "no_playlists": "再生する再生リストを作成します:",
+    "no_active_playlist": "アクティブな再生リストがありません",
+    "no_media": "使用可能なメディアがありません",
+    "is_playing": "{username} は再生中",
+    "user_count": "Nobody | 1 user | {count} users",
+    "room_protected": "The room is protected!",
+    "type_password": "Enter the password...",
+    "visibility": {
+      "public": "Public",
+      "private": "Link only",
+      "password": "Password protected"
+    },
+    "parental_rating": {
+      "free": "Free"
+    },
+    "dialogs": {
+      "new": {
+        "title": "新しい部屋"
+      },
+      "stop_playing": {
+        "title": "再生を停止",
+        "body": "本当にプレイを停止してもよろしいですか？"
+      },
+      "leave_queue": {
+        "title": "キューから出てく",
+        "body": "キューを終了してよろしいですか？"
+      },
+      "unauthorized": {
+        "title": "未承認",
+        "body": "現在の役割では、この操作を実行できません。"
+      },
+      "disconnected": {
+        "title": "接続不可",
+        "body": "別のウィンドウからサインインしました。 このページを更新して、引き続きご利用ください。"
+      },
+      "no_room": {
+        "title": "Unable to follow",
+        "body": "Your friend is not in any room."
+      },
+      "room_private": {
+        "title": "Unable to follow",
+        "body": "Your friend is in a private room."
+      },
+      "invalid_password": {
+        "title": "Unable to join the room",
+        "body": "The password entered is invalid."
+      },
+      "missing_birthday": {
+        "title": "Incomplete registration",
+        "body": "Your registration does not have a birth date. We use this information to filter rooms based on their age and do not share this data with anyone. To avoid problems, inform your real age as once defined, it will not be possible to change it."
+      }
+    },
+    "notifications": {
+      "playing": "{username} is playing \"{media}\""
+    }
+  },
+  "queue": {
+    "title": "Play queue",
+    "user_locked": "queue locked.",
+    "user_unlocked": "queue unlocked.",
+    "dialogs": {
+      "clear": {
+        "title": "Clear Queue",
+        "body": "Are you sure you want to remove all users from the queue?"
+      }
+    },
+    "events": {
+      "clear": "@{username} cleared the queue."
+    }
+  },
+  "room_options": {
+    "title": "部屋の設定",
+    "details": {
+      "title": "詳細",
+      "welcome_hint": "{user} がユーザ名に置き換えられます"
+    }
+  },
+  "friends": {
+    "title": "Friends"
+  },
+  "player": {
+    "next_play": "{username} が再生します",
+    "live": "ライブ",
+    "skip": "現在のメディアをスキップします",
+    "skip_remove": "スキップまたは削除",
+    "cant_skip": "現在のメディアはスキップできません",
+    "hide_video": "ビデオを非表示",
+    "show_video": "ビデオの表示",
+    "started_in": "{date} に開始",
+    "no_dj": {
+      "title": "誰もプレイしていません",
+      "body": "{play_now}をクリックして再生を開始します！"
+    },
+    "dialogs": {
+      "skip": {
+        "title": "スキップ",
+        "body": "現在のメディアをスキップしてよろしいですか？"
+      },
+      "skip_remove": {
+        "title": "スキップして削除",
+        "body": "現在のメディアをスキップして、キューからDJを削除してよろしいですか？"
+      }
+    }
+  },
+  "import": {
+    "title": "再生リストのインポート"
+  },
+  "history": {
+    "title": "メディア履歴"
+  },
+  "playlists": {
+    "title": "再生リスト",
+    "import": "インポート",
+    "shuffle": "Shuffle",
+    "count": "アイテムがない | 1 アイテム | {count} アイテム",
+    "new": "新しい再生リスト",
+    "add": "メディアの追加",
+    "activate": "活性化",
+    "active": "アクティブ",
+    "media_title": "タイトル",
+    "media_duration": "期間",
+    "media_source": "ソース",
+    "media_actions": "作業",
+    "no_media": "再生リストにメディアがありません",
+    "add_to_play": "再生するメディアを追加",
+    "no_playlists": "再生リストがありません",
+    "create_new": "新しい再生リストを作成し、ライブラリにアクセスしてメディアを追加します",
+    "select": "再生リストの選択",
+    "none_selected": "再生リストが選択されていません",
+    "selection_popup": {
+      "title": "再生リストの選択:"
+    },
+    "dialogs": {
+      "delete_media": {
+        "title": "メディアの削除",
+        "body": "再生リストの {media} を削除してよろしいですか？"
+      },
+      "delete_playlist": {
+        "title": "再生リストの削除",
+        "body": "プレイリスト {playlist}を削除してよろしいですか？"
+      }
+    },
+    "notifications": {
+      "added": {
+        "title": "再生リストに追加",
+        "body": "{title} が再生リストに追加されました。"
+      }
+    }
+  },
+  "add_media": {
+    "title": "メディアの追加",
+    "add": "追加",
+    "import": "インポート",
+    "search": "検索",
+    "search_title": "メディアタイトルで検索。。。",
+    "previous": "前",
+    "next": "次",
+    "see_more": "もっと読み",
+    "added": "再生リストに追加されました",
+    "pubby": {
+      "title": "Pubby から追加",
+      "not_found": "何も見つかりません",
+      "try_others": "別のソースで追加してみてください"
+    },
+    "youtube": {
+      "title": "YouTube から追加",
+      "link": "メディアまたは再生リストへのリンク",
+      "placeholder": "youtube のビデオまたは再生リストへのリンクをここに挿入してください。",
+      "video_duration": "期間: {duration}",
+      "video_count": "ビデオがない | 1 ビデオ | {count} ビデオ",
+      "video_channel": "チャネル",
+      "new_playlist": "再生リストの作成",
+      "imported": "プレイリストがインポートされました"
+    },
+    "soundcloud": {
+      "title": "SoundCloud から追加"
+    }
+  },
+  "roles": {
+    "title": "役割と権限",
+    "description": "この部屋のカスタマイズ役割追加",
+    "new": "新しい役割",
+    "color": "チャットの色:",
+    "users": "ユーザ",
+    "permissions": "権限",
+    "add_user": "ユーザの追加",
+    "remove_user": "ユーザの削除",
+    "all_permissions": "すべての権限",
+    "no_role": "この部屋で役がありません",
+    "no_user": "この役割にはユーザーがいません",
+    "select": "役割の選択",
+    "no_selection": "役割が選択されていません",
+    "dialogs": {
+      "delete": {
+        "title": "役割の削除",
+        "body": "現在の部屋からロール {role} を削除してよろしいですか？"
+      },
+      "remove_user": {
+        "title": "ユーザの削除",
+        "body": "選択したユーザをロール {role}から削除してよろしいですか？"
+      }
+    },
+    "scopes": {
+      "ALL": {
+        "title": "すべての権限",
+        "description": "ユーザにすべての権限を追加します"
+      },
+      "PLAYBACK_SKIP": {
+        "title": "メディアをスキップ",
+        "description": "現在のメディアをスキップします"
+      },
+      "CHAT_DELETE": {
+        "title": "チャットのメッセージを削除",
+        "description": "チャットのメッセージを削除する"
+      },
+      "ROOM_RENAME": {
+        "title": "部屋の名前を変更",
+        "description": "変更された部屋の名前"
+      },
+      "ROOM_DESCRIPTION": {
+        "title": "部屋の説明の変更",
+        "description": "変更された部屋の説明"
+      },
+      "ROOM_WELCOME": {
+        "title": "歓迎メッセージの変更",
+        "description": "変更された歓迎メッセージ"
+      },
+      "QUEUE_ADD_REMOVE": {
+        "title": "キューからのユーザの追加/削除",
+        "description": "追加と削除 "
+      },
+      "QUEUE_MOVE": {
+        "title": "コントロールキュー",
+        "description": "キュー内でのユーザの位置の移動を許可"
+      },
+      "USER_BAN": {
+        "title": "ユーザーの禁止",
+        "description": "ユーザーを部屋から追い出す権限"
+      },
+      "USER_UNBAN": {
+        "title": "ユーザーの禁止解除",
+        "description": "ユーザーを部屋から禁止解除する権限"
+      },
+      "USER_KICK": {
+        "title": "ユーザーの追放",
+        "description": "ユーザを退放させる権限"
+      },
+      "MANAGE_ROLES": {
+        "title": "役割の管理",
+        "description": "部屋の役割と権限の管理を許可"
+      }
+    }
+  },
+  "global_roles": {
+    "title": "グローバル役割",
+    "roles": {
+      "root": "ルート",
+      "developer": "開発者",
+      "discoverer": "探険者",
+      "moderator": "管理者",
+      "translator": "翻訳者",
+      "promoter": "企画者",
+      "event_promoter": "イベント企画者",
+      "alpha": "アルファ",
+      "beta": "ベータ",
+      "contributor": "寄与者",
+      "supporter": "サポーター",
+      "premium_supporter": "プレミアムサポーター",
+      "lifetime_premium_supporter": "生涯プレミアムサポーター",
+      "investor_supporter": "投資家 サポーター",
+      "founder_supporter": "設立者 サポーター"
+    },
+    "scopes": {
+      "BAN_USER": {
+        "title": "ユーザーの禁止",
+        "description": "ユーザーを無期限にサイトから締め出します。"
+      },
+      "MUTE_USER": {
+        "title": "ユーザーの消音",
+        "description": "Webサイトユーザを無期限に黙らせます。"
+      },
+      "BLOCK_DJ": {
+        "title": "DJの禁止",
+        "description": "ユーザーがすべての部屋でDJすることを禁止します。"
+      },
+      "CLOSE_ROOM": {
+        "title": "部屋のクローズ",
+        "description": "サイト上の部屋を無期限でクローズします。"
+      }
+    }
+  },
+  "profile_popup": {
+    "user_since": "ユーザーの{date} 以降",
+    "score": "{points} points",
+    "friend_is": "もう友達に状態です",
+    "friend_add": "友達の追加",
+    "friend_pending": "友達要請を過ごしました",
+    "friend_accept": "友達要請受諾",
+    "user_kick": "部屋で使用者追放",
+    "user_ban": "部屋で使用者の遮断",
+    "user_site_ban": "Ban user from Pubby.club",
+    "dialogs": {
+      "user_ban": {
+        "title": "ユーザーを禁止",
+        "body": "ユーザー {username} を部屋で禁止してもいいですか？"
+      },
+      "user_kick": {
+        "title": "ユーザーを退場",
+        "body": "{username} ユーザを部屋から追い出してよろしいですか？"
+      },
+      "user_site_ban": {
+        "title": "Ban user from Pubby.club",
+        "body": "Are you sure you want to ban user {username} from PUBBY.CLUB?"
+      }
+    },
+    "notifications": {
+      "user_banned": {
+        "title": "禁止されたユーザー",
+        "body": {
+          "expires": "ユーザー {username}は {duration}の間、部屋で禁止されました",
+          "permanent": "ユーザ {username} が部屋から永久に禁止されました"
+        }
+      },
+      "user_kicked": {
+        "title": "退場されたユーザー",
+        "body": "ユーザ {username} を部屋から追い出しました"
+      },
+      "user_site_banned": {
+        "title": {
+          "account": "User banned from Pubby.club",
+          "ip": "User banned by IP from Pubby.club"
+        },
+        "body": {
+          "expires": "User {username} banned from Pubby.club for {duration}",
+          "permanent": "User {username} banned permanently from Pubby.club"
+        }
+      }
+    }
+  },
+  "user_popup": {
+    "settings": "設定",
+    "new_room": "部屋を作る",
+    "logout": "ログアウト",
+    "friendship_requests": "友達申請 | 友達申請 ({count}) | 友達申請 ({count})"
+  },
+  "friendship": {
+    "notifications": {
+      "accepted": {
+        "title": "友人申請受諾",
+        "body": "{username} が友人申請を承認しました"
+      },
+      "requested": {
+        "title": "友達申請",
+        "body": "{username} が友人申請を送信しました"
+      }
+    }
+  },
+  "friendship_request": {
+    "title": "友達申請",
+    "no_requests": "申請なし",
+    "no_requests_description": "すべての友人申請に返信しました。"
+  },
+  "settings": {
+    "title": "設定",
+    "profile": {
+      "title": "プロファイル"
+    },
+    "general": {
+      "title": "一般"
+    },
+    "interface": {
+      "title": "インターフェイス",
+      "enable_transparency": "透明性を有効にする",
+      "enable_blur": "ぼかしを有効にする"
+    },
+    "notifications": {
+      "title": "Notifications",
+      "mentions_sound": "Mention sound",
+      "desktop_notifications": "Desktop Notifications",
+      "chat": "Chat Messages",
+      "media": "Media Update",
+      "mention": "Mentions"
+    }
+  },
+  "chat": {
+    "title": "Messages",
+    "clear": "Clear",
+    "placeholder": "ここに書き込む。。。",
+    "user_said": "{user} said: {text}",
+    "messages": {
+      "reply": "返信",
+      "delete": "削除"
+    },
+    "events": {
+      "user_joined": "{username} が部屋に参加しました。",
+      "user_leave": "{username} が退室しました。",
+      "playback_skip": "{username} はメディアをスキップしました。",
+      "playback_unavailable": "@{username} media unavailable",
+      "queue_add": "@{user} がキューに @{addedUser} を追加しました。",
+      "queue_remove": "@{mod} がキューから @{user} を削除しました。",
+      "queue_move": "@{mod} が @{user} を {from} から {to} に移動しました。",
+      "role_add": "@{mod} added {users} to role **{role}**.",
+      "role_remove": "@{mod} がロール {users} から **{role}** を削除しました。",
+      "user_ban": "{username} は部屋で禁止されました。",
+      "user_kick": "{username} が部屋から追い出されました。",
+      "user_site_ban": "{username} has been banned from Pubby.club"
+    },
+    "dialogs": {
+      "remove": {
+        "title": "メッセージの削除",
+        "body": "このメッセージを削除してよろしいですか？"
+      },
+      "clear": {
+        "title": "Clear messages",
+        "body": "Are you sure you want to delete all messages?"
+      }
+    }
+  },
+  "bans": {
+    "title": "禁止されたユーザーら",
+    "user": "ユーザ",
+    "reason": "理由",
+    "mod": "禁止者",
+    "date": "禁止日",
+    "expires": "終了日",
+    "never": "絶対",
+    "permanent": "永久",
+    "duration": "期間",
+    "ban": "禁止",
+    "unban": "禁止解除",
+    "ban_ip": "Ban IP",
+    "not_specified": "指定なし",
+    "dialogs": {
+      "user_unban": {
+        "title": "ユーザーの禁止解除",
+        "body": "部屋からユーザー {username} の禁止を解除してよろしいですか？"
+      },
+      "user_banned": {
+        "body": "{room} の使用が禁止されました"
+      },
+      "user_kicked": {
+        "body": "部屋から追い出された"
+      }
+    },
+    "notifications": {
+      "user_unbanned": {
+        "title": "禁止解除されたユーザー",
+        "body": "ユーザ {username} が正常に禁止解除されました"
+      }
+    }
+  },
+  "table": {
+    "actions": "貰う"
+  }
+}
