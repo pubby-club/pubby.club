@@ -1,0 +1,651 @@
+{
+    "locale": {
+        "code": "pl-PL",
+        "ui_code": "pl-PL",
+        "validation_code": "pl",
+        "dayjs_code": "pl",
+        "name": "Polski",
+        "translated_by": "Translated by {users}",
+        "reviewed_by": "Reviewed by {users}"
+    },
+    "$contributors": {
+        "authors": [{
+            "name": "norelock"
+        }],
+        "reviewers": [{
+            "name": "salomaosnff"
+        }, {
+            "name": "Pyrael"
+        }]
+    },
+    "$list": {
+        "and": {
+            "join": ", ",
+            "conjunction": " i "
+        },
+        "or": {
+            "join": ", ",
+            "conjunction": " lub "
+        }
+    },
+    "name": {
+        "short": "Pubby",
+        "long": "Pubby.club"
+    },
+    "$validation": {
+        "slug": "Pole {_field_} może zawierać tylko litery, cyfry, _ lub -",
+        "url": "Pole {_field_} musi być prawidłowym adresem URL"
+    },
+    "errors": {
+        "username_already_exists": "Wybrana nazwa użytkownika już istnieje.",
+        "internal": "Coś poszło nie tak. Proszę spróbować później.",
+        "invalid_login": "Nieprawidłowa nazwa użytkownika lub hasło.",
+        "invalid_recovery": "Nie znaleziono konta",
+        "banned": "Zostałeś wykluczony z Pubby.club"
+    },
+    "comming_soon": "Wkrótce...",
+    "home": {
+        "welcome_to": "Witaj w",
+        "alpha_step": "KROKU ALPHA",
+        "congratulations": "Gratulacje {0}!",
+        "discoverer": "ODKRYWCA",
+        "you_found_us": "Spotkałeś nas na początku naszej podróży, zarejestruj się i otrzymaj ekskluzywną odznakę.",
+        "after_a_week": "Po aktywnym tygodniu w witrynie otrzymasz odznakę {0}."
+    },
+    "buttons": {
+        "submit": "Potwierdź",
+        "accept": "Akceptuj",
+        "deny": "Odmów",
+        "save": "Zapisz",
+        "signin": "Zaloguj",
+        "signup": "Zarejestruj",
+        "more": "Wczytaj więcej",
+        "next": "Następne",
+        "prev": "Poprzednie",
+        "delete": "Usuń",
+        "cancel": "Anuluj",
+        "rename": "Zmień",
+        "send": "Wyślij",
+        "back": "Powróć",
+        "create": "Stwórz",
+        "yes": "Tak",
+        "no": "Nie",
+        "close": "Zamknij",
+        "skip": "Pomiń",
+        "sync": "Zesynchronizuj",
+        "add": "Dodaj",
+        "add_to_playlist": "Dodaj do playlisty",
+        "move_start": "Przejdź na początek",
+        "move_end": "Przejdź do końca",
+        "like": "Lubię to",
+        "dislike": "Nie podoba mi się",
+        "enter_fullscreen": "Otwórz pełny ekran",
+        "exit_fullscreen": "Zamknij pełny ekran",
+        "ban": "Zbanuj",
+        "unban": "Odbanuj",
+        "kick": "Wyrzuć",
+        "player_size": "Wielkość odtwarzacza",
+        "cut": "Wytnij",
+        "edit": "Edytuj"
+    },
+    "fields": {
+        "name": "Nazwa",
+        "username": "Nazwa użytkownika",
+        "email": "E-mail",
+        "password": "Hasło",
+        "birthday": "Data urodzin",
+        "password_confirm": "Powtórz hasło",
+        "avatar": "Zdjęcie profilowe (URL)",
+        "image_url": "URL obrazu",
+        "room_name": "Nazwa pokoju",
+        "room_slug": "Łącze do pokoju",
+        "description": "Opis",
+        "thumbnail": "Miniaturka",
+        "welcome": "Wiadomość powitalna",
+        "search": "Wyszukaj...",
+        "title": "Tytuł",
+        "visibility": "Widoczność",
+        "parental_rating": "Ocena rodzicielska",
+        "country": "Kraj",
+        "start": "Rozpocznij",
+        "end": "Zatrzymaj"
+    },
+    "signin": {
+        "title": "Zaloguj się",
+        "tip": "Pozostań aktywny przez tydzień i zdobądź znaczek {0}.",
+        "description": "Zaloguj się i zaproś znajomych do rozpoczęcia imprezy!",
+        "recovery": "Zapomniałem hasła"
+    },
+    "signup": {
+        "title": "NIE ZAREJESTROWAŁEŚ SIĘ JESZCZE?",
+        "tip": "Jeśli zarejestrujesz się teraz, zdobędziesz odznakę {0}, wyłącznie dla tych, którzy zarejestrowali się w fazie alfa.",
+        "description": "Zarejestruj się, aby odkrywać nowe utwory i gatunki muzyczne, uczestnicząc w różnych pokojach.",
+        "signin": "POSIADAM JUŻ KONTO"
+    },
+    "media-cut": {
+        "title": "Wytnij media",
+        "notifications": {
+            "save": {
+                "title": "Zaktualizowano multimedia",
+                "body": "\"{title}\" zaktualizowano pomyślnie."
+            }
+        }
+    },
+    "recovery": {
+        "title": "Odzyskiwanie konta",
+        "description": "Zapomniałeś hasła? Nie martw się, użyj swojego adresu e-mail i nazwy użytkownika, aby odzyskać swoje konto.",
+        "dialogs": {
+            "success": {
+                "title": "E-mail wysłany",
+                "body": "Na Twój adres e-mail wysyłamy link odzyskiwania, ważność linku to 2 godziny."
+            }
+        }
+    },
+    "change_password": {
+        "title": "Zmień hasło",
+        "confirmation": "Hasło zostało zmienione pomyślnie!\nUżyj nowego hasła, aby się zalogować."
+    },
+    "splash": {
+        "title": "Proszę czekać",
+        "room": "Wczytywanie pokoju..."
+    },
+    "browser": {
+        "title": "Wyszukiwarka",
+        "all_rooms": "Wszytkie pokoje",
+        "your_rooms": "Twoje pokoje",
+        "search_results": "Wyniki wyszukiwania",
+        "search_placeholder": "Wyszukaj pokoje..."
+    },
+    "room": {
+        "users": "Użytkownicy",
+        "created_by": "utworzony przez {username}",
+        "played_by": "przez {username}",
+        "playing_now": "Obecnie słuchasz:",
+        "next_play": "Będziesz grać:",
+        "skip": "POMIŃ",
+        "queue_join": "DOŁĄCZ DO KOLEJKI",
+        "queue_leave": "WYJDŹ Z KOLEJKI",
+        "queue_lock": "ZABLOKUJ KOLEJKĘ",
+        "queue_locked": "KOLEJKA ZABLOKOWANA",
+        "play_now": "ZAGRAJ TERAZ",
+        "stop": "PRZESTAŃ GRAĆ",
+        "queue_count": "Nie ma nikogo w kolejce | Przed Tobą 1 osoba | Przed Tobą {count} osób",
+        "queue_position": "Jesteś następny | Przed Tobą jest 1 osoba | Przed tobą {count} osób",
+        "no_playlists": "Utwórz playlistę do odtwarzania:",
+        "no_active_playlist": "Brak aktywnej playlisty",
+        "no_media": "Brak dostępnych mediów",
+        "is_playing": "{username} gra teraz",
+        "user_count": "Nikt | 1 użytkownik | {count} użytkowników",
+        "room_protected": "Pokój jest chroniony!",
+        "type_password": "Podaj hasło...",
+        "visibility": {
+            "public": "Publiczny",
+            "private": "Tylko link",
+            "password": "Zabezpieczone hasłem"
+        },
+        "parental_rating": {
+            "free": "Brak ograniczeń wiekowych"
+        },
+        "dialogs": {
+            "new": {
+                "title": "Nowy pokój"
+            },
+            "stop_playing": {
+                "title": "Przestań grać",
+                "body": "Czy na pewno chcesz przestać grać?"
+            },
+            "leave_queue": {
+                "title": "Opuść kolejkę",
+                "body": "Czy na pewno chcesz opuścić kolejkę?"
+            },
+            "unauthorized": {
+                "title": "Nieautoryzowany",
+                "body": "Twoja obecna rola w tym pomieszczeniu nie pozwala na wykonanie tej akcji."
+            },
+            "multiple_sessions": {
+                "title": "Rozłączono",
+                "body": "Zalogowałeś się z innego okna. Odśwież stronę, aby kontynuować używanie tutaj."
+            },
+            "disconnected": {
+                "title": "Rozłączono",
+                "body": "Nie można połączyć się z serwerem, odśwież stronę, aby spróbować ponownie."
+            },
+            "queue_lock": {
+                "title": "Zablokuj kolejkę | Odblokuj kolejkę",
+                "body": "Czy na pewno chcesz zablokować kolejkę? | Czy na pewno chcesz odblokować kolejkę?"
+            },
+            "no_room": {
+                "title": "Nie można dołączyć do żadnego pokoju",
+                "body": "Twojego przyjaciela nie ma w żadnym pokoju."
+            },
+            "room_private": {
+                "title": "Nie można dołączyć do pokoju",
+                "body": "Twój przyjaciel jest w prywatnym pokoju."
+            },
+            "invalid_password": {
+                "title": "Nie można dołączyć do pokoju",
+                "body": "Wprowadzone hasło jest nieprawidłowe."
+            },
+            "missing_birthday": {
+                "title": "Rejestracja niekompletna",
+                "body": "Twoja rejestracja nie zawiera daty urodzenia. Używamy tych informacji do filtrowania pokoi na podstawie ich wieku i nie udostępniamy nikomu tych danych. Aby uniknąć problemów, podaj swój prawdziwy wiek, jak raz określony, nie będzie można go zmienić."
+            }
+        },
+        "notifications": {
+            "playing": "{username} gra \"{media}\""
+        }
+    },
+    "room_options": {
+        "title": "Ustawienia pokoju",
+        "details": {
+            "title": "Detale",
+            "welcome_hint": "{user} zostanie zastąpiony nazwą użytkownika"
+        }
+    },
+    "queue": {
+        "title": "Kolejka odtwarzania",
+        "user_locked": "Kolejka jest zablokowana.",
+        "user_unlocked": "Kolejka jest odblokowana.",
+        "dialogs": {
+            "clear": {
+                "title": "Wyczyść kolejkę",
+                "body": "Czy na pewno chcesz usunąć wszystkich użytkowników z kolejki?"
+            }
+        },
+        "events": {
+            "clear": "@{username} wyczyścił kolejkę."
+        }
+    },
+    "friends": {
+        "title": "Przyjaciele"
+    },
+    "player": {
+        "next_play": "{username} wkrótce zagra",
+        "live": "NA ŻYWO",
+        "skip": "Pomiń bieżące multimedia",
+        "skip_remove": "Pomiń i usuń",
+        "cant_skip": "Nie możesz pominąć bieżących mediów",
+        "hide_video": "Ukryj wideo",
+        "show_video": "Pokaż wideo",
+        "started_in": "Rozpoczęto {date}",
+        "no_dj": {
+            "title": "Nikt nie gra",
+            "body": "Kliknij {play_now}, aby zacząć grać!"
+        },
+        "notifications": {
+            "cannot_play": {
+                "title": "Brak możliwości automatycznego odtwarzania",
+                "body": "Twoja przeglądarka wymaga kliknięcia na odtwarzacz, aby rozpocząć odtwarzanie."
+            }
+        },
+        "dialogs": {
+            "skip": {
+                "title": "Pomiń",
+                "body": "Czy na pewno chcesz pominąć bieżące multimedia?"
+            },
+            "skip_remove": {
+                "title": "Pomiń i usuń",
+                "body": "Czy na pewno chcesz pominąć bieżące multimedia i usunąć DJ-a z kolejki?"
+            }
+        }
+    },
+    "import": {
+        "title": "Importuj playlistę"
+    },
+    "history": {
+        "title": "Historia odtwarzania"
+    },
+    "playlists": {
+        "title": "Playlisty",
+        "import": "Importuj",
+        "shuffle": "Tasuj",
+        "exportAll": "Eksportuj wszystkie listy odtwarzania",
+        "count": "Brak pozycji | 1 pozycja | {count} pozycji",
+        "new": "Nowa playlista",
+        "add": "Dodaj multimedia",
+        "activate": "AKTYWUJ",
+        "active": "AKTYWNA",
+        "media_title": "Tytuł",
+        "media_duration": "Długość",
+        "media_source": "Źródło",
+        "media_actions": "Akcje",
+        "no_media": "Brak multimediów na liście odtwarzania",
+        "add_to_play": "Dodaj multimedia do odtwarzania",
+        "no_playlists": "Nie masz playlisty",
+        "create_new": "Utwórz nową playlistę i uzyskaj dostęp do biblioteki, aby dodać multimedia",
+        "select": "Wybierz playlistę",
+        "none_selected": "Playlista nie została wybrana",
+        "selection_popup": {
+            "title": "Wybierz playlistę:"
+        },
+        "dialogs": {
+            "delete_media": {
+                "title": "Usuń multimedia",
+                "body": "Czy na pewno chcesz usunąć {media} ze swojej playlisty?"
+            },
+            "delete_playlist": {
+                "title": "Usuń listę odtwarzania",
+                "body": "Czy na pewno chcesz usunąć playlistę {playlist}?"
+            }
+        },
+        "notifications": {
+            "added": {
+                "title": "Dodano do playlisty",
+                "body": "{title} został dodany do Twojej playlisty."
+            }
+        }
+    },
+    "add_media": {
+        "title": "Dodaj multimedia",
+        "add": "Dodaj",
+        "import": "Importuj",
+        "search": "Wyszukaj",
+        "search_title": "Wyszukaj po tytule...",
+        "previous": "Poprzedni",
+        "next": "Następny",
+        "see_more": "Zobacz więcej",
+        "added": "Dodano do playlisty",
+        "pubby": {
+            "title": "Dodaj z Pubby",
+            "not_found": "Nie znaleziono",
+            "try_others": "Spróbuj dodać z innego źródła"
+        },
+        "youtube": {
+            "title": "Dodaj z YouTube",
+            "link": "LINK DO WIDEO LUB PLAYLISTY",
+            "placeholder": "Wstaw tutaj link do filmu lub listy odtwarzania z youtube.",
+            "video_duration": "Długość: {duration}",
+            "video_count": "Brak wideo | 1 film | {count} filmy",
+            "video_channel": "Kanał",
+            "new_playlist": "Stwórz playlistę",
+            "imported": "Playlista została zaimportowana"
+        },
+        "soundcloud": {
+            "title": "Dodaj z SoundCloud"
+        },
+        "vimeo": {
+            "title": "Dodaj z Vimeo",
+            "link": "LINK DO WIDEO",
+            "placeholder": "Wstaw tutaj link do wideo z vimeo.",
+            "video_duration": "Długość: {duration}",
+            "video_count": "Brak wideo | 1 film | {count} filmy",
+            "video_channel": "Kanał"
+        }
+    },
+    "roles": {
+        "title": "Role i uprawnienia",
+        "description": "Dodaj niestandardowe role dla tego pokoju",
+        "new": "Nowa rola",
+        "color": "Kolor czatu:",
+        "users": "Użytkownicy",
+        "permissions": "Uprawnienia",
+        "add_user": "Dodaj użytkownika",
+        "remove_user": "Usuń użytkownika",
+        "all_permissions": "Wszystkie uprawnienia",
+        "no_role": "Ten pokój nie ma ról",
+        "no_user": "Brak użytkowników w tej roli",
+        "select": "Wybierz rolę",
+        "no_selection": "Brak wybranej roli",
+        "dialogs": {
+            "delete": {
+                "title": "Usuń rolę",
+                "body": "Czy na pewno chcesz usunąć rolę {role} z bieżącego pokoju?"
+            },
+            "remove_user": {
+                "title": "Usuń użytkowników",
+                "body": "Czy na pewno chcesz usunąć wybranych użytkowników z roli {role}?"
+            }
+        },
+        "scopes": {
+            "ALL": {
+                "title": "Wszystkie uprawnienia",
+                "description": "Dodaje wszystkie uprawnienia użytkownikowi"
+            },
+            "PLAYBACK_SKIP": {
+                "title": "Pomiń multimedia",
+                "description": "Pomiń bieżące multimedia"
+            },
+            "CHAT_DELETE": {
+                "title": "Usuń wiadomości czatu",
+                "description": "Usuń wiadomości z czatu"
+            },
+            "ROOM_DETAILS": {
+                "title": "Zmień szczegóły pokoju",
+                "description": "Pozwala zmienić nazwę, opis, link i wiadomość powitalną."
+            },
+            "QUEUE_ADD_REMOVE": {
+                "title": "Dodaj/usuń użytkowników z kolejki",
+                "description": "Umożliwia dodawanie/usuwanie użytkowników z kolejki "
+            },
+            "QUEUE_MOVE": {
+                "title": "Kolejka kontrolna",
+                "description": "Umożliwia przesuwanie pozycji użytkowników w kolejce"
+            },
+            "QUEUE_JOIN_LOCKED": {
+                "title": "Wprowadź zablokowaną kolejkę",
+                "description": "Umożliwia wejście do kolejki, nawet jeśli jest zablokowana"
+            },
+            "USER_BAN": {
+                "title": "Zbanuj użytkowników",
+                "description": "Pozwala zbanować użytkownika z pokoju"
+            },
+            "USER_UNBAN": {
+                "title": "Odbanuj użytkowników",
+                "description": "Pozwala odbanować użytkownika z pokoju"
+            },
+            "USER_KICK": {
+                "title": "Wyrzuć użytkowników",
+                "description": "Pozwala wyrzucać użytkowników z pokoju"
+            },
+            "MANAGE_ROLES": {
+                "title": "Zarządzaj rolami",
+                "description": "Pozwala zarządzać rolami i uprawnieniami pokoju"
+            }
+        }
+    },
+    "global_roles": {
+        "title": "Globalne role",
+        "roles": {
+            "root": "Root",
+            "developer": "Developer",
+            "discoverer": "Odkrywający",
+            "moderator": "Moderator",
+            "translator": "Tłumacz",
+            "promoter": "Organizator",
+            "event_promoter": "Organizator wydarzenia",
+            "alpha": "Alpha",
+            "beta": "Beta",
+            "contributor": "Współpracownik",
+            "supporter": "Wspierający",
+            "premium_supporter": "Wspierający Premium",
+            "lifetime_premium_supporter": "Trwały wspierający Premium",
+            "investor_supporter": "Wspierający inwestor",
+            "founder_supporter": "Wspierający założycieli"
+        },
+        "scopes": {
+            "BAN_USER": {
+                "title": "Zbanuj użytkownika",
+                "description": "Zbanuj użytkownika z serwisu na czas nieokreślony."
+            },
+            "MUTE_USER": {
+                "title": "Wycisz użytkownika",
+                "description": "Uniemożliw użytkownikowi czatowanie na nieskończoność."
+            },
+            "BLOCK_DJ": {
+                "title": "Zablokuj DJ",
+                "description": "Uniemożliwia użytkownikowi grę we wszystkich pokojach."
+            },
+            "CLOSE_ROOM": {
+                "title": "Zamknij pokój",
+                "description": "Zamyka pokój na stronie bezterminowo."
+            }
+        }
+    },
+    "profile_popup": {
+        "user_since": "Dołączył/a {date}",
+        "score": "{points} punktów",
+        "friend_is": "Jesteście już przyjaciółmi",
+        "friend_add": "Dodaj jako przyjaciela",
+        "friend_pending": "Wysłano zaproszenie do znajomych",
+        "friend_accept": "Zaakceptuj zaproszenie do znajomych",
+        "user_kick": "Wyrzuć użytkownika z pokoju",
+        "user_ban": "Zbanuj użytkownika z pokoju",
+        "user_site_ban": "Zbanuj użytkownika z serwisu",
+        "dialogs": {
+            "user_ban": {
+                "title": "Zbanuj użytkownika",
+                "body": "Czy na pewno chcesz zablokować użytkownika {username} w pokoju?"
+            },
+            "user_kick": {
+                "title": "Wyrzuć użytkownika",
+                "body": "Czy na pewno chcesz wyrzucić użytkownika {username} z pokoju?"
+            },
+            "user_site_ban": {
+                "title": "Zbanuj użytkownika z serwisu,
+                "body": "Czy na pewno chcesz zablokować użytkownika {nazwa użytkownika} na serwisie?"
+            },
+            "user_remove": {
+                "title": "Usuń użytkownika ze znajomych",
+                "body": "Czy chcesz usunąć tego użytkownika z listy przyjaciół?"
+            }
+        },
+        "notifications": {
+            "user_banned": {
+                "title": "Użytkownik zbanowany",
+                "body": {
+                    "expires": "Użytkownik {username} został zablokowany w pokoju na {duration}",
+                    "permanent": "Użytkownik {username} zbanowany na stałe w pokoju"
+                }
+            },
+            "user_kicked": {
+                "title": "Użytkownik wyrzucony",
+                "body": "Wyrzuciłeś użytkownika {username} z pokoju"
+            },
+            "user_site_banned": {
+                "title": {
+                    "account": "Użytkownik zbanowany z serwisu",
+                    "ip": "Użytkownik zbanowany przez IP z serwisu"
+                },
+                "body": {
+                    "expires": "Użytkownik {username} zbanowany z serwisu na {duration}",
+                    "permanent": "Użytkownik {username} zbanowany na stałe z serwisu"
+                }
+            }
+        }
+    },
+    "user_popup": {
+        "settings": "Ustawienia",
+        "new_room": "Nowy pokój",
+        "logout": "Wyloguj",
+        "friendship_requests": "Prośby o znajomych | Prośby o znajomych ({count}) | Prośby o znajomych ({count})"
+    },
+    "friendship": {
+        "notifications": {
+            "accepted": {
+                "title": "Zaproszenie do znajomych zaakceptowane",
+                "body": "{username} zaakceptował Twoje zaproszenie do znajomych"
+            },
+            "requested": {
+                "title": "Zaproszenie do znajomych",
+                "body": "{username} wysłał(a) zaproszenie do znajomych"
+            }
+        }
+    },
+    "friendship_request": {
+        "title": "Prośby",
+        "no_requests": "Brak próśb",
+        "no_requests_description": "Odpowiedziałeś na wszystkie prośby znajomych."
+    },
+    "settings": {
+        "title": "Ustawienia",
+        "profile": {
+            "title": "Profil"
+        },
+        "general": {
+            "title": "Główny"
+        },
+        "interface": {
+            "title": "Interfejs",
+            "enable_transparency": "Włącz przezroczystość",
+            "enable_blur": "Włącz rozmycie"
+        },
+        "notifications": {
+            "title": "Powiadomienia",
+            "mentions_sound": "Dźwięk wzmianek",
+            "desktop_notifications": "Powiadomienia na pulpicie",
+            "chat": "Wiadomości na czacie",
+            "media": "Aktualizacja multimediów",
+            "mention": "Wzmianki"
+        }
+    },
+    "chat": {
+        "title": "Wiadomości",
+        "clear": "Wyczyść",
+        "placeholder": "Napisz coś tutaj...",
+        "user_said": "{user} napisał/a: {text}",
+        "messages": {
+            "reply": "Odpowiedz",
+            "delete": "Usuń"
+        },
+        "events": {
+            "user_joined": "{username} dołączył do pokoju.",
+            "user_leave": "{username} opuścił pokój.",
+            "playback_skip": "{{username} pominął multimedia.",
+            "playback_unavailable": "@{username} - multimedia nie są dostępne",
+            "queue_add": "@{user} dodał @{addedUser} do kolejki.",
+            "queue_remove": "@{mod} usunął @{user} z kolejki.",
+            "queue_move": "@{mod} przesunął @{user} z pozycji {from} na pozycję {to}.",
+            "role_add": "@{mod} dodał {users} do roli **{role}**.",
+            "role_remove": "@{mod} usunął {users} z roli **{role}**.",
+            "user_ban": "{username} został zbanowany w pokoju.",
+            "user_kick": "{username} został wyrzucony z pokoju.",
+            "user_site_ban": "{username} został zbanowany z serwisu"
+        },
+        "dialogs": {
+            "remove": {
+                "title": "Usuń wiadomość",
+                "body": "Czy na pewno chcesz usunąć tę wiadomość?"
+            },
+            "clear": {
+                "title": "Wyczyść wiadomości",
+                "body": "Czy na pewno chcesz usunąć wszystkie wiadomości?"
+            }
+        }
+    },
+    "bans": {
+        "title": "Zbanowani użytkownicy",
+        "user": "Użytkownik",
+        "reason": "Powód",
+        "mod": "Zbanowany przez",
+        "date": "Zbanowany na",
+        "expires": "Kończy się",
+        "never": "Nigdy",
+        "permanent": "Permanentne",
+        "duration": "Długość",
+        "ban": "Zbanuj",
+        "unban": "Odbanuj",
+        "ban_ip": "Zbanuj na IP",
+        "not_specified": "Nieokreślony",
+        "dialogs": {
+            "user_unban": {
+                "title": "Odbanuj użytkownika",
+                "body": "Czy na pewno chcesz odblokować użytkownika {username} z pokoju?"
+            },
+            "user_banned": {
+                "body": "Zostałeś zbanowany z {room}"
+            },
+            "user_kicked": {
+                "body": "Zostałeś wyrzucony z {room}"
+            }
+        },
+        "notifications": {
+            "user_unbanned": {
+                "title": "Odbanowany użytkownik",
+                "body": "Użytkownik {username} został pomyślnie odbanowany"
+            }
+        }
+    },
+    "table": {
+        "actions": "Akcje"
+    }
+}
