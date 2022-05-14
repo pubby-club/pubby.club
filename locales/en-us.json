@@ -147,7 +147,8 @@
     "title": "Browser",
     "all_rooms": "All Rooms",
     "your_rooms": "Your rooms",
-    "search_results": "Search Results"
+    "search_results": "Search Results",
+    "search_placeholder": "Search rooms..."
   },
   "room": {
     "users": "Users",
@@ -265,6 +266,12 @@
       "title": "There's no one playing",
       "body": "Click {play_now} to start playing!"
     },
+    "notifications": {
+      "cannot_play": {
+        "title": "Reproduction not allowed!",
+        "body": "Your browser requires you to click on the player to start playback."
+      }
+    },
     "dialogs": {
       "skip": {
         "title": "Skip",
@@ -349,6 +356,14 @@
     },
     "soundcloud": {
       "title": "Add from SoundCloud"
+    },
+    "vimeo": {
+      "title": "Add from Vimeo",
+      "link": "LINK OF THE VIDEO",
+      "placeholder": "Insert here the link for the video from vimeo.",
+      "video_duration": "Duration: {duration}",
+      "video_count": "No video | 1 video | {count} videos",
+      "video_channel": "Channel"
     }
   },
   "roles": {
@@ -482,6 +497,10 @@
       "user_site_ban": {
         "title": "Ban user from Pubby.club",
         "body": "Are you sure you want to ban user {username} from PUBBY.CLUB?"
+      },
+      "user_remove": {
+        "title": "Unfriend",
+        "body": "Are you sure you want to unfriend?"
       }
     },
     "notifications": {

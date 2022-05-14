@@ -162,7 +162,8 @@
     "title": "Navegador",
     "all_rooms": "Todas as salas",
     "your_rooms": "Suas salas",
-    "search_results": "Resultados da Busca"
+    "search_results": "Resultados da Busca",
+    "search_placeholder": "Buscar salas..."
   },
   "room": {
     "users": "Usuários",
@@ -280,6 +281,12 @@
       "title": "Não há ninguém tocando",
       "body": "Clique em {play_now} para começar a reproduzir!"
     },
+    "notifications": {
+      "cannot_play": {
+        "title": "Não está tocando?",
+        "body": "Clique no player para permitir a reprodução."
+      }
+    },
     "dialogs": {
       "skip": {
         "title": "Pular",
@@ -361,6 +368,14 @@
     },
     "soundcloud": {
       "title": "Adicionar do SoundCloud"
+    },
+    "vimeo": {
+      "title": "Adicionar do Vimeo",
+      "link": "LINK DO VÍDEO",
+      "placeholder": "Insira aqui o link para o vídeo do vimeo.",
+      "video_duration": "Duração: {duration}",
+      "video_count": "Nenhum vídeo | 1 vídeo | {count} vídeos",
+      "video_channel": "Canal"
     }
   },
   "roles": {
@@ -493,6 +508,10 @@
       "user_site_ban": {
         "title": "Banir usuário do Pubby.club",
         "body": "Tem certeza de que deseja banir o usuário {username} do PUBBY.CLUB?"
+      },
+      "user_remove": {
+        "title": "Desfazer amizade",
+        "body": "Tem certeza de que deseja desfazer a amizade?"
       }
     },
     "notifications": {
