@@ -5,18 +5,14 @@
         "validation_code": "pl",
         "dayjs_code": "pl",
         "name": "Polski",
-        "translated_by": "Translated by {users}",
-        "reviewed_by": "Reviewed by {users}"
+        "translated_by": "Przetłumaczone przez {users}",
+        "reviewed_by": "Sprawdzone przez {users}"
     },
     "$contributors": {
         "authors": [{
             "name": "norelock"
         }],
-        "reviewers": [{
-            "name": "salomaosnff"
-        }, {
-            "name": "Pyrael"
-        }]
+        "reviewers": []
     },
     "$list": {
         "and": {
