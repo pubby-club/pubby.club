@@ -588,7 +588,7 @@
     "events": {
       "user_joined": "{username} dołączył do pokoju.",
       "user_leave": "{username} opuścił pokój.",
-      "playback_skip": "{{username} pominął multimedia.",
+      "playback_skip": "{username} pominął multimedia.",
       "playback_unavailable": "@{username} - multimedia nie są dostępne",
       "queue_add": "@{user} dodał @{addedUser} do kolejki.",
       "queue_remove": "@{mod} usunął @{user} z kolejki.",
