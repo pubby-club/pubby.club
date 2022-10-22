@@ -1,0 +1,645 @@
+{
+  "locale": {
+    "code": "de",
+    "ui_code": "de",
+    "validation_code": "de",
+    "dayjs_code": "de",
+    "name": "Deutsch",
+    "translated_by": "Übersetzt von {users}",
+    "reviewed_by": "Überprüft von {users}"
+  },
+  "$contributors": {
+    "authors": [{ "name": "Ilmarinen" }],
+    "reviewers": [{ "name": "salomaosnff" }, { "name": "Pyrael" }]
+  },
+  "$list": {
+    "and": {
+      "join": ", ",
+      "conjunction": " und "                               // translation needed?
+    },
+    "or": {
+      "join": ", ",
+      "conjunction": " oder "                              // translation needed?
+    }
+  },
+  "name": {
+    "short": "Pubby",
+    "long": "Pubby.club"
+  },
+  "$validation": {
+    "slug": "Das Feld {_field_} darf nur Buchstaben, Zahlen, _ oder - enthalten",
+    "url": "Das Feld {_field_} muss eine gültige URL sein"
+  },
+  "errors": {
+    "username_already_exists": "Der von Ihnen gewählte Nutzername existiert bereits.",
+    "internal": "Etwas ist schief gegangen. Bitte versuchen Sie es später erneut.",
+    "invalid_login": "Benutzername oder Passwort ungültig.",
+    "invalid_recovery": "Kein Account gefunden",
+    "banned": "Sie wurden von Pubby.club gebannt"
+  },
+  "comming_soon": "Bald verfügbar...",
+  "home": {
+    "welcome_to": "Willkommen bei",                                // need more context
+    "alpha_step": "ALPHA STEP",                                    // need more context
+    "congratulations": "Herzlichen Glückwunsch {0}!",
+    "discoverer": "ENTDECKER",
+    "you_found_us": "Sie haben uns am Anfang unserer Reise gefunden. Registrieren Sie sich und erhalten Sie das exklusive Abzeichen.",
+    "after_a_week": "Nachdem Sie eine Woche auf der Seite aktiv waren, erhalten Sie das {0} Abzeichen."
+  },
+  "buttons": {
+    "submit": "Absenden",
+    "accept": "Akzeptieren",
+    "deny": "Ablehnen",
+    "save": "Speichern",
+    "signin": "Einloggen",
+    "signup": "Registrieren",
+    "more": "Mehr laden",
+    "next": "Nächstes",      // next what? Depending on the gender of the noun it relates to, the last letter may change
+    "prev": "Vorheriges",    // previous what? Depending on the gender of the noun it relates to, the last letter may change
+    "delete": "Löschen",
+    "cancel": "Abbrechen",
+    "rename": "Umbenennen",
+    "send": "Senden",
+    "back": "Zurück",
+    "create": "Erstellen",
+    "yes": "Ja",
+    "no": "Nein",
+    "close": "Schließen",
+    "skip": "Überspringen",
+    "sync": "Sychronisieren",
+    "add": "Hinzufügen",
+    "add_to_playlist": "Zur Playlist hinzufügen",
+    "move_start": "ganz nach oben verschieben",
+    "move_end": "ganz nach unten verschieben",
+    "like": "gefällt mir",                     // does not necessarily need a translation, but my suggestion would probably be the best one
+    "dislike": "gefällt mir nicht",            // does not necessarily need a translation, but my suggestion would probably be the best one
+    "enter_fullscreen": "Vollbild",
+    "exit_fullscreen": "Vollbild beenden",
+    "ban": "Sperren",
+    "unban": "Sperre aufheben",
+    "kick": "Kicken",
+    "player_size": "Playergröße",             
+    "cut": "Zuschneiden",
+    "edit": "Bearbeiten"
+  },
+  "fields": {
+    "name": "Name",
+    "username": "Benutzername",
+    "email": "Email",
+    "password": "Passwort",
+    "birthday": "Geburtstag",
+    "password_confirm": "Passwort bestätigen",
+    "avatar": "Profilbild (URL)",
+    "image_url": "Bild-URL",
+    "room_name": "Room name",
+    "room_slug": "Room link",
+    "description": "Description",
+    "thumbnail": "Vorschaubild",                 // does not necessarily need a translation, but my suggestion would probably be the best one
+    "welcome": "Willkommensnachricht",
+    "search": "Suche...",
+    "title": "Titel",
+    "visibility": "Zugriff",                     // I reckon that belongs to the "create new room" feature. In that case, that word makes the most sense semantically
+    "parental_rating": "Altersbeschränkung",     // there's no real translation. My suggestion translates to "age restriction" which hopefully is what you had in mind.
+    "country": "Land",
+    "start": "Start",                            // need more context here. could be a verb or a noun
+    "end": "Ende"                                // need more context here. could be a verb or a noun
+  },
+  "signin": {
+    "title": "Einloggen",
+    "tip": "Nachdem Sie eine Woche auf der Seite aktiv waren, erhalten Sie das {0} Abzeichen.",
+    "description": "Loggen Sie sich ein und laden Sie Freunde ein! Dann kann die Party steigen!",
+    "recovery": "Passwort vergessen"
+  },
+  "signup": {
+    "title": "NOCH NICHT REGISTRIERT?",
+    "tip": "Wenn Sie sich jetzt registrieren, erhalten Sie das {0}-Abzeichen, das nur denjenigen verliehen wird, die sich während der Alpha Phase anmelden.",
+    "description": "Melden Sie sich an und entdecken Sie die neue Songs und unterschiedlichste Musikgenres, die in den verschiedenen Räumen gespielt werden.",
+    "signin": "ICH HABE BEREITS EINEN ACCOUNT"
+  },
+  "media-cut": {
+    "title": "Medium zuschneiden",
+    "notifications": {
+      "save": {
+        "title": "Medium geupdated",
+        "body": "\"{title}\" erfolgreich geupdated."
+      }
+    }
+  },
+  "recovery": {
+    "title": "Accountwiederherstellung",
+    "description": "Haben Sie Ihr Passwort vergessen? Keine Sorge. Geben Sie Ihre Email-Adresse und Ihren Benutzernamen ein, um Ihren Account wiederherzustellen.",
+    "dialogs": {
+      "success": {
+        "title": "Email wurde gesendet",
+        "body": "Wir haben einen Wiederherstellungslink an Ihre Email-Adresse geschickt. Dieser ist für 2 Stunden gültig."
+      }
+    }
+  },
+  "change_password": {
+    "title": "Passwort ändern",
+    "confirmation": "Passwort erfolgreich geändert!\nNutzen Sie Ihr neues Passwort um sich einzuloggen."
+  },
+  "splash": {
+    "title": "Bitte warten",
+    "room": "Raum wird geladen..."
+  },
+  "browser": {
+    "title": "Browser",
+    "all_rooms": "Alle Räume",
+    "your_rooms": "Ihre Räume",
+    "search_results": "Suchergebnisse",
+    "search_placeholder": "Suche Räume..."
+  },
+  "room": {
+    "users": "Benutzer",
+    "created_by": "Erstellt von {username}",
+    "played_by": "wird gespielt von {username}",                 // to make this shorter, you can delete either the first word or the first and second.
+    "playing_now": "Sie hören:",
+    "next_play": "Sie werden als nächstes spielen:",             // to make this shorter, you can delete "als nächstes"
+    "skip": "ÜBERSPRINGEN",
+    "queue_join": "IN WARTESCHLANGE EINREIHEN",
+    "queue_leave": "WARTESCHLANGE VERLASSEN",
+    "queue_lock": "WARTESCHLANGE SPERREN",
+    "queue_locked": "WARTESCHLANGE GESPERRT",
+    "play_now": "JETZT ABSPIELEN",
+    "stop": "ABSPIELEN BEENDEN",
+    "queue_count": "Es befindet sich niemand in der Warteschlange | Es befindet sich 1 Person in der Warteschlange | Es befinden sich {count} Personen in der Warteschlange",
+    "queue_position": "Sie sind als nächstes dran | Vor Ihnen ist 1 Person dran | Vor Ihnen sind {count} Personen dran",
+    "no_playlists": "Erstellen Sie eine Playlist um Medien abzuspielen:",
+    "no_active_playlist": "Es ist keine Playlist aktiv",
+    "no_media": "Keine Medien verfügbar",
+    "is_playing": "{username} spielt gerade",
+    "user_count": "Niemand | 1 Nutzer | {count} Nutzer",
+    "room_protected": "Dieser Raum ist passwortgeschützt!",               // to make this shorter, remove "passwort" from the last word. currently it means password-protected
+    "type_password": "Geben sie das Passwort ein...",
+    "visibility": {
+      "public": "Öffentlich",
+      "private": "Nur über Link",
+      "password": "Passwortgeschützt"
+    },
+    "parental_rating": {
+      "free": "Keine Altersbeschränkung"
+    },
+    "dialogs": {
+      "new": {
+        "title": "Neuer Raum"
+      },
+      "stop_playing": {
+        "title": "Wiedergabe stoppen",
+        "body": "Sind Sie sicher, dass Sie die Wiedergabe beenden wollen?"
+      },
+      "leave_queue": {
+        "title": "Warteschlange verlassen",
+        "body": "Sind Sie sicher, dass Sie die Warteschlange verlassen wollen?"
+      },
+      "unauthorized": {
+        "title": "Nicht authorisiert",
+        "body": "Ihre derzeitige Rolle in diesem Raum erlaubt es Ihnen nicht, diese Aktion auszuführen."
+      },
+      "multiple_sessions": {
+        "title": "Verbindung getrennt",
+        "body": "Sie haben sich in einem anderen Fenster eingeloggt. Laden Sie die Seite neu, um hier fortzufahren."
+      },
+      "disconnected": {
+        "title": "Verbindung getrennt",
+        "body": "Konnte nicht mit dem Server verbinden. Bitte laden Sie die Seite neu und versuchen Sie es nochmal."
+      },
+      "queue_lock": {
+        "title": "Warteschlange sperren | Warteschlange entsperren",
+        "body": "Sind Sie sicher, dass Sie die Warteschlange sperren wollen? | Sind Sie sicher, dass Sie die Warteschlange entsperren wollen?"
+      },
+      "no_room": {
+        "title": "Verbindung mit keinem Raum möglich",
+        "body": "Ihr Freund befindet sich in keinem Raum."
+      },
+      "room_private": {
+        "title": "Verbindung mit diesem Raum nicht möglich",
+        "body": "Ihr Freund befindet sich in einem privaten Raum."
+      },
+      "invalid_password": {
+        "title": "Verbindung mit diesem Raum nicht möglich",
+        "body": "Das eingegebene Passwort ist ungültig."
+      },
+      "missing_birthday": {
+        "title": "Accountdaten unvollständig",
+        "body": "Sie haben kein Geburtsdatum angegeben. Wir nutzen diese Information um Räume mit Altersbeschränkung herausfiltern zu können und geben diese Information nicht weiter. Um Probleme zu vermeiden, geben Sie bitte Ihr tatsächliches Alter an, da dies später nicht mehr geändert werden kann"
+      }
+    },
+    "notifications": {
+      "playing": "{username} spielt \"{media}\""
+    }
+  },
+  "room_options": {
+    "title": "Room settings",
+    "details": {
+      "title": "Details",
+      "welcome_hint": "{user} will be replaced with the user name"                 // need more context here
+    }
+  },
+  "queue": {
+    "title": "Warteschlange",
+    "user_locked": "Warteschlange ist gesperrt.",
+    "user_unlocked": "Warteschlange ist offen.",
+    "dialogs": {
+      "clear": {
+        "title": "Warteschlange leeren",
+        "body": "Sind Sie sicher, dass Sie jeden aus der Warteschlange entfernen wollen?"
+      }
+    },
+    "events": {
+      "clear": "@{username} hat die Warteschlange geleert."
+    }
+  },
+  "friends": {
+    "title": "Freunde"
+  },
+  "player": {
+    "next_play": "{username} wird spielen",
+    "live": "LIVE",
+    "skip": "aktuelles Medium überspringen",
+    "skip_remove": "Überspringen und Entfernen",
+    "cant_skip": "Sie haben keine Berechtigung, das aktuelle Medium zu überspringen",
+    "hide_video": "Video verstecken",
+    "show_video": "Video zeigen",
+    "started_in": "Started in {date}",                                         // need more context
+    "no_dj": {
+      "title": "Niemand spielt gerade",
+      "body": "Klicken Sie auf {play_now} um die Wiedergabe zu starten!"
+    },
+    "notifications": {
+      "cannot_play": {
+        "title": "Keine Reproduktion gestattet!",
+        "body": "Bitte klicken Sie auf den Player, um die Wiedergabe zu starten."   // left out the part with the browser. There's no elegant way to keep it short. Can change it though if it's important to you.
+      }
+    },
+    "dialogs": {
+      "skip": {
+        "title": "Überspringen",
+        "body": "Sind Sie sicher, dass Sie die aktuelle Wiedergabe überspringen wollen?"    // imo better to not use the word media if not necessary. the umbrella term describing both music and videos is rarely used for some reason.
+      },
+      "skip_remove": {
+        "title": "Überspringen und Entfernen",
+        "body": "Sind Sie sicher, dass Sie die aktuelle Wiedergabe überspringen und den derzeitigen DJ aus der Warteliste entfernen wollen?"
+      }
+    }
+  },
+  "import": {
+    "title": "Playlisten importieren"
+  },
+  "history": {
+    "title": "Wiedergabenverlauf"                           // or just "Verlauf" to keep it short
+  },
+  "playlists": {
+    "title": "Playlisten",
+    "import": "Importieren",
+    "shuffle": "Mischen",
+    "exportAll": "Alle Playlisten exportieren",
+    "count": "Keine Elemente | 1 Element | {count} Elemente",
+    "new": "Neue Playlist",
+    "add": "Medien hinzufügen",
+    "activate": "AKTIVIEREN",
+    "active": "AKTIV",
+    "media_title": "Titel",
+    "media_duration": "Dauer",
+    "media_source": "Quelle",
+    "media_actions": "Ereignisse",                            // can also use "Aktionen" instead, but I think since this is referring to certain events/occurences, that word might be more suitable.
+    "no_media": "Keine Elemente in der Playlist",
+    "add_to_play": "Fügen Sie zur Wiedergabe Medien der Liste hinzu",
+    "no_playlists": "Sie haben noch keine Playlist erstellt",
+    "create_new": "Erstellen Sie eine neue Playlist und rufen Sie die Bibliothek auf um Medien hinzuzufügen",
+    "select": "Wählen Sie eine Playlist aus",
+    "none_selected": "Keine Playlist ausgewählt",
+    "selection_popup": {
+      "title": "Wählen Sie eine Playlist aus:"
+    },
+    "dialogs": {
+      "delete_media": {
+        "title": "Element löschen",
+        "body": "Sind Sie sicher, dass Sie {media} von Ihrer Playlist löschen wollen?"
+      },
+      "delete_playlist": {
+        "title": "Playlist löschen",
+        "body": "Sind Sie sicher, dass Sie die Playlist {playlist} löschen wollen?"
+      }
+    },
+    "notifications": {
+      "added": {
+        "title": "zur Playlist hinzugefügt",
+        "body": "{title} wurde der Playlist hinzugefügt."
+      }
+    }
+  },
+  "add_media": {
+    "title": "Medien hinzufügen",
+    "add": "Hinzufügen",
+    "import": "Importieren",
+    "search": "Suchen",
+    "search_title": "Nach Titel Suchen...",
+    "previous": "Vorheriges",                             // previous what? Depending on the gender of the noun it relates to, the last letter may change
+    "next": "Nächstes",                                   // next what? Depending on the gender of the noun it relates to, the last letter may change
+    "see_more": "Mehr anzeigen",
+    "added": "Zu Ihrer Playlist hinzugefügt",
+    "pubby": {
+      "title": "von Pubby hinzufügen",
+      "not_found": "Nichts gefunden",
+      "try_others": "Versuchen Sie eine andere Quelle"
+    },
+    "youtube": {
+      "title": "von Youtube hinzufügen",
+      "link": "LINK DES VIDEOS ODER DER PLAYLIST",
+      "placeholder": "Geben Sie hier den Link zum Youtube-Video oder der Playlist ein.",
+      "video_duration": "Dauer: {duration}",
+      "video_count": "Kein video | 1 Video | {count} Videos",
+      "video_channel": "Kanal",
+      "new_playlist": "Playlist erstellen",
+      "imported": "Playlist wurde importiert"
+    },
+    "soundcloud": {
+      "title": "Von SoundCloud hinzufügen"
+    },
+    "vimeo": {
+      "title": "Von Vimeo hinzufügen",
+      "link": "LINK DES VIDEOS",
+      "placeholder": "Geben Sie hier den Link des Video von Vimeo ein.",
+      "video_duration": "Dauer: {duration}",
+      "video_count": "Kein video | 1 Video | {count} Videos",
+      "video_channel": "Kanal"
+    }
+  },
+  "roles": {
+    "title": "Rollen und Berechtigungen",
+    "description": "Erstellen Sie eigene Rollen für diesen Raum",
+    "new": "Neue Rolle",
+    "color": "Farbe im Chat:",
+    "users": "Nutzer",
+    "permissions": "Berechtigungen",
+    "add_user": "Nutzer hinzufügen",
+    "remove_user": "Nutzer entfernen",
+    "all_permissions": "Alle Berechtigungen",
+    "no_role": "Dieser Raum hat keine Rollen",
+    "no_user": "Kein Nutzer besitzt diese Rolle",
+    "select": "Rolle auswählen",
+    "no_selection": "Keine Rolle ausgewählt",
+    "dialogs": {
+      "delete": {
+        "title": "Rolle entfernen",
+        "body": "Sind Sie sicher, dass Sie diese Rolle {role} im aktuellen Raum löschen wollen?"
+      },
+      "remove_user": {
+        "title": "Rolle von Nutzer entfernen",
+        "body": "Sind Sie sicher, dass Sie die Rolle {role} von dem ausgewählten Nutzer / den ausgewählten Nutzern entfernen wollen?"
+      }
+    },
+    "scopes": {
+      "ALL": {
+        "title": "Alle Berechtigungen",
+        "description": "Dem Nutzer alle Berechtigungen geben"
+      },
+      "PLAYBACK_SKIP": {
+        "title": "Wiedergabe überspringen",
+        "description": "Aktuelle Wiedergabe überspringen"
+      },
+      "CHAT_DELETE": {
+        "title": "Chatnachricht löschen",
+        "description": "Löscht diese Chatnachricht"
+      },
+      "ROOM_DETAILS": {
+        "title": "Raumeinstellungen ändern",
+        "description": "Ermöglicht es Ihnen, den Namen, die Beschreibung, den Link und die Wilkommensnachricht des Raums zu ändern"
+      },
+      "QUEUE_ADD_REMOVE": {
+        "title": "Nutzer zur Warteschlange hinzufügen / von der Warteschlange entfernen",
+        "description": "Ermöglicht es Ihnen, Nutzer zur Warteschlange hinzuzufügen / von der Warteschlange zu entfernen"
+      },
+      "QUEUE_MOVE": {
+        "title": "Warteschlange verwalten",
+        "description": "Ermöglicht es Ihnen, die Position der Nutzer in der Warteschlänge zu ändern"
+      },
+      "QUEUE_JOIN_LOCKED": {
+        "title": "Gesperrte Warteschlange betreten",
+        "description": "Ermöglicht es Ihnen, eine Warteschlange zu betreten, selbst wenn sie gesperrt ist"
+      },
+      "USER_BAN": {
+        "title": "Nutzer bannen",
+        "description": "Ermöglicht es Ihnen, Nutzer von diesem Raum zu verbannen"
+      },
+      "USER_UNBAN": {
+        "title": "Nutzer entbannen",
+        "description": "Ermöglicht es Ihnen, Nutzer, die für diesen Raum gesperrt wurden, wieder zu entbannen"
+      },
+      "USER_KICK": {
+        "title": "Nutzer kicken",
+        "description": "Ermöglicht es Ihnen, Nutzer aus dem Raum zu kicken"
+      },
+      "MANAGE_ROLES": {
+        "title": "Rollen verwalten",
+        "description": "Ermöglicht es Ihnen, Einstellungen an den Rollen und Berechtigungen in dem Raum vorzunehmen"
+      }
+    }
+  },
+  "global_roles": {
+    "title": "Globale Rollen",
+    "roles": {
+      "root": "Root",
+      "developer": "Entwickler",
+      "discoverer": "Entdecker",
+      "moderator": "Moderator",
+      "translator": "Übersetzer",
+      "promoter": "Promoter",
+      "event_promoter": "Event Promoter",
+      "alpha": "Alpha",
+      "beta": "Beta",
+      "contributor": "Mitwirkender",
+      "supporter": "Unterstützer",
+      "premium_supporter": "Premium-Unterstützer",
+      "lifetime_premium_supporter": "Lebenslanger Premium-Unterstützer",
+      "investor_supporter": "Investor-Unterstützer",
+      "founder_supporter": "Gründer-Unterstützer"
+    },
+    "scopes": {
+      "BAN_USER": {
+        "title": "Nutzer bannen",
+        "description": "Einen Nutzer auf unbestimmte Zeit von dieser Seite bannen."
+      },
+      "MUTE_USER": {
+        "title": "Nutzer stummschalten",
+        "description": "Nutzer kann auf unbestimmte Zeit keine Chatnachrichten verfassen."
+      },
+      "BLOCK_DJ": {
+        "title": "Block DJ",
+        "description": "Nutzer kann auf unbestimmte Zeit in keinem Raum Medien abspielen."
+      },
+      "CLOSE_ROOM": {
+        "title": "Raum schließen",
+        "description": "Auf unbestimmte Zeit einen Raum auf dieser Seite schließen."
+      }
+    }
+  },
+  "profile_popup": {
+    "user_since": "Angemeldet seit {date}",
+    "score": "{points} Punkte",
+    "friend_is": "Ihr seid bereits Freunde",
+    "friend_add": "Freund hinzufügen",
+    "friend_pending": "Freundschaftsanfrage gesendet",
+    "friend_accept": "Freundschaftsanfrage annehmen",
+    "user_kick": "Nutzer aus diesen Raum kicken",
+    "user_ban": "Nutzer von diesem Raum verbannen",
+    "user_site_ban": "Nutzer von Pubby.club verbannen",
+    "dialogs": {
+      "user_ban": {
+        "title": "Nutzer bannen",
+        "body": "Sind Sie sicher, dass Sie {username} von diesem Raum verbannen wollen?"
+      },
+      "user_kick": {
+        "title": "Nutzer kciken",
+        "body": "Sind Sie sicher, dass Sie {username} aus diesem Raum kicken wollen?"
+      },
+      "user_site_ban": {
+        "title": "Nutzer von Pubby.club verbannen",
+        "body": "Sind Sie sicher, dass Sie {username} von PUBBY.CLUB verbannen wollen?"
+      },
+      "user_remove": {
+        "title": "Freund entfernen",
+        "body": "Sind Sie sicher, dass Sie nicht länger mit dem Nutzer befreundet sein wollen?"
+      }
+    },
+    "notifications": {
+      "user_banned": {
+        "title": "Nutzer gebannt",
+        "body": {
+          "expires": "Nutzer {username} für {duration} von diesem Raum gebannt",
+          "permanent": "Nutzer {username} permanent von diesem Raum gebannt"
+        }
+      },
+      "user_kicked": {
+        "title": "Nutzer gekickt",
+        "body": "Sie haben {username} aus diesen Raum gekickt"
+      },
+      "user_site_banned": {
+        "title": {
+          "account": "Nutzer von Pubby.club gebannt",
+          "ip": "Nutzer über IP von Pubby.club gebannt"
+        },
+        "body": {
+          "expires": "Nutzer {username} für {duration} von Pubby.Club gebannt",
+          "permanent": "Nutzer {username} permanent von Pubby.club gebannt"
+        }
+      }
+    }
+  },
+  "user_popup": {
+    "settings": "Einstellungen",
+    "new_room": "Neuer Raum",
+    "logout": "Ausloggen",
+    "friendship_requests": "Freundschaftsanfragen | Freundschaftsanfragen ({count}) | Freundschaftsanfragen ({count})"
+  },
+  "friendship": {
+    "notifications": {
+      "accepted": {
+        "title": "Freundschaftsanfrage akzeptiert",
+        "body": "{username} hat Ihre Freundschaftsanfrage akzeptiert"
+      },
+      "requested": {
+        "title": "Freundschaftsanfrage",
+        "body": "{username} hat Ihnen eine Freundschaftsanfrage geschickt"
+      }
+    }
+  },
+  "friendship_request": {
+    "title": "Freundschaftsanfragen",
+    "no_requests": "Keine Anfragen",
+    "no_requests_description": "Sie haben auf alle Freundschaftsanfragen geantwortet."
+  },
+  "settings": {
+    "title": "Einstellungen",
+    "profile": {
+      "title": "Profil"
+    },
+    "general": {
+      "title": "Allgemein"
+    },
+    "interface": {
+      "title": "Oberfläche",                                                         // translation not necessarily needed
+      "enable_transparency": "Tranzparanzmodus aktivieren",
+      "enable_blur": "Unschärfe aktivieren"
+    },
+    "notifications": {
+      "title": "Benachrichtigungen",
+      "mentions_sound": "Benachrichtigungston",
+      "desktop_notifications": "Desktopbenachrichtigungen",
+      "chat": "Chatnachrichten",
+      "media": "Medien-Updates",
+      "mention": "Erwähnungen"
+    }
+  },
+  "chat": {
+    "title": "Chat",                                                                    // you could also write "Nachrichten" instead since it also shows events like when a media cannot be played, room activity and whatnot. But I think chat is more commonly used.
+    "clear": "Nachrichten löschen",                                                     // instead of "Nachrichten", "Verlauf" (history) can be used as well. Or just "löschen" but it's less unambiguous imo
+    "placeholder": "Hier schreiben...",
+    "user_said": "{user} schrieb: {text}",                                              // "schrieb" actually translates to "wrote", but you can use "sagte" instead, if you prefer the literal translation.
+    "messages": {
+      "reply": "Antworten",
+      "delete": "Löschen"
+    },
+    "events": {
+      "user_joined": "{username} hat den Raum betreten.",
+      "user_leave": "{username} hat den Raum verlassen.",
+      "playback_skip": "{username} hat die Wiedergabe übersprungen.",
+      "playback_unavailable": "@{username} Medium nicht verfügbar",
+      "queue_add": "@{user} hat @{addedUser} zur Wiedergabeliste hinzugefügt.",
+      "queue_remove": "@{mod} hat @{user} von der Wiedergabeliste entfernt.",
+      "queue_move": "@{mod} hat @{user} von {from} nach {to} verschoben.",
+      "role_add": "@{mod} gab {users} die Rolle **{role}**.",
+      "role_remove": "@{mod} entfernte die Rolle **{role}** von {users}.",
+      "user_ban": "{username} wurde von dem Raum gebannt.",
+      "user_kick": "{username} wurde aus den Raum gekickt.",
+      "user_site_ban": "{username} wurde von Pubby.club verbannt"
+    },
+    "dialogs": {
+      "remove": {
+        "title": "Nachricht löschen",
+        "body": "Sind Sie sicher, dass Sie diese Nachricht löschen wollen?"
+      },
+      "clear": {
+        "title": "Chatverlauf löschen",
+        "body": "Sind Sie sicher, dass Sie alle Nachrichten löschen wollen?"
+      }
+    }
+  },
+  "bans": {
+    "title": "Gebannte Nutzer",
+    "user": "Nutzer",
+    "reason": "Grund",
+    "mod": "Gebannt von",
+    "date": "Gebannt am",
+    "expires": "Endet (am/in)",                                                                          // some clarification needed regarding the duration of the ban. Is this followed by an amount of time... like 5 hours or a date? Depending on that I need to use different prepositions
+    "never": "nie",
+    "permanent": "permanent",
+    "duration": "Dauer",
+    "ban": "Bannen",
+    "unban": "Entbannen",
+    "ban_ip": "IP bannen",
+    "not_specified": "Nicht festgelegt",                                                                  // need more context
+    "dialogs": {
+      "user_unban": {
+        "title": "Nutzer entbannen",
+        "body": "Sind Sie sicher, dass Sie {username} wieder Zugriff auf diesen Raum gestatten wollen?"    // I wrote "grant acces again" instead of unban for more variety
+      },
+      "user_banned": {
+        "body": "Sie wurden aus dem Raum {room} verbannt"
+      },
+      "user_kicked": {
+        "body": "Sie wurden aus dem Raum {room} gekickt"
+      }
+    },
+    "notifications": {
+      "user_unbanned": {
+        "title": "Nutzer entbannt",
+        "body": "{username} erfolgreich entbannt"
+      }
+    }
+  },
+  "table": {
+    "actions": "Aktionen"                                                                                      // same as in line 305. If this refers to events/occurences, then "Ereignisse" is a better translation. For actions taken by a mod or something, the current translation is better
+  }
+}
