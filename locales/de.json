@@ -15,11 +15,11 @@
   "$list": {
     "and": {
       "join": ", ",
-      "conjunction": " und "                               // translation needed?
+      "conjunction": " und "                               
     },
     "or": {
       "join": ", ",
-      "conjunction": " oder "                              // translation needed?
+      "conjunction": " oder "                              
     }
   },
   "name": {
@@ -39,8 +39,8 @@
   },
   "comming_soon": "Bald verfügbar...",
   "home": {
-    "welcome_to": "Willkommen bei",                                // need more context
-    "alpha_step": "ALPHA STEP",                                    // need more context
+    "welcome_to": "Willkommen bei",                                
+    "alpha_step": "ALPHA STEP",                                    
     "congratulations": "Herzlichen Glückwunsch {0}!",
     "discoverer": "ENTDECKER",
     "you_found_us": "Sie haben uns am Anfang unserer Reise gefunden. Registrieren Sie sich und erhalten Sie das exklusive Abzeichen.",
@@ -54,8 +54,8 @@
     "signin": "Einloggen",
     "signup": "Registrieren",
     "more": "Mehr laden",
-    "next": "Nächstes",      // next what? Depending on the gender of the noun it relates to, the last letter may change
-    "prev": "Vorheriges",    // previous what? Depending on the gender of the noun it relates to, the last letter may change
+    "next": "Nächstes",      
+    "prev": "Vorheriges",    
     "delete": "Löschen",
     "cancel": "Abbrechen",
     "rename": "Umbenennen",
@@ -71,8 +71,8 @@
     "add_to_playlist": "Zur Playlist hinzufügen",
     "move_start": "ganz nach oben verschieben",
     "move_end": "ganz nach unten verschieben",
-    "like": "gefällt mir",                     // does not necessarily need a translation, but my suggestion would probably be the best one
-    "dislike": "gefällt mir nicht",            // does not necessarily need a translation, but my suggestion would probably be the best one
+    "like": "gefällt mir",                     
+    "dislike": "gefällt mir nicht",            
     "enter_fullscreen": "Vollbild",
     "exit_fullscreen": "Vollbild beenden",
     "ban": "Sperren",
@@ -94,15 +94,15 @@
     "room_name": "Room name",
     "room_slug": "Room link",
     "description": "Description",
-    "thumbnail": "Vorschaubild",                 // does not necessarily need a translation, but my suggestion would probably be the best one
+    "thumbnail": "Vorschaubild",                 
     "welcome": "Willkommensnachricht",
     "search": "Suche...",
     "title": "Titel",
-    "visibility": "Zugriff",                     // I reckon that belongs to the "create new room" feature. In that case, that word makes the most sense semantically
-    "parental_rating": "Altersbeschränkung",     // there's no real translation. My suggestion translates to "age restriction" which hopefully is what you had in mind.
+    "visibility": "Zugriff",                     
+    "parental_rating": "Altersbeschränkung",     
     "country": "Land",
-    "start": "Start",                            // need more context here. could be a verb or a noun
-    "end": "Ende"                                // need more context here. could be a verb or a noun
+    "start": "Start",                            
+    "end": "Ende"                                
   },
   "signin": {
     "title": "Einloggen",
@@ -153,9 +153,9 @@
   "room": {
     "users": "Benutzer",
     "created_by": "Erstellt von {username}",
-    "played_by": "wird gespielt von {username}",                 // to make this shorter, you can delete either the first word or the first and second.
+    "played_by": "wird gespielt von {username}",                 
     "playing_now": "Sie hören:",
-    "next_play": "Sie werden als nächstes spielen:",             // to make this shorter, you can delete "als nächstes"
+    "next_play": "Sie werden als nächstes spielen:",             
     "skip": "ÜBERSPRINGEN",
     "queue_join": "IN WARTESCHLANGE EINREIHEN",
     "queue_leave": "WARTESCHLANGE VERLASSEN",
@@ -170,7 +170,7 @@
     "no_media": "Keine Medien verfügbar",
     "is_playing": "{username} spielt gerade",
     "user_count": "Niemand | 1 Nutzer | {count} Nutzer",
-    "room_protected": "Dieser Raum ist passwortgeschützt!",               // to make this shorter, remove "passwort" from the last word. currently it means password-protected
+    "room_protected": "Dieser Raum ist passwortgeschützt!",               
     "type_password": "Geben sie das Passwort ein...",
     "visibility": {
       "public": "Öffentlich",
@@ -233,7 +233,7 @@
     "title": "Room settings",
     "details": {
       "title": "Details",
-      "welcome_hint": "{user} will be replaced with the user name"                 // need more context here
+      "welcome_hint": "{user} will be replaced with the user name"                 
     }
   },
   "queue": {
@@ -261,7 +261,7 @@
     "cant_skip": "Sie haben keine Berechtigung, das aktuelle Medium zu überspringen",
     "hide_video": "Video verstecken",
     "show_video": "Video zeigen",
-    "started_in": "Started in {date}",                                         // need more context
+    "started_in": "Started in {date}",                                         
     "no_dj": {
       "title": "Niemand spielt gerade",
       "body": "Klicken Sie auf {play_now} um die Wiedergabe zu starten!"
@@ -269,13 +269,13 @@
     "notifications": {
       "cannot_play": {
         "title": "Keine Reproduktion gestattet!",
-        "body": "Bitte klicken Sie auf den Player, um die Wiedergabe zu starten."   // left out the part with the browser. There's no elegant way to keep it short. Can change it though if it's important to you.
+        "body": "Bitte klicken Sie auf den Player, um die Wiedergabe zu starten."
       }
     },
     "dialogs": {
       "skip": {
         "title": "Überspringen",
-        "body": "Sind Sie sicher, dass Sie die aktuelle Wiedergabe überspringen wollen?"    // imo better to not use the word media if not necessary. the umbrella term describing both music and videos is rarely used for some reason.
+        "body": "Sind Sie sicher, dass Sie die aktuelle Wiedergabe überspringen wollen?"
       },
       "skip_remove": {
         "title": "Überspringen und Entfernen",
@@ -287,7 +287,7 @@
     "title": "Playlisten importieren"
   },
   "history": {
-    "title": "Wiedergabenverlauf"                           // or just "Verlauf" to keep it short
+    "title": "Wiedergabenverlauf"                           
   },
   "playlists": {
     "title": "Playlisten",
@@ -302,7 +302,7 @@
     "media_title": "Titel",
     "media_duration": "Dauer",
     "media_source": "Quelle",
-    "media_actions": "Ereignisse",                            // can also use "Aktionen" instead, but I think since this is referring to certain events/occurences, that word might be more suitable.
+    "media_actions": "Ereignisse",                            
     "no_media": "Keine Elemente in der Playlist",
     "add_to_play": "Fügen Sie zur Wiedergabe Medien der Liste hinzu",
     "no_playlists": "Sie haben noch keine Playlist erstellt",
@@ -335,8 +335,8 @@
     "import": "Importieren",
     "search": "Suchen",
     "search_title": "Nach Titel Suchen...",
-    "previous": "Vorheriges",                             // previous what? Depending on the gender of the noun it relates to, the last letter may change
-    "next": "Nächstes",                                   // next what? Depending on the gender of the noun it relates to, the last letter may change
+    "previous": "Vorheriges",                             
+    "next": "Nächstes",                                   
     "see_more": "Mehr anzeigen",
     "added": "Zu Ihrer Playlist hinzugefügt",
     "pubby": {
@@ -559,7 +559,7 @@
       "title": "Allgemein"
     },
     "interface": {
-      "title": "Oberfläche",                                                         // translation not necessarily needed
+      "title": "Oberfläche",                                                         
       "enable_transparency": "Tranzparanzmodus aktivieren",
       "enable_blur": "Unschärfe aktivieren"
     },
@@ -573,10 +573,10 @@
     }
   },
   "chat": {
-    "title": "Chat",                                                                    // you could also write "Nachrichten" instead since it also shows events like when a media cannot be played, room activity and whatnot. But I think chat is more commonly used.
-    "clear": "Nachrichten löschen",                                                     // instead of "Nachrichten", "Verlauf" (history) can be used as well. Or just "löschen" but it's less unambiguous imo
+    "title": "Chat",                                                                    
+    "clear": "Nachrichten löschen",                                                     
     "placeholder": "Hier schreiben...",
-    "user_said": "{user} schrieb: {text}",                                              // "schrieb" actually translates to "wrote", but you can use "sagte" instead, if you prefer the literal translation.
+    "user_said": "{user} schrieb: {text}",                                              
     "messages": {
       "reply": "Antworten",
       "delete": "Löschen"
@@ -612,18 +612,18 @@
     "reason": "Grund",
     "mod": "Gebannt von",
     "date": "Gebannt am",
-    "expires": "Endet (am/in)",                                                                          // some clarification needed regarding the duration of the ban. Is this followed by an amount of time... like 5 hours or a date? Depending on that I need to use different prepositions
+    "expires": "Endet (am/in)",                                                                          
     "never": "nie",
     "permanent": "permanent",
     "duration": "Dauer",
     "ban": "Bannen",
     "unban": "Entbannen",
     "ban_ip": "IP bannen",
-    "not_specified": "Nicht festgelegt",                                                                  // need more context
+    "not_specified": "Nicht festgelegt",                                                                  
     "dialogs": {
       "user_unban": {
         "title": "Nutzer entbannen",
-        "body": "Sind Sie sicher, dass Sie {username} wieder Zugriff auf diesen Raum gestatten wollen?"    // I wrote "grant acces again" instead of unban for more variety
+        "body": "Sind Sie sicher, dass Sie {username} wieder Zugriff auf diesen Raum gestatten wollen?"    
       },
       "user_banned": {
         "body": "Sie wurden aus dem Raum {room} verbannt"
@@ -640,6 +640,6 @@
     }
   },
   "table": {
-    "actions": "Aktionen"                                                                                      // same as in line 305. If this refers to events/occurences, then "Ereignisse" is a better translation. For actions taken by a mod or something, the current translation is better
+    "actions": "Aktionen"                                                                                      
   }
 }
