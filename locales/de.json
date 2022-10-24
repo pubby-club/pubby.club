@@ -10,7 +10,7 @@
   },
   "$contributors": {
     "authors": [{ "name": "Ilmarinen" }],
-    "reviewers": [{ "name": "salomaosnff" }, { "name": "Pyrael" }]
+    "reviewers": []
   },
   "$list": {
     "and": {
