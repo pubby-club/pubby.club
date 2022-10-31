@@ -1,7 +1,7 @@
 {
   "locale": {
     "code": "de",
-    "ui_code": "de",
+    "ui_code": "en-US",
     "validation_code": "de",
     "dayjs_code": "de",
     "name": "Deutsch",
@@ -39,11 +39,11 @@
   },
   "comming_soon": "Bald verfügbar...",
   "home": {
-    "welcome_to": "Willkommen bei",                                
-    "alpha_step": "ALPHA STEP",                                    
-    "congratulations": "Herzlichen Glückwunsch {0}!",
+    "welcome_to": "Willkommen zur",                                
+    "alpha_step": "ALPHA-PHASE",                                    
+    "congratulations": "Herzlichen Glückwunsch, {0}!",
     "discoverer": "ENTDECKER",
-    "you_found_us": "Sie haben uns am Anfang unserer Reise gefunden. Registrieren Sie sich und erhalten Sie das exklusive Abzeichen.",
+    "you_found_us": "Sie haben uns am Anfang unserer Reise gefunden. Registrieren Sie sich jetzt und erhalten Sie ein exklusives Abzeichen.",
     "after_a_week": "Nachdem Sie eine Woche auf der Seite aktiv waren, erhalten Sie das {0} Abzeichen."
   },
   "buttons": {
@@ -91,9 +91,9 @@
     "password_confirm": "Passwort bestätigen",
     "avatar": "Profilbild (URL)",
     "image_url": "Bild-URL",
-    "room_name": "Room name",
-    "room_slug": "Room link",
-    "description": "Description",
+    "room_name": "Name des Raums",
+    "room_slug": "Link zum Raum",
+    "description": "Beschreibung",
     "thumbnail": "Vorschaubild",                 
     "welcome": "Willkommensnachricht",
     "search": "Suche...",
@@ -107,12 +107,12 @@
   "signin": {
     "title": "Einloggen",
     "tip": "Nachdem Sie eine Woche auf der Seite aktiv waren, erhalten Sie das {0} Abzeichen.",
-    "description": "Loggen Sie sich ein und laden Sie Freunde ein! Dann kann die Party steigen!",
+    "description": "Loggen Sie sich ein und laden Sie Ihre Freunde ein! Dann kann die Party steigen!",
     "recovery": "Passwort vergessen"
   },
   "signup": {
     "title": "NOCH NICHT REGISTRIERT?",
-    "tip": "Wenn Sie sich jetzt registrieren, erhalten Sie das {0}-Abzeichen, das nur denjenigen verliehen wird, die sich während der Alpha Phase anmelden.",
+    "tip": "Wenn Sie sich jetzt registrieren, erhalten Sie das {0}-Abzeichen, das nur denjenigen verliehen wird, die sich während der Alpha-Phase anmelden.",
     "description": "Melden Sie sich an und entdecken Sie die neue Songs und unterschiedlichste Musikgenres, die in den verschiedenen Räumen gespielt werden.",
     "signin": "ICH HABE BEREITS EINEN ACCOUNT"
   },
@@ -230,10 +230,10 @@
     }
   },
   "room_options": {
-    "title": "Room settings",
+    "title": "Raum-Einstellungen",
     "details": {
       "title": "Details",
-      "welcome_hint": "{user} will be replaced with the user name"                 
+      "welcome_hint": "{user} wird durch den Benutzernamen ersetzt"                 
     }
   },
   "queue": {
@@ -258,17 +258,17 @@
     "live": "LIVE",
     "skip": "aktuelles Medium überspringen",
     "skip_remove": "Überspringen und Entfernen",
-    "cant_skip": "Sie haben keine Berechtigung, das aktuelle Medium zu überspringen",
+    "cant_skip": "Sie haben keine Berechtigung, den aktuellen Titel zu überspringen",
     "hide_video": "Video verstecken",
     "show_video": "Video zeigen",
-    "started_in": "Started in {date}",                                         
+    "started_in": "gestartet am {date}",                                         
     "no_dj": {
       "title": "Niemand spielt gerade",
       "body": "Klicken Sie auf {play_now} um die Wiedergabe zu starten!"
     },
     "notifications": {
       "cannot_play": {
-        "title": "Keine Reproduktion gestattet!",
+        "title": "Autmoatische Wiedergabe nicht möglich!",
         "body": "Bitte klicken Sie auf den Player, um die Wiedergabe zu starten."
       }
     },
@@ -397,48 +397,48 @@
       },
       "PLAYBACK_SKIP": {
         "title": "Wiedergabe überspringen",
-        "description": "Aktuelle Wiedergabe überspringen"
+        "description": "Darf die aktuelle Wiedergabe überspringen"
       },
       "CHAT_DELETE": {
         "title": "Chatnachricht löschen",
-        "description": "Löscht diese Chatnachricht"
+        "description": "Darf Chatnachrichten löschen"
       },
       "ROOM_DETAILS": {
         "title": "Raumeinstellungen ändern",
-        "description": "Ermöglicht es Ihnen, den Namen, die Beschreibung, den Link und die Wilkommensnachricht des Raums zu ändern"
+        "description": "Darf den Namen, die Beschreibung, den Link und die Wilkommensnachricht des Raums ändern"
       },
       "QUEUE_ADD_REMOVE": {
         "title": "Nutzer zur Warteschlange hinzufügen / von der Warteschlange entfernen",
-        "description": "Ermöglicht es Ihnen, Nutzer zur Warteschlange hinzuzufügen / von der Warteschlange zu entfernen"
+        "description": "Darf andere Nutzer zur Warteschlange hinzuzufügen / von der Warteschlange entfernen"
       },
       "QUEUE_MOVE": {
         "title": "Warteschlange verwalten",
-        "description": "Ermöglicht es Ihnen, die Position der Nutzer in der Warteschlänge zu ändern"
+        "description": "Darf die Position der Nutzer in der Warteschlänge ändern"
       },
       "QUEUE_JOIN_LOCKED": {
         "title": "Gesperrte Warteschlange betreten",
-        "description": "Ermöglicht es Ihnen, eine Warteschlange zu betreten, selbst wenn sie gesperrt ist"
+        "description": "Darf die Warteschlange zu betreten, selbst wenn sie gesperrt ist"
       },
       "USER_BAN": {
         "title": "Nutzer bannen",
-        "description": "Ermöglicht es Ihnen, Nutzer von diesem Raum zu verbannen"
+        "description": "Darf Nutzer von diesem Raum verbannen"
       },
       "USER_UNBAN": {
         "title": "Nutzer entbannen",
-        "description": "Ermöglicht es Ihnen, Nutzer, die für diesen Raum gesperrt wurden, wieder zu entbannen"
+        "description": "Darf Nutzer, die für diesen Raum gesperrt wurden, wieder entbannen"
       },
       "USER_KICK": {
         "title": "Nutzer kicken",
-        "description": "Ermöglicht es Ihnen, Nutzer aus dem Raum zu kicken"
+        "description": "Darf Nutzer aus dem Raum kicken"
       },
       "MANAGE_ROLES": {
         "title": "Rollen verwalten",
-        "description": "Ermöglicht es Ihnen, Einstellungen an den Rollen und Berechtigungen in dem Raum vorzunehmen"
+        "description": "Darf Einstellungen an den Rollen und Berechtigungen in dem Raum vornehmen"
       }
     }
   },
   "global_roles": {
-    "title": "Globale Rollen",
+    "title": "Raumübergreifende Rollen",
     "roles": {
       "root": "Root",
       "developer": "Entwickler",
@@ -505,10 +505,10 @@
     },
     "notifications": {
       "user_banned": {
-        "title": "Nutzer gebannt",
+        "title": "Nutzer wurde gebannt",
         "body": {
-          "expires": "Nutzer {username} für {duration} von diesem Raum gebannt",
-          "permanent": "Nutzer {username} permanent von diesem Raum gebannt"
+          "expires": "Nutzer {username} wurde für {duration} von diesem Raum gebannt",
+          "permanent": "Nutzer {username} wurde permanent von diesem Raum gebannt"
         }
       },
       "user_kicked": {
@@ -521,8 +521,8 @@
           "ip": "Nutzer über IP von Pubby.club gebannt"
         },
         "body": {
-          "expires": "Nutzer {username} für {duration} von Pubby.Club gebannt",
-          "permanent": "Nutzer {username} permanent von Pubby.club gebannt"
+          "expires": "Nutzer {username} wurde für {duration} von Pubby.Club gebannt",
+          "permanent": "Nutzer {username} wurde permanent von Pubby.club gebannt"
         }
       }
     }
