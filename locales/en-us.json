@@ -93,6 +93,7 @@
     "image_url": "Image URL",
     "room_name": "Room name",
     "room_slug": "Room link",
+    "twitch": "Twitch Chat",
     "description": "Description",
     "thumbnail": "Thumbnail",
     "welcome": "Welcome message",
