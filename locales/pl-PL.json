@@ -1,7 +1,7 @@
 {
   "locale": {
     "code": "pl-PL",
-    "ui_code": "en-US",
+    "ui_code": "pl-PL",
     "validation_code": "pl",
     "dayjs_code": "pl",
     "name": "Polski",
@@ -11,7 +11,7 @@
   "$contributors": {
     "authors": [
       {
-        "name": "norelock"
+        "name": "xanxseven (fka. norelock)"
       }
     ],
     "reviewers": []
