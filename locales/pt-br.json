@@ -653,5 +653,79 @@
   },
   "table": {
     "actions": "Ações"
+  },
+  "beta": {
+    "info": "Pubby beta está em desenvolvimento, acesse em {url} envie seu feedback pelo servidor do {discord}."
+  },
+  "rules": {
+    "title": "Regras do Pubby.club",
+    "read_rules": "Ler regras",
+    "info": "Leia e siga as regras do Pubby.club para evitar punições.",
+    "sections": [
+      {
+        "title": "Respeito e Tolerância",
+        "body": "Todos os usuários devem tratar uns aos outros com respeito, tolerância e cortesia. Discriminação, ódio, assédio, bullying ou qualquer forma de comportamento prejudicial não será tolerada."
+      },
+      {
+        "title": "Respeite ao Tema da Sala",
+        "body": "Os usuários devem respeitar o tema da sala em que estão participando. Isso inclui a reprodução de músicas que se encaixem no gênero da mídia definido para a sala. Evite reproduzir mídias que não estejam alinhadas com o tema da sala, a menos que haja consentimento explícito dos outros participantes. A moderação da sala tem autoridade para aplicar punições, como advertências ou expulsões, em casos de desrespeito ao gênero musical da sala ou reprodução de conteúdo inapropriado."
+      },
+      {
+        "title": "Conteúdo Apropriado",
+        "body": "Os vídeos e as mensagens de chat não devem conter conteúdo adulto, violento, difamatório, ilegal ou de natureza ofensiva. Conteúdo sexual explícito ou violento é estritamente proibido."
+      },
+      {
+        "title": "Proibição de Assédio",
+        "body": "O assédio, seja ele verbal, sexual ou de qualquer outra forma, não será tolerado. Isso inclui comentários sexuais não solicitados, perseguição persistente e qualquer forma de intimidação."
+      },
+      {
+        "title": "Privacidade e Consentimento",
+        "body": "Não compartilhe informações pessoais de outros usuários sem seu consentimento expresso. O consentimento é fundamental para compartilhar informações privadas."
+      },
+      {
+        "title": "Identificação Adequada",
+        "body": "Os usuários devem utilizar nomes de perfil apropriados e evitar a representação falsa ou enganosa de sua identidade."
+      },
+      {
+        "title": "Direitos Autorais e Propriedade Intelectual",
+        "body": "Respeite os direitos autorais e a propriedade intelectual. Não carregue ou compartilhe conteúdo protegido por direitos autorais sem a devida autorização."
+      },
+      {
+        "title": "Moderação",
+        "body": "O site terá moderadores para monitorar o conteúdo e o comportamento dos usuários. As decisões dos moderadores devem ser respeitadas e acatadas."
+      },
+      {
+        "title": "Denúncia de Abuso",
+        "body": "Os usuários devem relatar qualquer comportamento inadequado ou violação das regras às equipes de suporte ou moderadores do site."
+      },
+      {
+        "title": "Proteção de Menores",
+        "body": "Se o site permitir que menores de idade participem, medidas adicionais devem ser implementadas para protegê-los de conteúdo inadequado e interações prejudiciais."
+      },
+      {
+        "title": "Responsabilidade do Usuário",
+        "body": "Cada usuário é responsável por seu próprio comportamento e pelo conteúdo que compartilha. O site não pode ser responsabilizado por ações individuais."
+      },
+      {
+        "title": "Suspensão e Banimento",
+        "body": "O site reserva o direito de suspender ou banir usuários que violarem repetidamente as regras, a critério da moderação."
+      },
+      {
+        "title": "Termos de Serviço e Política de Privacidade",
+        "body": "Os usuários devem concordar com os termos de serviço e a política de privacidade do site antes de se registrarem."
+      },
+      {
+        "title": "Atualizações das Regras",
+        "body": "As regras podem ser atualizadas ocasionalmente para se adaptarem às necessidades do site. Os usuários serão notificados sobre essas atualizações."
+      },
+      {
+        "title": "Feedback Construtivo",
+        "body": "Os usuários são incentivados a fornecer feedback construtivo sobre o site para melhorias contínuas."
+      },
+      {
+        "title": "Aproveite Responsavelmente",
+        "body": "O objetivo principal do site é proporcionar entretenimento e interação. Aproveite-o de forma responsável e ética."
+      }
+    ]
   }
 }

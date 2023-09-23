@@ -642,5 +642,79 @@
   },
   "table": {
     "actions": "Actions"
+  },
+  "beta": {
+    "info": "Pubby beta is under development, access it at {url} and send your feedback through the {discord} server."
+  },
+  "rules": {
+    "title": "Pubby.club Rules",
+    "read_rules": "Read the rules",
+    "info": "Read and follow the Pubby.club rules to avoid punishment.",
+    "sections": [
+      {
+        "title": "Respect and Tolerance",
+        "body": "All users must treat each other with respect, tolerance, and courtesy. Discrimination, hatred, harassment, bullying, or any form of harmful behavior will not be tolerated."
+      },
+      {
+        "title": "Respect for Room Theme",
+        "body": "Users must respect the theme of the room they are participating in. This includes playing media that fits within the defined genre of the room. Avoid playing media that does not align with the room's theme unless there is explicit consent from other participants. The room moderation has the authority to impose penalties, such as warnings or expulsions, in cases of disrespect for the room's musical genre or playing inappropriate content."
+      },      
+      {
+        "title": "Appropriate Content",
+        "body": "Videos and chat messages should not contain adult, violent, defamatory, illegal, or offensive content. Explicit sexual or violent content is strictly prohibited."
+      },
+      {
+        "title": "No Harassment",
+        "body": "Harassment, whether verbal, sexual, or in any other form, will not be tolerated. This includes unsolicited sexual comments, persistent stalking, and any form of intimidation."
+      },
+      {
+        "title": "Privacy and Consent",
+        "body": "Do not share personal information of other users without their explicit consent. Consent is essential for sharing private information."
+      },
+      {
+        "title": "Proper Identification",
+        "body": "Users must use appropriate profile names and avoid false or misleading representation of their identity."
+      },
+      {
+        "title": "Copyright and Intellectual Property",
+        "body": "Respect copyright and intellectual property rights. Do not upload or share copyrighted content without proper authorization."
+      },
+      {
+        "title": "Moderation",
+        "body": "The site will have moderators to monitor user behavior and content. Moderator decisions should be respected and followed."
+      },
+      {
+        "title": "Abuse Reporting",
+        "body": "Users should report any inappropriate behavior or rule violations to the site's support teams or moderators."
+      },
+      {
+        "title": "Protection of Minors",
+        "body": "If the site allows minors to participate, additional measures must be implemented to protect them from inappropriate content and harmful interactions."
+      },
+      {
+        "title": "User Responsibility",
+        "body": "Each user is responsible for their own behavior and the content they share. The site cannot be held responsible for individual actions."
+      },
+      {
+        "title": "Suspension and Ban",
+        "body": "The site reserves the right to suspend or ban users who repeatedly violate the rules, at the discretion of the moderation team."
+      },
+      {
+        "title": "Terms of Service and Privacy Policy",
+        "body": "Users must agree to the site's terms of service and privacy policy before registering."
+      },
+      {
+        "title": "Rule Updates",
+        "body": "The rules may be updated occasionally to adapt to the site's needs. Users will be notified of these updates."
+      },
+      {
+        "title": "Constructive Feedback",
+        "body": "Users are encouraged to provide constructive feedback about the site for continuous improvement."
+      },
+      {
+        "title": "Enjoy Responsibly",
+        "body": "The primary goal of the site is to provide entertainment and interaction. Enjoy it responsibly and ethically."
+      }
+    ]
   }
 }
